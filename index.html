@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LOTOS — итоги ивента</title>
+  <meta name="description" content="LOTOS Archive: итоги арт-ивента, победители, все работы и комментарии." />
+  <meta property="og:title" content="LOTOS — итоги ивента" />
+  <meta property="og:description" content="Имперский космический архив работ, оценок и комментариев." />
+  <meta property="og:image" content="img/cover.svg" />
+  <link rel="stylesheet" href="style-lotos.css?v=1" />
+</head>
+<body>
+  <div class="stars"></div><div class="petals"></div><div class="jade-glow"></div>
+  <header class="topbar">
+    <a class="brand" href="./" data-route="home">LOTOS</a>
+    <nav class="topnav"><a href="?page=results" data-route="results">Итоги</a><a href="?page=winners" data-route="winners">Победители</a><a href="?page=all" data-route="all">Все работы</a></nav>
+    <button id="music-toggle" class="music-btn is-muted" type="button" aria-label="Музыка">♪</button>
+    <audio id="bg-music" src="audio/theme.mp3" loop preload="none"></audio>
+  </header>
+  <main id="app"></main>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><button class="lightbox__close" aria-label="Закрыть">×</button><img id="lightbox-img" alt="" /><div id="lightbox-caption" class="lightbox-caption"></div></div>
+  <script src="data.js?v=1"></script><script src="script.js?v=1"></script>
+</body></html>
