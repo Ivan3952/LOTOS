@@ -1,20 +1,26 @@
-# LOTOS v3 clean distinct
+# LOTOS v3 with generated cover
 
-Я убрал кривой split-screen и вертикальную панель, которая ломала композицию.
+В эту версию добавлена новая обложка на фон сайта.
 
-Теперь:
-- аккуратная верхняя шапка;
-- главная — один большой дворцовый блок, без второй кривой картинки справа;
-- стиль всё ещё сильно отличается от Коломбины: Cormorant Garamond, Manrope, резаные углы, свитки;
-- карточки работ горизонтальные;
-- комментарии в карточках и lightbox.
+## Что заменено
 
-Как поставить:
-замени в репозитории:
-- index.html
-- script.js
-- style-lotos-v3.css
-- data.js можно оставить свой, если уже будет реальный
+- `img/cover.jpg` — новая обложка, оптимизированная для сайта
+- `img/cover.png` — PNG-версия обложки, запасной вариант
+- `style-lotos-v3.css` — фон сайта теперь берётся из `img/cover.jpg`
+- `data.js` — `EVENT.cover` теперь `img/cover.jpg`
+- `index.html` — обновлены версии CSS/data и OG image
 
-В index.html уже подключено:
-<link rel="stylesheet" href="style-lotos-v3.css?v=1" />
+## Как поставить
+
+Загрузи/замени в репозитории:
+
+- `index.html`
+- `style-lotos-v3.css`
+- `data.js`
+- папку `img/` или минимум:
+  - `img/cover.jpg`
+  - `img/cover.png`
+
+После коммита открой сайт с:
+
+?fresh=cover2

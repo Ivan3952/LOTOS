@@ -1,7 +1,7 @@
 const EVENT = {
   title: "LOTOS",
   subtitle: "Итоги ивента",
-  cover: "img/cover.svg",
+  cover: "img/cover.jpg",
   stats: ""
 };
 
