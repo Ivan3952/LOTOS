@@ -1,0 +1,308 @@
+
+/* LOTOS v2 — сильно отличается от COLUMBINA: артбук, свитки, дворец, нефрит */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@500;700;800&display=swap');
+
+:root{
+  --ink:#050516; --lacquer:#4a1015; --red:#9b2831;
+  --gold:#d6a13e; --gold2:#fff1b6; --jade:#67d0ba;
+  --paper:#f5e7cd; --text:#fff3df; --muted:#d8c8ad;
+  --panel:rgba(12,9,23,.74); --line:rgba(255,226,158,.22);
+  --shadow:0 34px 110px rgba(0,0,0,.48);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; min-height:100vh; overflow-x:hidden; color:var(--text);
+  font-family:Manrope,system-ui,sans-serif;
+  background:
+    linear-gradient(90deg,rgba(5,5,22,.72),rgba(5,5,22,.28) 48%,rgba(5,5,22,.60)),
+    url("img/cover.svg") center/cover fixed no-repeat;
+}
+body:before{
+  content:""; position:fixed; inset:0; z-index:-5; pointer-events:none;
+  background:
+    repeating-linear-gradient(90deg,rgba(255,226,158,.04) 0 1px,transparent 1px 96px),
+    repeating-linear-gradient(0deg,rgba(255,226,158,.025) 0 1px,transparent 1px 96px),
+    radial-gradient(circle at 80% 15%,rgba(255,240,183,.16),transparent 30%),
+    radial-gradient(circle at 20% 20%,rgba(146,39,50,.30),transparent 36%),
+    radial-gradient(circle at 80% 84%,rgba(103,208,186,.17),transparent 36%);
+}
+.stars,.starfield{
+  position:fixed; inset:0; z-index:-4; pointer-events:none; opacity:.45;
+  background-image:
+    radial-gradient(circle,rgba(255,246,216,.9) 0 1px,transparent 2px),
+    radial-gradient(circle,rgba(103,208,186,.7) 0 1px,transparent 2px);
+  background-size:110px 110px,240px 240px;
+  animation:drift 42s linear infinite;
+}
+.petals,.petal-layer{
+  position:fixed; inset:0; z-index:-2; opacity:.28; pointer-events:none;
+  background-image:
+    radial-gradient(ellipse,rgba(255,194,210,.75) 0 30%,transparent 31%),
+    radial-gradient(ellipse,rgba(255,194,210,.55) 0 30%,transparent 31%);
+  background-size:150px 150px,250px 250px;
+  animation:petals 38s linear infinite;
+}
+.jade-glow,.silk-layer{
+  position:fixed; inset:-15%; z-index:-3; pointer-events:none;
+  background:conic-gradient(from 130deg at 40% 50%,rgba(214,161,62,.16),transparent 18%,rgba(103,208,186,.12) 38%,transparent 58%,rgba(146,39,50,.18),rgba(214,161,62,.16));
+  filter:blur(36px); animation:silk 24s ease-in-out infinite;
+}
+
+/* вместо обычной шапки — вертикальный императорский навбар */
+.topbar,.shellbar{
+  position:fixed; left:22px; top:22px; bottom:22px; width:92px; z-index:50;
+  display:flex; flex-direction:column; align-items:center; gap:18px;
+  padding:18px 10px; border:1px solid var(--line); border-radius:999px;
+  background:rgba(8,6,20,.68); backdrop-filter:blur(22px);
+  box-shadow:0 20px 70px rgba(0,0,0,.35);
+}
+.brand,.wordmark{
+  display:grid; gap:8px; justify-items:center; color:var(--gold2);
+  text-decoration:none; font-weight:900; letter-spacing:.14em; font-size:11px;
+  writing-mode:vertical-rl; padding:0;
+}
+.brand:before,.wordmark-seal{
+  content:"蓮"; width:48px; height:48px; display:grid; place-items:center;
+  border-radius:50%; writing-mode:horizontal-tb; color:var(--gold2); font-size:24px;
+  border:1px solid rgba(214,161,62,.55);
+  background:radial-gradient(circle,rgba(146,39,50,.65),rgba(8,6,20,.55));
+  box-shadow:0 0 34px rgba(214,161,62,.18);
+}
+.brand:after{display:none}
+.topnav,.side-nav{display:flex;flex-direction:column;gap:10px;margin:auto 0}
+.topnav a,.side-nav a{
+  width:64px; min-height:78px; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:5px; text-align:center; color:var(--muted); text-decoration:none;
+  border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:800; transition:.18s;
+}
+.topnav a:hover,.side-nav a:hover{
+  background:rgba(255,255,255,.08); border-color:rgba(214,161,62,.35);
+  color:var(--text); transform:translateY(-2px);
+}
+.music-btn{
+  width:50px!important; height:50px!important; min-width:50px!important; padding:0!important;
+  border-radius:50%; border:1px solid rgba(214,161,62,.35);
+  background:transparent; color:var(--gold); font-size:24px; cursor:pointer;
+}
+.music-btn.is-playing{background:linear-gradient(135deg,var(--gold),var(--jade));color:#1c1105}
+
+#app{min-height:100vh;margin-left:126px;transition:.28s}
+#app.route-enter,.route-enter{animation:routeIn .52s cubic-bezier(.18,.8,.24,1) both}
+#app.route-exit,.route-exit{opacity:0;transform:translateY(12px);filter:blur(8px)}
+
+/* главная как разворот артбука, не как Коломбина */
+.home{min-height:100vh;padding:36px;display:block}
+.cover-shell{width:100%;min-height:calc(100vh - 72px)}
+.cover-card,.palace-hero{
+  min-height:calc(100vh - 72px);
+  display:grid; grid-template-columns:minmax(0,.92fr) minmax(360px,.78fr);
+  gap:28px; align-items:stretch;
+}
+.cover-card{border:0;background:transparent;box-shadow:none;border-radius:0;overflow:visible}
+.cover-img{
+  display:block!important; grid-column:2; width:100%; height:100%;
+  object-fit:cover; border:1px solid var(--line); border-radius:42px;
+  box-shadow:var(--shadow); background:var(--panel); filter:saturate(1.08) contrast(1.04);
+}
+.cover-overlay,.hero-copy{
+  position:relative!important; inset:auto!important; grid-column:1; grid-row:1;
+  display:flex!important; flex-direction:column; justify-content:center; align-items:flex-start!important;
+  padding:clamp(34px,6vw,84px)!important;
+  border:1px solid var(--line); border-radius:42px;
+  background:linear-gradient(135deg,rgba(74,16,21,.48),rgba(8,6,20,.70))!important;
+  backdrop-filter:blur(16px); box-shadow:var(--shadow); overflow:hidden;
+}
+.cover-overlay:before{
+  content:""; position:absolute; inset:28px; border:1px solid rgba(214,161,62,.18);
+  border-radius:30px; pointer-events:none;
+}
+.seal,.big-seal{
+  display:inline-grid; place-items:center; width:82px; height:82px; margin-bottom:18px;
+  border-radius:50%; border:1px solid rgba(214,161,62,.55);
+  background:radial-gradient(circle,rgba(146,39,50,.60),rgba(8,6,20,.70));
+  font-size:38px; color:var(--gold2);
+}
+.kicker,.eyebrow{
+  color:var(--gold); text-transform:uppercase; letter-spacing:.32em; font-weight:900; font-size:12px;
+}
+h1{
+  font-family:"Cormorant Garamond",Georgia,serif!important;
+  font-size:clamp(86px,13vw,210px)!important;
+  line-height:.74!important; letter-spacing:-.07em!important;
+  color:var(--gold)!important; margin:18px 0 0!important;
+  text-shadow:0 20px 70px rgba(0,0,0,.45)!important;
+}
+.cover-overlay p{
+  font-family:"Cormorant Garamond",serif; font-size:clamp(30px,4vw,58px);
+  margin:20px 0 0; color:var(--text);
+}
+
+/* кнопки с резаными углами */
+.main-btn,.primary-action,.ghost-btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  min-height:54px; padding:0 28px; border-radius:0!important;
+  text-decoration:none; font-weight:900; cursor:pointer; transition:.18s;
+  border:1px solid rgba(255,231,169,.32);
+  clip-path:polygon(18px 0,100% 0,calc(100% - 18px) 100%,0 100%);
+}
+.main-btn,.primary-action{
+  width:max-content; margin-top:32px; color:#211302;
+  background:linear-gradient(90deg,var(--gold),var(--jade));
+  box-shadow:0 16px 50px rgba(0,0,0,.28);
+}
+.ghost-btn{color:var(--text);background:rgba(255,255,255,.08)}
+.main-btn:hover,.primary-action:hover,.ghost-btn:hover{transform:translateY(-2px)}
+.main-btn:disabled,.primary-action:disabled,.ghost-btn:disabled{opacity:.45;transform:none;cursor:not-allowed}
+
+.page{width:min(1220px,calc(100% - 48px));margin:0 auto;padding:64px 0 100px}
+.page:before{display:none}
+.page-head,.chapter-head{
+  margin-bottom:32px; padding:28px 32px; border-left:5px solid var(--gold);
+  background:linear-gradient(90deg,rgba(8,6,20,.78),rgba(8,6,20,.34));
+  backdrop-filter:blur(12px); border-radius:0 34px 34px 0; box-shadow:0 20px 80px rgba(0,0,0,.26);
+}
+.page-head{display:block}
+.page-head h2,.chapter-head h2,h2{
+  font-family:"Cormorant Garamond",Georgia,serif!important;
+  font-size:clamp(52px,7vw,104px)!important; line-height:.82!important;
+  margin:10px 0 0!important; color:var(--gold)!important; letter-spacing:-.05em!important;
+}
+.page-head p,.chapter-head p{color:var(--muted);font-size:17px;margin:12px 0 0}
+.back{display:inline-flex;color:var(--jade);text-decoration:none;font-weight:900;margin-bottom:14px}
+
+/* статистика — длинная панель, не карточки */
+.stats-grid,.stats-strip{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-bottom:28px;
+  border:1px solid var(--line); background:rgba(8,6,20,.68);
+  backdrop-filter:blur(12px); border-radius:30px; overflow:hidden;
+}
+.stats-grid .stat-card,.stats-strip div{
+  padding:22px; border-right:1px solid var(--line); background:transparent; box-shadow:none; border-radius:0;
+}
+.stats-grid .stat-card:last-child,.stats-strip div:last-child{border-right:0}
+.stat-card span,.stats-strip span{
+  display:block; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.18em; font-weight:900;
+}
+.stat-card b,.stats-strip b{display:block;margin-top:8px;color:var(--gold);font-size:24px}
+
+/* меню — не плитки Коломбины, а дворцовые таблички */
+.menu-grid,.hall-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.menu-card,.hall-card{
+  position:relative; min-height:300px; padding:32px; text-decoration:none; color:var(--text);
+  background:rgba(8,6,20,.70); border:1px solid var(--line); box-shadow:var(--shadow);
+  border-radius:0!important;
+  clip-path:polygon(28px 0,100% 0,100% calc(100% - 28px),calc(100% - 28px) 100%,0 100%,0 28px);
+  transition:.22s;
+}
+.menu-card:after,.hall-card:after{
+  content:"蓮"; position:absolute; right:28px; top:22px; color:var(--gold); font-size:38px;
+}
+.menu-card:hover,.hall-card:hover{transform:translateY(-8px);border-color:rgba(214,161,62,.5)}
+.menu-card__mark,.hall-number{color:var(--gold);font-weight:900;letter-spacing:.22em;text-transform:uppercase}
+.menu-card h3,.hall-card h3{
+  font-family:"Cormorant Garamond",Georgia,serif!important;
+  font-size:clamp(40px,5vw,72px)!important; line-height:.86!important;
+  margin:50px 0 0!important; color:var(--paper)!important;
+}
+.menu-card p,.hall-card p{color:var(--muted);line-height:1.55}
+.menu-card span,.hall-card b{color:var(--gold)}
+.menu-card--winners,.hall-red{background:radial-gradient(circle at 80% 0%,rgba(146,39,50,.34),transparent 45%),rgba(8,6,20,.72)}
+.menu-card--all,.hall-jade{background:radial-gradient(circle at 80% 0%,rgba(103,208,186,.24),transparent 45%),rgba(8,6,20,.72)}
+.menu-card--gallery,.hall-pink{background:radial-gradient(circle at 80% 0%,rgba(255,194,210,.22),transparent 45%),rgba(8,6,20,.72)}
+
+/* фильтры */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.filter-btn,.search-input{
+  padding:11px 14px; border-radius:0; border:1px solid var(--line);
+  background:rgba(8,6,20,.70); color:var(--muted); font-weight:900;
+  clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%);
+}
+.filter-btn{cursor:pointer}
+.search-input{min-width:min(330px,100%);outline:none;color:var(--text)}
+.filter-btn.is-active,.filter-btn:hover{background:linear-gradient(90deg,var(--gold),var(--jade));color:#211302;border-color:transparent}
+
+/* работы — горизонтальные свитки вместо обычных карточек */
+.works-grid,.winners-grid,.scroll-list{display:grid!important;grid-template-columns:1fr!important;gap:22px}
+.work-card,.work-scroll{
+  display:grid; grid-template-columns:minmax(280px,420px) 1fr; gap:0;
+  overflow:hidden; background:rgba(8,6,20,.72); border:1px solid var(--line);
+  box-shadow:0 22px 80px rgba(0,0,0,.35); border-radius:0!important;
+  clip-path:polygon(22px 0,100% 0,100% calc(100% - 22px),calc(100% - 22px) 100%,0 100%,0 22px);
+  transition:.22s;
+}
+.work-card:hover,.work-scroll:hover{transform:translateY(-5px);border-color:rgba(214,161,62,.48)}
+.gallery-grid,.masonry{columns:4 240px;column-gap:18px;display:block!important}
+.gallery-grid .work-card,.masonry .work-scroll{
+  display:inline-block!important; width:100%; margin:0 0 18px;
+  clip-path:none; border-radius:26px!important;
+}
+.work-card.is-gallery .work-body,.work-scroll.is-gallery .scroll-body{display:none}
+.image-btn{position:relative;display:block;width:100%;height:100%;padding:0;border:0;background:#080812;cursor:zoom-in;overflow:hidden}
+.image-btn img{display:block;width:100%;height:100%;min-height:270px;aspect-ratio:4/3;object-fit:cover;transition:.45s}
+.work-card:hover .image-btn img,.work-scroll:hover .image-btn img{transform:scale(1.04)}
+.place-badge,.award-title-badge{
+  position:absolute;left:14px;border:1px solid rgba(214,161,62,.42);
+  background:rgba(0,0,0,.58);color:var(--paper);padding:8px 12px;font-weight:900
+}
+.place-badge{top:14px}.award-title-badge{top:54px;color:var(--gold2)}
+.work-body,.scroll-body{padding:24px}
+.work-top{display:flex;justify-content:space-between;gap:16px}
+.work-top h3,.work-body h3{
+  font-family:"Cormorant Garamond",serif;color:var(--paper);font-size:34px;line-height:.95;margin:0
+}
+.work-top p,.work-body p{color:var(--muted);margin:8px 0 0}
+.work-actions{display:flex;gap:8px;flex-wrap:wrap}
+.post-link,.share-btn{color:var(--gold);background:transparent;border:1px solid rgba(214,161,62,.30);padding:7px 11px;text-decoration:none;font-weight:900;cursor:pointer}
+.result-badges,.work-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.result-badges span,.work-meta span{border:1px solid var(--line);background:rgba(255,255,255,.06);padding:8px 11px;color:var(--muted)}
+.result-badges b,.work-meta b{color:var(--gold)}
+.comment-box{margin-top:16px;padding:16px;background:linear-gradient(135deg,rgba(214,161,62,.10),rgba(103,208,186,.06));border:1px solid rgba(214,161,62,.18)}
+.comment-box span{display:block;color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:900;margin-bottom:8px}
+.comment-box p{margin:0;color:var(--muted);line-height:1.55}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:34px}
+.page-counter{font-weight:900;color:var(--muted)}
+.empty,.thanks-block{padding:30px;background:rgba(8,6,20,.72);border:1px solid var(--line);color:var(--muted)}
+.thanks-block{margin-top:36px;text-align:center}
+.thanks-block h3{font-family:"Cormorant Garamond",serif;color:var(--gold);font-size:52px;margin:0}
+.thanks-block p{margin:10px 0 0}
+
+/* lightbox */
+.lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:28px;background:rgba(2,2,10,.88);backdrop-filter:blur(16px)}
+.lightbox.is-open{display:flex;animation:fadeIn .18s}
+.lightbox img{max-width:min(96vw,1500px);max-height:min(72vh,900px);object-fit:contain;border-radius:0;box-shadow:0 0 90px rgba(214,161,62,.18)}
+.lightbox-caption{width:min(96vw,1120px);margin-top:14px;padding:16px 18px;background:rgba(8,6,20,.88);border:1px solid var(--line);color:var(--muted);display:grid;gap:10px}
+.lightbox-caption b{color:var(--gold)}
+.lightbox-comment{padding-top:10px;border-top:1px solid var(--line)}
+.lightbox-comment span{color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:900}
+.lightbox-comment p{margin:6px 0 0;line-height:1.5}
+.lightbox__close{position:fixed;top:18px;right:18px;width:50px;height:50px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.10);color:var(--text);font-size:33px;cursor:pointer}
+
+@keyframes drift{from{background-position:0 0,0 0}to{background-position:260px -360px,-280px 420px}}
+@keyframes silk{0%,100%{transform:translate(-3%,-2%) scale(1)}50%{transform:translate(3%,2%) scale(1.06)}}
+@keyframes petals{from{background-position:0 0,120px 80px}to{background-position:-180px 620px,310px 720px}}
+@keyframes routeIn{from{opacity:0;transform:translateY(18px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@keyframes loadline{0%{transform:translateX(-100%)}100%{transform:translateX(230%)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+@media(max-width:900px){
+  .topbar,.shellbar{position:sticky;top:0;left:0;right:0;bottom:auto;width:100%;height:auto;border-radius:0;flex-direction:row;padding:12px 14px}
+  .brand,.wordmark{writing-mode:horizontal-tb;display:flex;align-items:center}
+  .brand:before,.wordmark-seal{width:40px;height:40px}
+  .topnav,.side-nav{flex-direction:row;margin-left:auto}
+  .topnav a,.side-nav a{width:auto;min-height:42px;padding:0 10px}
+  #app{margin-left:0}
+  .cover-card,.palace-hero{grid-template-columns:1fr}
+  .cover-img,.hero-panel{display:none!important}
+  .home{padding:16px}
+  .cover-overlay,.hero-copy{min-height:calc(100vh - 90px);border-radius:30px}
+  .menu-grid,.hall-grid,.stats-grid,.stats-strip{grid-template-columns:1fr}
+  .work-card,.work-scroll{grid-template-columns:1fr}
+  .image-btn img{min-height:240px}
+  .page-head,.chapter-head{border-radius:0 26px 26px 0}
+  .lightbox{padding:76px 12px 18px}
+  .lightbox img{max-width:calc(100vw - 24px);max-height:calc(100dvh - 280px)}
+  .lightbox-caption{width:calc(100vw - 24px);max-height:170px;overflow:auto}
+  .lightbox__close{top:14px;right:14px}
+}
