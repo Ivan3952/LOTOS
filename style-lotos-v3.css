@@ -318,3 +318,296 @@ body:before {
 .intro-box h1 {
   margin-top: 0 !important;
 }
+
+
+/* === v7 poster + line menu + quotes + comments section === */
+
+/* Главная как постер: фон + текст, без блока */
+.poster-home {
+  display: flex !important;
+  align-items: center !important;
+  min-height: calc(100vh - 82px) !important;
+  padding: clamp(34px, 7vw, 92px) !important;
+}
+
+.poster-copy {
+  max-width: min(920px, 92vw);
+  position: relative;
+  z-index: 2;
+}
+
+.poster-copy h1 {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: clamp(92px, 14vw, 220px) !important;
+  line-height: .72 !important;
+  margin: 0 !important;
+  letter-spacing: -.075em !important;
+  color: var(--gold) !important;
+  text-shadow:
+    0 12px 50px rgba(0,0,0,.78),
+    0 0 28px rgba(214,161,62,.26) !important;
+}
+
+.poster-subtitle {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: clamp(36px, 5vw, 72px) !important;
+  color: var(--paper) !important;
+  margin: 18px 0 0 !important;
+  text-shadow: 0 10px 34px rgba(0,0,0,.76) !important;
+}
+
+.poster-line {
+  color: var(--muted) !important;
+  margin: 16px 0 0 !important;
+  font-weight: 850;
+  letter-spacing: .04em;
+  text-shadow: 0 8px 28px rgba(0,0,0,.72) !important;
+}
+
+.poster-action,
+.primary-action {
+  background: transparent !important;
+  color: var(--gold2) !important;
+  border: 1px solid rgba(255,226,158,.62) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(4px);
+}
+
+.poster-action:hover,
+.primary-action:hover {
+  background: rgba(255,226,158,.10) !important;
+  box-shadow: 0 0 36px rgba(214,161,62,.15) !important;
+}
+
+/* Мягкий градиент слева вместо плашки */
+.poster-home::after,
+.home::after,
+.page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(5,5,22,.68), rgba(5,5,22,.22) 42%, rgba(5,5,22,.12) 72%, rgba(5,5,22,.22)),
+    linear-gradient(0deg, rgba(5,5,22,.38), transparent 44%, rgba(5,5,22,.16));
+}
+
+/* Итоги строками */
+.results-page {
+  min-height: calc(100vh - 82px);
+  display: grid;
+  align-content: center;
+}
+
+.line-menu {
+  display: grid;
+  gap: 0;
+  margin-top: 36px;
+  border-top: 1px solid rgba(255,226,158,.24);
+}
+
+.line-menu-item {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  min-height: 104px;
+  text-decoration: none;
+  color: var(--text);
+  border-bottom: 1px solid rgba(255,226,158,.24);
+  transition: .18s ease;
+  text-shadow: 0 8px 28px rgba(0,0,0,.72);
+}
+
+.line-menu-item span {
+  color: var(--gold);
+  font-weight: 900;
+  letter-spacing: .18em;
+}
+
+.line-menu-item b {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(38px, 5.6vw, 76px);
+  line-height: .9;
+  color: var(--paper);
+  font-weight: 700;
+}
+
+.line-menu-item em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 850;
+}
+
+.line-menu-item::after {
+  content: "→";
+  color: var(--gold);
+  font-size: 30px;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: .18s ease;
+}
+
+.line-menu-item:hover {
+  padding-left: 18px;
+  background: linear-gradient(90deg, rgba(255,226,158,.08), transparent);
+}
+
+.line-menu-item:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Заголовки разделов без плашек */
+.section-title {
+  margin-bottom: 32px;
+}
+
+.section-title h2 {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: var(--gold) !important;
+  font-size: clamp(56px, 8vw, 116px) !important;
+  line-height: .82 !important;
+  margin: 8px 0 0 !important;
+  text-shadow: 0 10px 40px rgba(0,0,0,.72) !important;
+}
+
+/* Комментарии как цитаты */
+.comment-quote,
+.lightbox-comment,
+.comment-item blockquote {
+  margin: 20px 0 0;
+  padding: 0 0 0 18px;
+  border-left: 2px solid rgba(214,161,62,.75);
+  color: var(--paper);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(22px, 2.2vw, 32px);
+  line-height: 1.22;
+  font-style: italic;
+  text-shadow: 0 8px 26px rgba(0,0,0,.70);
+}
+
+.lightbox-comment {
+  font-size: 24px;
+}
+
+.comments-list {
+  display: grid;
+  gap: 26px;
+}
+
+.comment-item {
+  padding: 0 0 28px;
+  border-bottom: 1px solid rgba(255,226,158,.24);
+}
+
+.comment-head {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.comment-head b {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--gold2);
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1;
+  text-shadow: 0 8px 28px rgba(0,0,0,.72);
+}
+
+.comment-head span {
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.comment-open {
+  margin-top: 14px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--jade);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+/* Работы: арт + текст, без тяжёлого контейнера */
+.work-scroll {
+  border-bottom: 1px solid rgba(255,226,158,.22) !important;
+  padding-bottom: 26px !important;
+}
+
+.scroll-body {
+  border-left: 1px solid rgba(255,226,158,.22);
+  padding-left: 28px !important;
+}
+
+/* Telegram preview helper: если браузер поддерживает */
+img {
+  color-scheme: dark;
+}
+
+/* Кнопки тоньше */
+.filter-btn,
+.ghost-btn,
+.share-btn,
+.post-link,
+.comment-open {
+  border-color: rgba(255,226,158,.38) !important;
+  background: transparent !important;
+}
+
+.filter-btn:hover,
+.filter-btn.is-active {
+  color: var(--gold2) !important;
+  background: rgba(255,226,158,.10) !important;
+}
+
+/* Убираем старые карточные сетки, если остались */
+.hall-grid,
+.menu-grid {
+  display: none !important;
+}
+
+/* Мобильная версия */
+@media (max-width: 900px) {
+  .poster-home {
+    padding: 28px 18px !important;
+    align-items: end !important;
+  }
+
+  .poster-copy h1 {
+    font-size: clamp(76px, 24vw, 118px) !important;
+  }
+
+  .line-menu-item {
+    grid-template-columns: 46px minmax(0, 1fr);
+    min-height: 86px;
+    gap: 12px;
+  }
+
+  .line-menu-item em {
+    grid-column: 2;
+    font-size: 13px;
+  }
+
+  .line-menu-item::after {
+    display: none;
+  }
+
+  .work-scroll {
+    grid-template-columns: 1fr !important;
+  }
+
+  .scroll-body {
+    border-left: 0;
+    padding-left: 0 !important;
+  }
+
+  .comment-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
