@@ -16,3 +16,259 @@ body:before{content:"";position:fixed;inset:0;z-index:-5;pointer-events:none;bac
 .lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:28px;background:rgba(2,2,10,.88);backdrop-filter:blur(16px)}.lightbox.is-open{display:flex;animation:fadeIn .18s}.lightbox img{max-width:min(96vw,1500px);max-height:min(72vh,900px);object-fit:contain;border-radius:0;box-shadow:0 0 90px rgba(214,161,62,.18)}.lightbox-caption{width:min(96vw,1120px);margin-top:14px;padding:16px 18px;background:rgba(8,6,20,.88);border:1px solid var(--line);color:var(--muted);display:grid;gap:10px}.lightbox-caption b{color:var(--gold)}.lightbox-comment{padding-top:10px;border-top:1px solid var(--line)}.lightbox-comment span{color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:900}.lightbox-comment p{margin:6px 0 0;line-height:1.5}.lightbox__close{position:fixed;top:18px;right:18px;width:50px;height:50px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.10);color:var(--text);font-size:33px;cursor:pointer}
 @keyframes drift{from{background-position:0 0,0 0}to{background-position:260px -360px,-280px 420px}}@keyframes silk{0%,100%{transform:translate(-3%,-2%) scale(1)}50%{transform:translate(3%,2%) scale(1.06)}}@keyframes petals{from{background-position:0 0,120px 80px}to{background-position:-180px 620px,310px 720px}}@keyframes routeIn{from{opacity:0;transform:translateY(18px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}@keyframes loadline{0%{transform:translateX(-100%)}100%{transform:translateX(230%)}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @media(max-width:900px){.topbar{align-items:center;gap:10px;overflow:auto}.brand b{display:none}.topnav{margin-left:0}.topnav a{padding:9px 10px;font-size:13px}.home{padding:16px}.hero{min-height:calc(100vh - 100px)}.hero-card{min-height:calc(100vh - 120px);display:flex;flex-direction:column;justify-content:center}.hall-grid,.stats-strip{grid-template-columns:1fr}.work-scroll{grid-template-columns:1fr}.image-btn img{min-height:240px}.chapter-head{border-radius:0 26px 26px 0}.lightbox{padding:76px 12px 18px}.lightbox img{max-width:calc(100vw - 24px);max-height:calc(100dvh - 280px)}.lightbox-caption{width:calc(100vw - 24px);max-height:170px;overflow:auto}.lightbox__close{top:14px;right:14px}}
+
+/* === v4 cover visibility patch === */
+
+/* Убираем круги/лепестки, которые ездили поверх обложки */
+.petal-layer {
+  display: none !important;
+}
+
+/* Делаем сам фон обложки главным визуалом */
+body {
+  background:
+    linear-gradient(90deg, rgba(5,5,22,.38), rgba(5,5,22,.12) 45%, rgba(5,5,22,.28)),
+    linear-gradient(0deg, rgba(5,5,22,.44), rgba(5,5,22,.04) 42%, rgba(5,5,22,.22)),
+    url("img/cover.jpg") center / cover fixed no-repeat !important;
+}
+
+/* Сетка и световые слои становятся тоньше */
+body:before {
+  opacity: .38 !important;
+}
+
+.starfield {
+  opacity: .24 !important;
+}
+
+.silk-layer {
+  opacity: .42 !important;
+}
+
+/* Главный блок: прозрачное стекло вместо глухой плашки */
+.hero-card {
+  background:
+    linear-gradient(135deg, rgba(74,16,21,.28), rgba(8,6,20,.34)) !important;
+  backdrop-filter: blur(10px) saturate(1.05) !important;
+  border-color: rgba(255,226,158,.24) !important;
+  box-shadow:
+    0 34px 110px rgba(0,0,0,.34),
+    inset 0 0 90px rgba(214,161,62,.045) !important;
+}
+
+.hero-card:before {
+  border-color: rgba(255,226,158,.14) !important;
+}
+
+/* Заголовок читаемый, но не забивает фон */
+.hero-card h1 {
+  text-shadow:
+    0 10px 42px rgba(0,0,0,.72),
+    0 0 22px rgba(214,161,62,.30) !important;
+}
+
+/* Шапка тоже легче */
+.topbar {
+  background: rgba(8,6,20,.52) !important;
+  backdrop-filter: blur(16px) saturate(1.05) !important;
+}
+
+/* Внутренние страницы: больше стекла, меньше глухого фона */
+.chapter-head,
+.stats-strip,
+.hall-card,
+.work-scroll,
+.empty,
+.thanks-block,
+.lightbox-caption {
+  background: rgba(8,6,20,.52) !important;
+  backdrop-filter: blur(12px) saturate(1.05) !important;
+}
+
+.hall-red {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(146,39,50,.24), transparent 45%),
+    rgba(8,6,20,.46) !important;
+}
+
+.hall-jade {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(103,208,186,.18), transparent 45%),
+    rgba(8,6,20,.46) !important;
+}
+
+.hall-pink {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(255,194,210,.16), transparent 45%),
+    rgba(8,6,20,.46) !important;
+}
+
+.hall-gold {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(214,161,62,.18), transparent 45%),
+    rgba(8,6,20,.46) !important;
+}
+
+/* На карточках картинка должна быть визуально сильнее плашек */
+.scroll-body {
+  background: rgba(8,6,20,.34);
+  backdrop-filter: blur(8px);
+}
+
+.comment-box {
+  background:
+    linear-gradient(135deg, rgba(214,161,62,.075), rgba(103,208,186,.045)) !important;
+}
+
+/* Мобильные — меньше затемнения, больше обложки */
+@media(max-width:900px) {
+  body {
+    background:
+      linear-gradient(90deg, rgba(5,5,22,.44), rgba(5,5,22,.20)),
+      linear-gradient(0deg, rgba(5,5,22,.52), rgba(5,5,22,.10) 42%, rgba(5,5,22,.28)),
+      url("img/cover.jpg") center / cover fixed no-repeat !important;
+  }
+
+  .hero-card {
+    background:
+      linear-gradient(135deg, rgba(74,16,21,.34), rgba(8,6,20,.40)) !important;
+  }
+}
+
+
+/* === v5 no-blocks style === */
+.hero-card,
+.hero-card:before,
+.chapter-head,
+.stats-strip,
+.hall-card,
+.work-scroll,
+.scroll-body,
+.empty,
+.thanks-block,
+.lightbox-caption,
+.comment-box,
+.hall-red,
+.hall-jade,
+.hall-pink,
+.hall-gold {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.hero {
+  min-height: calc(100vh - 82px);
+  display: flex;
+  align-items: center;
+}
+
+.hero-card {
+  max-width: 860px !important;
+  padding: clamp(20px, 4vw, 48px) !important;
+}
+
+.hero-seal {
+  margin-bottom: 14px;
+  background: rgba(8,6,20,.28) !important;
+  box-shadow: 0 0 24px rgba(214,161,62,.12) !important;
+}
+
+.hero-card h1,
+.chapter-head h2,
+.work-title,
+.hall-card h3 {
+  text-shadow:
+    0 6px 30px rgba(0,0,0,.72),
+    0 0 22px rgba(214,161,62,.18) !important;
+}
+
+.hero-card p,
+.chapter-head p,
+.stats-strip span,
+.hall-card p,
+.work-meta,
+.comment-box,
+.empty,
+.lightbox-caption {
+  text-shadow: 0 4px 18px rgba(0,0,0,.78) !important;
+}
+
+.chapter-head {
+  padding: 8px 0 16px !important;
+}
+
+.stats-strip {
+  display: flex;
+  gap: 22px;
+  padding: 8px 0 20px !important;
+  flex-wrap: wrap;
+}
+
+.stats-strip > div {
+  padding: 0 !important;
+}
+
+.hall-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.hall-card {
+  padding: 10px 0 !important;
+  min-height: auto !important;
+}
+
+.hall-card b,
+.stats-strip b {
+  color: var(--gold2) !important;
+}
+
+.work-scroll {
+  padding: 0 !important;
+}
+
+.scroll-body {
+  padding-top: 14px !important;
+}
+
+.comment-box {
+  padding: 10px 0 0 !important;
+}
+
+.primary-action,
+.secondary-action,
+.hall-card,
+.pagination button,
+.filter-chip,
+.copy-link,
+.music-btn,
+.topnav a {
+  text-shadow: none !important;
+}
+
+/* Чуть сильнее читаемость текста поверх обложки */
+.page,
+.home {
+  position: relative;
+}
+
+.page::before,
+.home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(6,6,18,.34), rgba(6,6,18,.10) 45%, rgba(6,6,18,.28));
+  z-index: -1;
+}
+
+@media (max-width: 900px) {
+  .hero-card {
+    padding: 16px 0 !important;
+  }
+  .stats-strip {
+    gap: 14px;
+  }
+}
