@@ -8,21 +8,21 @@ const EVENT = {
 const WORKS = [
   {
     id: 1,
-    username: "test",
-    title: "test",
+    username: "@jade_lotus",
+    title: "Победная работа",
     image: "img/works/placeholder.svg",
     postLink: "",
     score: 10,
     reward: 2100,
     isWinner: true,
     place: 1,
-    awardTitle: "test",
-    comment: "test."
+    awardTitle: "Imperial Lotus",
+    comment: "Очень сильное попадание в тему: работа выглядит как фрагмент императорского космического архива. Композиция читается сразу, цвета собраны аккуратно, а образ не разваливается на детали."
   },
   {
     id: 2,
-    username: "test",
-    title: "test",
+    username: "@red_palace",
+    title: "Работа участника",
     image: "img/works/placeholder.svg",
     postLink: "",
     score: 8.5,
@@ -30,19 +30,19 @@ const WORKS = [
     isWinner: false,
     place: null,
     awardTitle: "",
-    comment: "test"
+    comment: "Хорошая атмосфера и приятная палитра. Можно было бы сильнее выделить главный объект, но общая подача работает."
   },
   {
     id: 3,
-    username: "test",
-    title: "test",
+    username: "@star_sakura",
+    title: "Special Mention",
     image: "img/works/placeholder.svg",
     postLink: "",
     score: 9,
     reward: 500,
     isWinner: true,
     place: 4,
-    awardTitle: "test",
-    comment: "test"
+    awardTitle: "Jade Mention",
+    comment: "Красивая работа с мягким настроением. Особенно удачно смотрится сочетание света и декоративных элементов."
   }
 ];
