@@ -272,3 +272,49 @@ body:before {
     gap: 14px;
   }
 }
+
+
+/* === v6 remove hieroglyphs and extra labels === */
+
+.hero-seal,
+.intro-seal,
+.brand span,
+.eyebrow,
+.chapter-head > span,
+.hall-card::after {
+  display: none !important;
+}
+
+.brand {
+  gap: 0 !important;
+  padding-left: 0 !important;
+}
+
+.hero-card {
+  padding-top: clamp(32px, 8vw, 96px) !important;
+}
+
+.hero-card h1 {
+  margin-top: 0 !important;
+}
+
+.hero-card p {
+  margin-top: 18px !important;
+}
+
+.chapter-head:empty {
+  display: none !important;
+}
+
+.chapter-head {
+  padding-top: 0 !important;
+  padding-bottom: 8px !important;
+}
+
+.page > .chapter-head:empty + .stats-strip {
+  margin-top: 0 !important;
+}
+
+.intro-box h1 {
+  margin-top: 0 !important;
+}
