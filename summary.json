@@ -1,0 +1,47 @@
+{
+  "source_pdf": "Untitled spreadsheet - Лист1-1.pdf",
+  "total_works": 203,
+  "pdf_images": 203,
+  "used_images_source": "previous extracted image set, same 203-order",
+  "score_system": "5-point",
+  "mapping": {
+    "5": {
+      "place": 1,
+      "reward": 300
+    },
+    "4": {
+      "place": 2,
+      "reward": 100
+    },
+    "3": {
+      "place": 3,
+      "reward": 50
+    },
+    "2": {
+      "place": 0,
+      "reward": 0
+    }
+  },
+  "counts_by_score": {
+    "5": 48,
+    "4": 51,
+    "3": 61,
+    "2": 43,
+    "0": 0
+  },
+  "counts_by_place": {
+    "1": 48,
+    "2": 51,
+    "3": 61,
+    "0": 43
+  },
+  "total_tokens": 22550,
+  "issues_count": 1,
+  "manual_fixes": [
+    {
+      "postLink": "https://t.me/StableWaifuComments/17844609",
+      "username": "@kazeivaa",
+      "field": "username"
+    }
+  ]
+}
