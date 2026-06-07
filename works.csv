@@ -1,204 +1,407 @@
-﻿id,username,characters,title,postLink,image,score,scoreMax,scoreRaw,place,reward,isWinner,awardTitle,comment
-1,@forLansely,Астерия,Работа #1,https://t.me/StableWaifuComments/17767675,img/works/work_001.jpg,3,5,3,3,50,True,3 место,
-2,@Seraphimss,Астерия,Работа #2,https://t.me/StableWaifuComments/17767971,img/works/work_002.jpg,3,5,3,3,50,True,3 место,
-3,@Seraphimss,Астерия,Работа #3,https://t.me/StableWaifuComments/17767978,img/works/work_003.jpg,4,5,4,2,100,True,2 место,
-4,@Seraphimss,"Астерия, Эриду",Работа #4,https://t.me/StableWaifuComments/17767985,img/works/work_004.jpg,4,5,4,2,100,True,2 место,
-5,@ChrezDev,Таласса,Работа #5,https://t.me/StableWaifuComments/17768874,img/works/work_005.jpg,5,5,5,1,300,True,1 место,
-6,@crystalloli,Эриду,Работа #6,https://t.me/StableWaifuComments/17769442,img/works/work_006.jpg,4,5,4,2,100,True,2 место,
-7,@crystalloli,Кассиан,Работа #7,https://t.me/StableWaifuComments/17769671,img/works/work_007.jpg,4,5,4,2,100,True,2 место,
-8,@venera_chan,Астерия,Работа #8,https://t.me/StableWaifuComments/17770983,img/works/work_008.jpg,5,5,5,1,300,True,1 место,
-9,@the_elv,Дандан Цзянь,Работа #9,https://t.me/StableWaifuComments/17771291,img/works/work_009.jpg,4,5,4,2,100,True,2 место,
-10,@venera_chan,Лагострёмия,Работа #10,https://t.me/StableWaifuComments/17771353,img/works/work_010.jpg,4,5,4,2,100,True,2 место,
-11,@venera_chan,Лагострёмия,Работа #11,https://t.me/StableWaifuComments/17772036,img/works/work_011.jpg,2,5,2,0,0,False,,
-12,@venera_chan,Астерия,Работа #12,https://t.me/StableWaifuComments/17773566,img/works/work_012.jpg,3,5,3,3,50,True,3 место,
-13,Азизбек,Кассиан,Работа #13,https://t.me/StableWaifuComments/17774692,img/works/work_013.jpg,3,5,3,3,50,True,3 место,
-14,Азизбек,Иона Карлосс,Работа #14,https://t.me/StableWaifuComments/17774740,img/works/work_014.jpg,2,5,2,0,0,False,,
-15,Азизбек,Эриду,Работа #15,https://t.me/StableWaifuComments/17774831,img/works/work_015.jpg,4,5,4,2,100,True,2 место,
-16,Азизбек,Лагострёмия,Работа #16,https://t.me/StableWaifuComments/17774896,img/works/work_016.jpg,5,5,5,1,300,True,1 место,
-17,Азизбек,Таласса,Работа #17,https://t.me/StableWaifuComments/17774941,img/works/work_017.jpg,2,5,2,0,0,False,,
-18,Азизбек,Церера,Работа #18,https://t.me/StableWaifuComments/17774980,img/works/work_018.jpg,2,5,2,0,0,False,,
-19,Азизбек,"Эриду, Церера",Работа #19,https://t.me/StableWaifuComments/17775030,img/works/work_019.jpg,3,5,3,3,50,True,3 место,
-20,Азизбек,Эриду,Работа #20,https://t.me/StableWaifuComments/17775087,img/works/work_020.jpg,2,5,2,0,0,False,,
-21,Азизбек,Астерия,Работа #21,https://t.me/StableWaifuComments/17775221,img/works/work_021.jpg,2,5,2,0,0,False,,
-22,@DBcrimson,Иона Карлосс,Работа #22,https://t.me/StableWaifuComments/17775269,img/works/work_022.jpg,3,5,3,3,50,True,3 место,
-23,Азизбек,Мао Цзи,Работа #23,https://t.me/StableWaifuComments/17775405,img/works/work_023.jpg,2,5,2,0,0,False,,
-24,@DBcrimson,Дандан Цзянь,Работа #24,https://t.me/StableWaifuComments/17775518,img/works/work_024.jpg,3,5,3,3,50,True,3 место,
-25,@venera_chan,"@forLansely 3 Приятная работа, стилистика, да и сама атмосфера. Она ощущается такой куколкой. Очень мило",Работа #25,https://t.me/StableWaifuComments/17776529,img/works/work_025.jpg,5,5,5,1,300,True,1 место,
-26,Азизбек,"@Seraphimss 3 Явно после длительного полёта. Вон, как зыркает",Работа #26,https://t.me/StableWaifuComments/17777049,img/works/work_026.jpg,3,5,3,3,50,True,3 место,
-27,@macsheacaich,"@Seraphimss 4 Выпить после тяжёлого дня, очень приятно. Но не хватает наглой улыбки как по мне",Работа #27,https://t.me/StableWaifuComments/17778508,img/works/work_027.jpg,3,5,3,3,50,True,3 место,
-28,@macsheacaich,@Seraphimss 4 Подружки решили впэмечте посидеть и пообщаться. Эриду тут даже ничего не чудит.,Работа #28,https://t.me/StableWaifuComments/17790155,img/works/work_028.jpg,3,5,3,3,50,True,3 место,
-29,@desu_chaan,"@ChrezDev 5 Очень красивая работа, я в неё влюбилась почти сразу. Так нежно и красиво вышло, эта вода, танцующая поза, ночь. Все прям шикарно!",Работа #29,https://t.me/StableWaifuComments/17787254,img/works/work_029.jpg,4,5,4,2,100,True,2 место,
-30,@crystalloli,"@crystalloli 4 Я ждала, что кто-то сделает такую двойтвенность природы Эриду, но не думала, что это будет так быстро. Вышло красиво, сочно.",Работа #30,https://t.me/StableWaifuComments/17784943,img/works/work_030.jpg,5,5,5,1,300,True,1 место,
-31,@Pixe1m4n,"@crystalloli 4 Уютная работа. Рысёнок выдимо слишком ушёл в себя, что начал кусать свой хвост",Работа #31,https://t.me/StableWaifuComments/17784652,img/works/work_031.jpg,3,5,3,3,50,True,3 место,
-32,Азизбек,"@venera_chan 5 и снова шикарная работа. Сама малышка за своей работой, но слегка отвлеклась на звездочку",Работа #32,https://t.me/StableWaifuComments/17784459,img/works/work_032.jpg,3,5,3,3,50,True,3 место,
-33,@Podpolniy_Krisich,"@the_elv 4 Очень много красного, но ей подходит такое. Еще и шприц в руках держит",Работа #33,https://t.me/StableWaifuComments/17784003,img/works/work_033.jpg,4,5,4,2,100,True,2 место,
-34,@macsheacaich,"@venera_chan 4 Наглая Лаг на машине. Еще и смотрит, как на говно. Прикольно",Работа #34,https://t.me/StableWaifuComments/17784415,img/works/work_034.jpg,2,5,2,0,0,False,,
-35,Азизбек,"@venera_chan 2 Тут не шибко понравилась меша, но сама работа вышла вайбовой и атмосферной.",Работа #35,https://t.me/StableWaifuComments/17784352,img/works/work_035.jpg,2,5,2,0,0,False,,
-36,@ShriMpik1,"@venera_chan 3 Я не очень люблю пирсинг на сосках, но сама работа выглядит хорошо и сочно",Работа #36,https://t.me/StableWaifuComments/17784023,img/works/work_036.jpg,3,5,3,3,50,True,3 место,
-37,@Podpolniy_Krisich,"Азизбек 3 грустный Арт. И правда печально, что ты по сути потерял дом, хоть ты и никогда в нем не жил, и вся твоя жизнь ограничена летающий",Работа #37,https://t.me/StableWaifuComments/17783749,img/works/work_037.jpg,4,5,4,2,100,True,2 место,
-38,@macsheacaich,"Азизбек 2 Потеря дома, и самого себя, оставляет на каждом, свой непоправимый след",Работа #38,https://t.me/StableWaifuComments/17783772,img/works/work_038.jpg,5,5,5,1,300,True,1 место,
-39,@venera_chan,Азизбек 4 Мне очень понравилась сама меша.,Работа #39,https://t.me/StableWaifuComments/17783690,img/works/work_039.jpg,4,5,4,2,100,True,2 место,
-40,Азизбек,"Азизбек 5 Очень страшно, когда на тебе лежит страшная ответственность. Ты не просто следишь за состоянием города-космолёта, ты поддерживаешь его",Работа #40,https://t.me/StableWaifuComments/17783170,img/works/work_040.jpg,2,5,2,0,0,False,,
-41,Азизбек,"Азизбек 2 Ну, прикольно, магичка-рыба",Работа #41,https://t.me/StableWaifuComments/17783039,img/works/work_041.jpg,2,5,2,0,0,False,,
-42,@macsheacaich,"Азизбек 2 Эдакое городское, прикольно",Работа #42,https://t.me/StableWaifuComments/17783038,img/works/work_042.jpg,5,5,5,1,300,True,1 место,
-43,Азизбек,"Азизбек 3 Оба весьма сильные Богини, меняются формами, и оба получать от Ан",Работа #43,https://t.me/StableWaifuComments/17782842,img/works/work_043.jpg,3,5,3,3,50,True,3 место,
-44,Азизбек,"Азизбек 2 Бородка у парня испортило композицию, но а так, прикольно",Работа #44,https://t.me/StableWaifuComments/17782827,img/works/work_044.jpg,3,5,3,3,50,True,3 место,
-45,Азизбек,"Азизбек 2 Надо было написать, что порно должнл было быть красивым. Я немного офигела. увидев это",Работа #45,https://t.me/StableWaifuComments/17782576,img/works/work_045.jpg,2,5,2,0,0,False,,
-46,@crystalloli,"@DBcrimson 3 Иногда нажо выстрелить, что бы спасти других. Для врача, это очень тяжелое решение, но важное",Работа #46,https://t.me/StableWaifuComments/17782549,img/works/work_046.jpg,3,5,3,3,50,True,3 место,
-47,Азизбек,"Азизбек 2 Какой такой, христианский вайб вышел, но работа простая",Работа #47,https://t.me/StableWaifuComments/17782230,img/works/work_047.jpg,5,5,5,1,300,True,1 место,
-48,Азизбек,"@DBcrimson 3 И опять выстрел врача, но уже от главного. Она уже на примере других, знает, насколько важно быть решительной",Работа #48,https://t.me/StableWaifuComments/17782180,img/works/work_048.jpg,2,5,2,0,0,False,,
-49,Азизбек,"5 От этой работы аж дух захватило, насколько это нежно и сочно. Я в любви",Работа #49,https://t.me/StableWaifuComments/17782133,img/works/work_049.jpg,3,5,3,3,50,True,3 место,
-50,Азизбек,"3 Сложно как то откоментировать, работу, но выглядит красиво",Работа #50,https://t.me/StableWaifuComments/17781702,img/works/work_050.jpg,5,5,5,1,300,True,1 место,
-51,Азизбек,"3 Иногда хочется взять, и все бросить, но нет, если все бросить, все полетит в тартарары, и это надо исправлять, по пути ругая весь мир",Работа #51,https://t.me/StableWaifuComments/17781506,img/works/work_051.jpg,2,5,2,0,0,False,,
-52,@macsheacaich,"3 Меша, мне увы, не понравилась, но сама композиция, мое почтение",Работа #52,https://t.me/StableWaifuComments/17781489,img/works/work_052.jpg,5,5,5,1,300,True,1 место,
-53,Азизбек,"4 В какой-то мере, это нежная и грустная работа. Она отлично передала суть персонажа",Работа #53,https://t.me/StableWaifuComments/17781325,img/works/work_053.jpg,2,5,2,0,0,False,,
-54,Азизбек,"5 Очень яркая работа, прям шикарно для такого жизнерадостного андроида.",Работа #54,https://t.me/StableWaifuComments/17781225,img/works/work_054.jpg,2,5,2,0,0,False,,
-55,Азизбек,"3 Не знаю кто, но я готова",Работа #55,https://t.me/StableWaifuComments/17781189,img/works/work_055.jpg,3,5,3,3,50,True,3 место,
-56,Азизбек,3 Довольно прикольная фреска,Работа #56,https://t.me/StableWaifuComments/17781129,img/works/work_056.jpg,2,5,2,0,0,False,,
-57,Азизбек,"4 Довольно нежный и милый секс, мне вкатило",Работа #57,https://t.me/StableWaifuComments/17781086,img/works/work_057.jpg,2,5,2,0,0,False,,
-58,Азизбек,"2 Прикольно, но не вкатило. Но Прикольно",Работа #58,https://t.me/StableWaifuComments/17781065,img/works/work_058.jpg,2,5,2,0,0,False,,
-59,Азизбек,"2 Хм, ну нормально в принципе",Работа #59,https://t.me/StableWaifuComments/17781055,img/works/work_059.jpg,3,5,3,3,50,True,3 место,
-60,Азизбек,"3 Меша и правда хорошая, но хвост рука прям перекосоебило",Работа #60,https://t.me/StableWaifuComments/17781035,img/works/work_060.jpg,2,5,2,0,0,False,,
-61,Азизбек,"4 Хыххы, думаю, рыбка не будет против, что над ней так буду доминировать. Весы, весьма специфические.",Работа #61,https://t.me/StableWaifuComments/17781033,img/works/work_061.jpg,3,5,3,3,50,True,3 место,
-62,Азизбек,"5 Страшно терять свой дом, где ты жил с самого его основания, потерять большую часть жителей, которых ты попросту не успел спасти. Но надо жить дальше с этой болью. Просто ради других, тех, кто остался",Работа #62,https://t.me/StableWaifuComments/17781022,img/works/work_062.jpg,2,5,2,0,0,False,,
-63,Азизбек,"4 Тут все прикольное, и поза, и композиция, и фон, все прям хорошо легло",Работа #63,https://t.me/StableWaifuComments/17781019,img/works/work_063.jpg,2,5,2,0,0,False,,
-64,@yukidaruma8,2 Безумие и правда страшная вещь,Работа #64,https://t.me/StableWaifuComments/17791211,img/works/work_064.jpg,4,5,4,2,100,True,2 место,
-65,@forLansely,"2 Зная Эриду, она бы не смутилась, а что нибудь выдала такое, от чего хоть стой, хоть падай",Работа #65,https://t.me/StableWaifuComments/17792146,img/works/work_065.jpg,5,5,5,1,300,True,1 место,
-66,@Bonja007,"5 Восстановление природы из прошлого, хоть и в виде модели, и правда весьма тяжёлая, но завораживающая задача.",Работа #66,https://t.me/StableWaifuComments/17804170,img/works/work_066.jpg,3,5,3,3,50,True,3 место,
-67,@Bonja007,3 хлоп по попе,Работа #67,https://t.me/StableWaifuComments/17804087?single,img/works/work_067.jpg,4,5,4,2,100,True,2 место,
-68,@Bonja007,3 Хлоп по попеХ2,Работа #68,https://t.me/StableWaifuComments/17804087?single,img/works/work_068.jpg,4,5,4,2,100,True,2 место,
-69,@venera_chan,"2 Мне не шибко понравилась ни меша, ни композиция. Да и увеличивать грудь персонажа было лишним",Работа #69,https://t.me/StableWaifuComments/17803509,img/works/work_069.jpg,3,5,3,3,50,True,3 место,
-70,@Erika_Demons_moon,"3 К рабочему дню, он явно готов.",Работа #70,https://t.me/StableWaifuComments/17799291,img/works/work_070.jpg,5,5,5,1,300,True,1 место,
-71,@ShriMpik1,"5 В эту работу, я тоже сразу влюбилась. Мне она очень понравилась, и то, как Изобилие привлекает к себе взор",Работа #71,https://t.me/StableWaifuComments/17794516,img/works/work_071.jpg,2,5,2,0,0,False,,
-72,@ShriMpik1,"2 Ну, такая одежда немного не про нее, хотя и выглядит прикольно. Вообще, она этакая момми",Работа #72,https://t.me/StableWaifuComments/17794504,img/works/work_072.jpg,3,5,3,3,50,True,3 место,
-73,@ShriMpik1,"3 Интересно даже, кто тот счастливчик, который смог вытерпеть характер Лаг?",Работа #73,https://t.me/StableWaifuComments/17794120,img/works/work_073.jpg,3,5,3,3,50,True,3 место,
-74,@ianmaysky,5 Приятно просто войти в воду и поплавать в ней и расслабиться,Работа #74,https://t.me/StableWaifuComments/17793682,img/works/work_074.jpg,4,5,4,2,100,True,2 место,
-75,@forLansely,2 Изучение подводного мира всегда закатывает дух,Работа #75,https://t.me/StableWaifuComments/17815223,img/works/work_075.jpg,3,5,3,3,50,True,3 место,
-76,@ShriMpik1,"5 Изучение неба, всегда захватывает дух людей, что в прошлом, что в нынешнем, что в будущем",Работа #76,https://t.me/StableWaifuComments/17808703,img/works/work_076.jpg,2,5,2,0,0,False,,
-77,@Erika_Demons_moon,2 Эриду очень любит пугать других,Работа #77,https://t.me/StableWaifuComments/17807362,img/works/work_077.jpg,3,5,3,3,50,True,3 место,
-78,@forLansely,"2 Ну, не думаю, что этот медик так следит за телом, хах. Вернее не качает его",Работа #78,https://t.me/StableWaifuComments/17816404,img/works/work_078.jpg,3,5,3,3,50,True,3 место,
-79,@forLansely,3 Ща кто-то лишится пальца,Работа #79,https://t.me/StableWaifuComments/17817291,img/works/work_079.jpg,4,5,4,2,100,True,2 место,
-80,@sseltraeh,2 слюнки тут уже лишние. Мне не особо зашло,Работа #80,https://t.me/StableWaifuComments/17828408,img/works/work_080.jpg,3,5,3,3,50,True,3 место,
-81,Азизбек,"2 Ну, прикольно, но не вкатило, да, опять.",Работа #81,https://t.me/StableWaifuComments/17827872,img/works/work_081.jpg,5,5,5,1,300,True,1 место,
-82,@sseltraeh,"2 Ну, тоже такое себе. Ан не шибко идёт атмосфера христианства и вампиризма",Работа #82,https://t.me/StableWaifuComments/17827679,img/works/work_082.jpg,3,5,3,3,50,True,3 место,
-83,@the_elv,"3 Надо внимательно следить не только за небом, но и домом",Работа #83,https://t.me/StableWaifuComments/17827035,img/works/work_083.jpg,4,5,4,2,100,True,2 место,
-84,Азизбек,"2 Хм, не думаю, что роботу в принципе надо есть человеческую пищу",Работа #84,https://t.me/StableWaifuComments/17826671,img/works/work_084.jpg,3,5,3,3,50,True,3 место,
-85,@the_elv,3 Приятно потратить время на плавание,Работа #85,https://t.me/StableWaifuComments/17826605,img/works/work_085.jpg,4,5,4,2,100,True,2 место,
-86,@the_elv,"2 Ан так то выше, хоть и довольно тощая. Да и косы она не любит. В принципе, прикольно, не зашло",Работа #86,https://t.me/StableWaifuComments/17826453,img/works/work_086.jpg,4,5,4,2,100,True,2 место,
-87,@the_elv,"2 Немного ткань все таки лишняя, или надо было сделать по другому",Работа #87,https://t.me/StableWaifuComments/17826273,img/works/work_087.jpg,5,5,5,1,300,True,1 место,
-88,@the_elv,"4 Эриду мужчина, явно интересуется состояние ""зрителя""",Работа #88,https://t.me/StableWaifuComments/17826123,img/works/work_088.jpg,5,5,5,1,300,True,1 место,
-89,@the_elv,"5 вах-вах, Шикарная атмосфера вышла, да и само ханьфу красивое",Работа #89,https://t.me/StableWaifuComments/17825788,img/works/work_089.jpg,5,5,5,1,300,True,1 место,
-90,@the_elv,"3 Когда ты случайно уронил важные бумаги и ты просто лёг, что бы не вспасть в истерику и просто полежать, дабы потом это всё убрать",Работа #90,https://t.me/StableWaifuComments/17825537,img/works/work_090.jpg,5,5,5,1,300,True,1 место,
-91,@sseltraeh,"4 ой-ой, как тут все красиво и детализировано, мне понравилось",Работа #91,https://t.me/StableWaifuComments/17825420,img/works/work_091.jpg,4,5,4,2,100,True,2 место,
-92,@YormiFB,"4 Северное сияние за окном, весьма красивое, да и сам партнёр уютный",Работа #92,https://t.me/StableWaifuComments/17825375,img/works/work_092.jpg,4,5,4,2,100,True,2 место,
-93,@sseltraeh,"3 хах, на самом деле прикольное и нежное",Работа #93,https://t.me/StableWaifuComments/17825182,img/works/work_093.jpg,4,5,4,2,100,True,2 место,
-94,@forLansely,5 Очень красивая композиция. мне нравится. Явно на хороший лад настроен разговор,Работа #94,https://t.me/StableWaifuComments/17824216,img/works/work_094.jpg,5,5,5,1,300,True,1 место,
-95,@forLansely,2 Не хватает как по мне позы и динамики.,Работа #95,https://t.me/StableWaifuComments/17824197,img/works/work_095.jpg,4,5,4,2,100,True,2 место,
-96,@forLansely,"3 Механическая, немного хоррорная атмосфера, розовое опят таки, динамика",Работа #96,https://t.me/StableWaifuComments/17823866,img/works/work_096.jpg,3,5,3,3,50,True,3 место,
-97,@sseltraeh,https://t.me/StableWaifuComments/17794120 👍 Арт принадлежит отправителю.,Работа #97,https://t.me/StableWaifuComments/17823677,img/works/work_097.jpg,2,5,2,0,0,False,,
-98,Азизбек,https://t.me/StableWaifuComments/17793682 👍 Арт принадлежит отправителю.,Работа #98,https://t.me/StableWaifuComments/17823155,img/works/work_098.jpg,3,5,3,3,50,True,3 место,
-99,@ianmaysky,https://t.me/StableWaifuComments/17815223 👍 Арт принадлежит отправителю.,Работа #99,https://t.me/StableWaifuComments/17822406,img/works/work_099.jpg,3,5,3,3,50,True,3 место,
-100,@alenxxz,https://t.me/StableWaifuComments/17808703 👍 Арт принадлежит отправителю.,Работа #100,https://t.me/StableWaifuComments/17822151,img/works/work_100.jpg,5,5,5,1,300,True,1 место,
-101,@alenxxz,https://t.me/StableWaifuComments/17807362 👍 Арт принадлежит отправителю.,Работа #101,https://t.me/StableWaifuComments/17821839,img/works/work_101.jpg,5,5,5,1,300,True,1 место,
-102,@Erika_Demons_moon,https://t.me/StableWaifuComments/17816404 👍 Арт принадлежит отправителю.,Работа #102,https://t.me/StableWaifuComments/17821737,img/works/work_102.jpg,3,5,3,3,50,True,3 место,
-103,@sseltraeh,https://t.me/StableWaifuComments/17817291 👍 Арт принадлежит отправителю.,Работа #103,https://t.me/StableWaifuComments/17820899,img/works/work_103.jpg,5,5,5,1,300,True,1 место,
-104,@sseltraeh,https://t.me/StableWaifuComments/17828408 👍 Арт принадлежит отправителю.,Работа #104,https://t.me/StableWaifuComments/17820838,img/works/work_104.jpg,3,5,3,3,50,True,3 место,
-105,Азизбек,https://t.me/StableWaifuComments/17827872 👍 Арт принадлежит отправителю.,Работа #105,https://t.me/StableWaifuComments/17820748,img/works/work_105.jpg,3,5,3,3,50,True,3 место,
-106,Азизбек,https://t.me/StableWaifuComments/17827679 👍 Арт принадлежит отправителю.,Работа #106,https://t.me/StableWaifuComments/17820399,img/works/work_106.jpg,2,5,2,0,0,False,,
-107,Азизбек,https://t.me/StableWaifuComments/17827035 👍 Арт принадлежит отправителю.,Работа #107,https://t.me/StableWaifuComments/17819281,img/works/work_107.jpg,5,5,5,1,300,True,1 место,
-108,Азизбек,https://t.me/StableWaifuComments/17826671 👍 Арт принадлежит отправителю.,Работа #108,https://t.me/StableWaifuComments/17819263,img/works/work_108.jpg,2,5,2,0,0,False,,
-109,@crystalloli,https://t.me/StableWaifuComments/17826605 👍 Арт принадлежит отправителю.,Работа #109,https://t.me/StableWaifuComments/17819206,img/works/work_109.jpg,3,5,3,3,50,True,3 место,
-110,@Erika_Demons_moon,https://t.me/StableWaifuComments/17826453 👍 Арт принадлежит отправителю.,Работа #110,https://t.me/StableWaifuComments/17818964,img/works/work_110.jpg,5,5,5,1,300,True,1 место,
-111,@forLansely,https://t.me/StableWaifuComments/17826273 👍 Арт принадлежит отправителю.,Работа #111,https://t.me/StableWaifuComments/17828689,img/works/work_111.jpg,4,5,4,2,100,True,2 место,
-112,Азизбек,https://t.me/StableWaifuComments/17826123 👍 Арт принадлежит отправителю.,Работа #112,https://t.me/StableWaifuComments/17828630,img/works/work_112.jpg,3,5,3,3,50,True,3 место,
-113,@Elloree,https://t.me/StableWaifuComments/17825788 👍 Арт принадлежит отправителю.,Работа #113,https://t.me/StableWaifuComments/17838542,img/works/work_113.jpg,5,5,5,1,300,True,1 место,
-114,@forLansely,https://t.me/StableWaifuComments/17825537 👍 Арт принадлежит отправителю.,Работа #114,https://t.me/StableWaifuComments/17836969,img/works/work_114.jpg,4,5,4,2,100,True,2 место,
-115,Азизбек,https://t.me/StableWaifuComments/17825420 👍 Арт принадлежит отправителю.,Работа #115,https://t.me/StableWaifuComments/17836892,img/works/work_115.jpg,3,5,3,3,50,True,3 место,
-116,Азизбек,https://t.me/StableWaifuComments/17825375 👍 Арт принадлежит отправителю.,Работа #116,https://t.me/StableWaifuComments/17836841,img/works/work_116.jpg,5,5,5,1,300,True,1 место,
-117,Азизбек,https://t.me/StableWaifuComments/17825182 👍 Арт принадлежит отправителю.,Работа #117,https://t.me/StableWaifuComments/17836138,img/works/work_117.jpg,4,5,4,2,100,True,2 место,
-118,@forLansely,https://t.me/StableWaifuComments/17824216 👍 Арт принадлежит отправителю.,Работа #118,https://t.me/StableWaifuComments/17836130,img/works/work_118.jpg,3,5,3,3,50,True,3 место,
-119,@forLansely,https://t.me/StableWaifuComments/17824197 👍 Арт принадлежит отправителю.,Работа #119,https://t.me/StableWaifuComments/17836077,img/works/work_119.jpg,4,5,4,2,100,True,2 место,
-120,Азизбек,https://t.me/StableWaifuComments/17823866 👍 Арт принадлежит отправителю.,Работа #120,https://t.me/StableWaifuComments/17835903,img/works/work_120.jpg,3,5,3,3,50,True,3 место,
-121,Азизбек,https://t.me/StableWaifuComments/17823677 👍 Арт принадлежит отправителю.,Работа #121,https://t.me/StableWaifuComments/17835488,img/works/work_121.jpg,2,5,2,0,0,False,,
-122,Азизбек,https://t.me/StableWaifuComments/17823155 👍 Арт принадлежит отправителю.,Работа #122,https://t.me/StableWaifuComments/17835437,img/works/work_122.jpg,4,5,4,2,100,True,2 место,
-123,Азизбек,https://t.me/StableWaifuComments/17822406 👍 Арт принадлежит отправителю.,Работа #123,https://t.me/StableWaifuComments/17835400,img/works/work_123.jpg,2,5,2,0,0,False,,
-124,Азизбек,https://t.me/StableWaifuComments/17822151 👍 Арт принадлежит отправителю.,Работа #124,https://t.me/StableWaifuComments/17835331,img/works/work_124.jpg,4,5,4,2,100,True,2 место,
-125,Азизбек,https://t.me/StableWaifuComments/17821839 👍 Арт принадлежит отправителю.,Работа #125,https://t.me/StableWaifuComments/17835308,img/works/work_125.jpg,2,5,2,0,0,False,,
-126,Азизбек,https://t.me/StableWaifuComments/17821737 👍 Арт принадлежит отправителю.,Работа #126,https://t.me/StableWaifuComments/17835270,img/works/work_126.jpg,4,5,4,2,100,True,2 место,
-127,Азизбек,https://t.me/StableWaifuComments/17820899 👍 Арт принадлежит отправителю.,Работа #127,https://t.me/StableWaifuComments/17835259,img/works/work_127.jpg,5,5,5,1,300,True,1 место,
-128,AnVpAr,https://t.me/StableWaifuComments/17820838 👍 Арт принадлежит отправителю.,Работа #128,https://t.me/StableWaifuComments/17835206,img/works/work_128.jpg,3,5,3,3,50,True,3 место,
-129,Азизбек,https://t.me/StableWaifuComments/17820748 👍 Арт принадлежит отправителю.,Работа #129,https://t.me/StableWaifuComments/17835152,img/works/work_129.jpg,4,5,4,2,100,True,2 место,
-130,Азизбек,https://t.me/StableWaifuComments/17820399 👍 Арт принадлежит отправителю.,Работа #130,https://t.me/StableWaifuComments/17835097,img/works/work_130.jpg,2,5,2,0,0,False,,
-131,Азизбек,https://t.me/StableWaifuComments/17819281 👍 Арт принадлежит отправителю.,Работа #131,https://t.me/StableWaifuComments/17834695,img/works/work_131.jpg,3,5,3,3,50,True,3 место,
-132,Азизбек,https://t.me/StableWaifuComments/17819263 👍 Арт принадлежит отправителю.,Работа #132,https://t.me/StableWaifuComments/17834550,img/works/work_132.jpg,3,5,3,3,50,True,3 место,
-133,Азизбек,https://t.me/StableWaifuComments/17819206 👍 Арт принадлежит отправителю.,Работа #133,https://t.me/StableWaifuComments/17834441,img/works/work_133.jpg,3,5,3,3,50,True,3 место,
-134,@sseltraeh,https://t.me/StableWaifuComments/17818964 👍 Арт принадлежит отправителю.,Работа #134,https://t.me/StableWaifuComments/17834382,img/works/work_134.jpg,4,5,4,2,100,True,2 место,
-135,@alenxxz,https://t.me/StableWaifuComments/17828689 👍 Арт принадлежит отправителю.,Работа #135,https://t.me/StableWaifuComments/17834145,img/works/work_135.jpg,4,5,4,2,100,True,2 место,
-136,@Erika_Demons_moon,https://t.me/StableWaifuComments/17828630 👍 Арт принадлежит отправителю.,Работа #136,https://t.me/StableWaifuComments/17833907,img/works/work_136.jpg,4,5,4,2,100,True,2 место,
-137,@Nunasw,https://t.me/StableWaifuComments/17838542 👍 Арт принадлежит отправителю.,Работа #137,https://t.me/StableWaifuComments/17832732,img/works/work_137.jpg,3,5,3,3,50,True,3 место,
-138,@Nunasw,https://t.me/StableWaifuComments/17836969 👍 Арт принадлежит отправителю.,Работа #138,https://t.me/StableWaifuComments/17832098,img/works/work_138.jpg,5,5,5,1,300,True,1 место,
-139,@Nunasw,https://t.me/StableWaifuComments/17836892 👍 Арт принадлежит отправителю.,Работа #139,https://t.me/StableWaifuComments/17831609,img/works/work_139.jpg,5,5,5,1,300,True,1 место,
-140,@Erika_Demons_moon,https://t.me/StableWaifuComments/17836841 👍 Арт принадлежит отправителю.,Работа #140,https://t.me/StableWaifuComments/17851265,img/works/work_140.jpg,4,5,4,2,100,True,2 место,
-141,@DablinElkiPalki,https://t.me/StableWaifuComments/17836138 👍 Арт принадлежит отправителю.,Работа #141,https://t.me/StableWaifuComments/17851033,img/works/work_141.jpg,5,5,5,1,300,True,1 место,
-142,@Erika_Demons_moon,https://t.me/StableWaifuComments/17836130 👍 Арт принадлежит отправителю.,Работа #142,https://t.me/StableWaifuComments/17850796,img/works/work_142.jpg,2,5,2,0,0,False,,
-143,@Erika_Demons_moon,https://t.me/StableWaifuComments/17836077 👍 Арт принадлежит отправителю.,Работа #143,https://t.me/StableWaifuComments/17850715,img/works/work_143.jpg,2,5,2,0,0,False,,
-144,@DablinElkiPalki,https://t.me/StableWaifuComments/17835903 👍 Арт принадлежит отправителю.,Работа #144,https://t.me/StableWaifuComments/17850441,img/works/work_144.jpg,5,5,5,1,300,True,1 место,
-145,@Erika_Demons_moon,,Работа #145,https://t.me/StableWaifuComments/17850313,img/works/work_145.jpg,2,5,2,0,0,False,,
-146,@DablinElkiPalki,,Работа #146,https://t.me/StableWaifuComments/17851373,img/works/work_146.jpg,5,5,5,1,300,True,1 место,
-147,@Erika_Demons_moon,,Работа #147,https://t.me/StableWaifuComments/17850264,img/works/work_147.jpg,4,5,4,2,100,True,2 место,
-148,@ayanamiurey,,Работа #148,https://t.me/StableWaifuComments/17849653,img/works/work_148.jpg,3,5,3,3,50,True,3 место,
-149,Азизбек,,Работа #149,https://t.me/StableWaifuComments/17849605,img/works/work_149.jpg,3,5,3,3,50,True,3 место,
-150,@Rina_ds,,Работа #150,https://t.me/StableWaifuComments/17849579,img/works/work_150.jpg,3,5,3,3,50,True,3 место,
-151,@kazeivaa,,Работа #151,https://t.me/StableWaifuComments/17851508,img/works/work_151.jpg,4,5,4,2,100,True,2 место,
-152,@Rina_ds,,Работа #152,https://t.me/StableWaifuComments/17849561,img/works/work_152.jpg,5,5,5,1,300,True,1 место,
-153,@Rina_ds,,Работа #153,https://t.me/StableWaifuComments/17849546,img/works/work_153.jpg,3,5,3,3,50,True,3 место,
-154,Азизбек,,Работа #154,https://t.me/StableWaifuComments/17849131,img/works/work_154.jpg,2,5,2,0,0,False,,
-155,@ayanamiurey,,Работа #155,https://t.me/StableWaifuComments/17848948,img/works/work_155.jpg,5,5,5,1,300,True,1 место,
-156,@forLansely,,Работа #156,https://t.me/StableWaifuComments/17848726,img/works/work_156.jpg,4,5,4,2,100,True,2 место,
-157,Азизбек,,Работа #157,https://t.me/StableWaifuComments/17848539,img/works/work_157.jpg,2,5,2,0,0,False,,
-158,@alenxxz,,Работа #158,https://t.me/StableWaifuComments/17848362,img/works/work_158.jpg,4,5,4,2,100,True,2 место,
-159,@yukidaruma8,,Работа #159,https://t.me/StableWaifuComments/17848324,img/works/work_159.jpg,3,5,3,3,50,True,3 место,
-160,@aistenokd,,Работа #160,https://t.me/StableWaifuComments/17851690,img/works/work_160.jpg,5,5,5,1,300,True,1 место,
-161,@Erika_Demons_moon,,Работа #161,https://t.me/StableWaifuComments/17848112,img/works/work_161.jpg,2,5,2,0,0,False,,
-162,@Erika_Demons_moon,,Работа #162,https://t.me/StableWaifuComments/17848054,img/works/work_162.jpg,4,5,4,2,100,True,2 место,
-163,@Elloree,,Работа #163,https://t.me/StableWaifuComments/17848044,img/works/work_163.jpg,5,5,5,1,300,True,1 место,
-164,@DablinElkiPalki,,Работа #164,https://t.me/StableWaifuComments/17851758,img/works/work_164.jpg,4,5,4,2,100,True,2 место,
-165,,,Работа #165,https://t.me/StableWaifuComments/17847989,img/works/work_165.jpg,4,5,4,2,100,True,2 место,
-166,@Erika_Demons_moon,,Работа #166,https://t.me/StableWaifuComments/17847963,img/works/work_166.jpg,5,5,5,1,300,True,1 место,
-167,@vivka_wuu,,Работа #167,https://t.me/StableWaifuComments/17847379,img/works/work_167.jpg,4,5,4,2,100,True,2 место,
-168,@the_elv,,Работа #168,https://t.me/StableWaifuComments/17846952,img/works/work_168.jpg,5,5,5,1,300,True,1 место,
-169,@alenxxz,,Работа #169,https://t.me/StableWaifuComments/17846785,img/works/work_169.jpg,5,5,5,1,300,True,1 место,
-170,@Tabayume,,Работа #170,https://t.me/StableWaifuComments/17846482,img/works/work_170.jpg,5,5,5,1,300,True,1 место,
-171,@Tabayume,,Работа #171,https://t.me/StableWaifuComments/17846475,img/works/work_171.jpg,4,5,4,2,100,True,2 место,
-172,Азизбек,,Работа #172,https://t.me/StableWaifuComments/17846465,img/works/work_172.jpg,2,5,2,0,0,False,,
-173,Азизбек,,Работа #173,https://t.me/StableWaifuComments/17846426,img/works/work_173.jpg,5,5,5,1,300,True,1 место,
-174,Азизбек,,Работа #174,https://t.me/StableWaifuComments/17846388,img/works/work_174.jpg,3,5,3,3,50,True,3 место,
-175,@ayanamiurey,,Работа #175,https://t.me/StableWaifuComments/17846212,img/works/work_175.jpg,3,5,3,3,50,True,3 место,
-176,@ayanamiurey,,Работа #176,https://t.me/StableWaifuComments/17845764,img/works/work_176.jpg,5,5,5,1,300,True,1 место,
-177,Peachu ~,,Работа #177,https://t.me/StableWaifuComments/17845587,img/works/work_177.jpg,4,5,4,2,100,True,2 место,
-178,@journalistdeer,,Работа #178,https://t.me/StableWaifuComments/17845437,img/works/work_178.jpg,3,5,3,3,50,True,3 место,
-179,@ianmaysky,,Работа #179,https://t.me/StableWaifuComments/17845384,img/works/work_179.jpg,5,5,5,1,300,True,1 место,
-180,@Bonja007,,Работа #180,https://t.me/StableWaifuComments/17845306,img/works/work_180.jpg,3,5,3,3,50,True,3 место,
-181,@journalistdeer,,Работа #181,https://t.me/StableWaifuComments/17845256,img/works/work_181.jpg,4,5,4,2,100,True,2 место,
-182,@Bonja007,,Работа #182,https://t.me/StableWaifuComments/17845119,img/works/work_182.jpg,4,5,4,2,100,True,2 место,
-183,@journalistdeer,,Работа #183,https://t.me/StableWaifuComments/17845099,img/works/work_183.jpg,5,5,5,1,300,True,1 место,
-184,@Bonja007,,Работа #184,https://t.me/StableWaifuComments/17844954,img/works/work_184.jpg,2,5,2,0,0,False,,
-185,@journalistdeer,,Работа #185,https://t.me/StableWaifuComments/17844966,img/works/work_185.jpg,3,5,3,3,50,True,3 место,
-186,@Bonja007,,Работа #186,https://t.me/StableWaifuComments/17844901,img/works/work_186.jpg,3,5,3,3,50,True,3 место,
-187,@kazeivaa,,Работа #187,https://t.me/StableWaifuComments/17844771,img/works/work_187.jpg,4,5,4,2,100,True,2 место,
-188,@kazeivaa,,Работа #188,https://t.me/StableWaifuComments/17844673,img/works/work_188.jpg,2,5,2,0,0,False,,
-189,@kazeivaa,,Работа #189,https://t.me/StableWaifuComments/17844609,img/works/work_189.jpg,3,5,3,3,50,True,3 место,
-190,@Bonja007,,Работа #190,https://t.me/StableWaifuComments/17844554,img/works/work_190.jpg,5,5,5,1,300,True,1 место,
-191,@desu_chaan,,Работа #191,https://t.me/StableWaifuComments/17843950,img/works/work_191.jpg,4,5,4,2,100,True,2 место,
-192,@desu_chaan,,Работа #192,https://t.me/StableWaifuComments/17843920,img/works/work_192.jpg,2,5,2,0,0,False,,
-193,@desu_chaan,,Работа #193,https://t.me/StableWaifuComments/17843900,img/works/work_193.jpg,5,5,5,1,300,True,1 место,"Как я и говорила, я очень люблю работы с пшеничным полем. очень красиво и романтично"
-194,@desu_chaan,,Работа #194,https://t.me/StableWaifuComments/17843881,img/works/work_194.jpg,5,5,5,1,300,True,1 место,"Изобилие тоже любит почитать, где нибудь там, проездом"
-195,@desu_chaan,,Работа #195,https://t.me/StableWaifuComments/17843822,img/works/work_195.jpg,2,5,2,0,0,False,,"Простая, но динамичная"
-196,@Erika_Demons_moon,,Работа #196,https://t.me/StableWaifuComments/17842646,img/works/work_196.jpg,3,5,3,3,50,True,3 место,"оо, выглядит весьма красиво. Мне нравится, как все смотрится"
-197,Азизбек,,Работа #197,https://t.me/StableWaifuComments/17842641,img/works/work_197.jpg,5,5,5,1,300,True,1 место,"Выглядит красиво, прям очень хорошо, я довольна"
-198,@Erika_Demons_moon,,Работа #198,https://t.me/StableWaifuComments/17842633,img/works/work_198.jpg,4,5,4,2,100,True,2 место,"Прекрасная с Касом, более нечего сказать"
-199,Азизбек,,Работа #199,https://t.me/StableWaifuComments/17842010,img/works/work_199.jpg,4,5,4,2,100,True,2 место,"хм, а вкдт красиво выглядит, мне понравилось"
-200,Азизбек,,Работа #200,https://t.me/StableWaifuComments/17841915,img/works/work_200.jpg,2,5,2,0,0,False,,"Н-да, вот тебе и социализация"
-201,Азизбек,,Работа #201,https://t.me/StableWaifuComments/17841882,img/works/work_201.jpg,3,5,3,3,50,True,3 место,"Хм, ну прикольно выглядит. призывает демона, который не будет от нее пугаться"
-202,Азизбек,,Работа #202,https://t.me/StableWaifuComments/17841834,img/works/work_202.jpg,3,5,3,3,50,True,3 место,Купание в крови продлевает жизнь?
-203,@sseltraeh,,Работа #203,https://t.me/StableWaifuComments/17841108,img/works/work_203.jpg,5,5,5,1,300,True,1 место,уютная атмосфера на самом деле. Очень приятно смотреть на эту работу
+﻿id,username,characters,title,postLink,image,score,scoreMax,scoreRaw,place,reward,isWinner,awardTitle,comment,verify
+1,@forLansely,Астерия,Работа #1,https://t.me/StableWaifuComments/17767675,img/works/work_001.jpg,3,5,3,3,50,True,3 место,"Приятная работа, стилистика, да и сама атмосфера. Она ощущается такой куколкой. Очень мило","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 00:54 МСК"
+2,@Seraphimss,Астерия,Работа #2,https://t.me/StableWaifuComments/17767971,img/works/work_002.jpg,3,5,3,3,50,True,3 место,"Явно после длительного полёта. Вон, как зыркает","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 01:55 МСК"
+3,@Seraphimss,Астерия,Работа #3,https://t.me/StableWaifuComments/17767978,img/works/work_003.jpg,4,5,4,2,100,True,2 место,"Выпить после тяжёлого дня, очень приятно. Но не хватает наглой улыбки как по мне","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 02:14 МСК"
+4,@Seraphimss,"Астерия, Эриду",Работа #4,https://t.me/StableWaifuComments/17767985,img/works/work_004.jpg,4,5,4,2,100,True,2 место,Подружки решили впэмечте посидеть и пообщаться. Эриду тут даже ничего не чудит.,"👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 02:01 МСК"
+5,@ChrezDev,Таласса,Работа #5,https://t.me/StableWaifuComments/17768874,img/works/work_005.jpg,5,5,5,1,300,True,1 место,"Очень красивая работа, я в неё влюбилась почти сразу. Так нежно и красиво вышло, эта вода, танцующая поза, ночь. Все прям шикарно!","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 06:40 МСК"
+6,@crystalloli,Эриду,Работа #6,https://t.me/StableWaifuComments/17769442,img/works/work_006.jpg,4,5,4,2,100,True,2 место,"Я ждала, что кто-то сделает такую двойтвенность природы Эриду, но не думала, что это будет так быстро. Вышло красиво, сочно.","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 07:48 МСК"
+7,@crystalloli,Кассиан,Работа #7,https://t.me/StableWaifuComments/17769671,img/works/work_007.jpg,4,5,4,2,100,True,2 место,"Уютная работа. Рысёнок выдимо слишком ушёл в себя, что начал кусать свой хвост","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 08:15 МСК"
+8,@venera_chan,Астерия,Работа #8,https://t.me/StableWaifuComments/17770983,img/works/work_008.jpg,5,5,5,1,300,True,1 место,"и снова шикарная работа. Сама малышка за своей работой, но слегка отвлеклась на звездочку","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 10:37 МСК"
+9,@the_elv,Дандан Цзянь,Работа #9,https://t.me/StableWaifuComments/17771291,img/works/work_009.jpg,4,5,4,2,100,True,2 место,"Очень много красного, но ей подходит такое. Еще и шприц в руках держит","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 11:15 МСК"
+10,@venera_chan,Лагострёмия,Работа #10,https://t.me/StableWaifuComments/17771353,img/works/work_010.jpg,4,5,4,2,100,True,2 место,"Наглая Лаг на машине. Еще и смотрит, как на говно. Прикольно","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 11:24 МСК"
+11,@venera_chan,Лагострёмия,Работа #11,https://t.me/StableWaifuComments/17772036,img/works/work_011.jpg,2,5,2,0,0,False,,"Тут не шибко понравилась меша, но сама работа вышла вайбовой и атмосферной.","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 12:17 МСК"
+12,@venera_chan,Астерия,Работа #12,https://t.me/StableWaifuComments/17773566,img/works/work_012.jpg,3,5,3,3,50,True,3 место,"Я не очень люблю пирсинг на сосках, но сама работа выглядит хорошо и сочно","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 12:55 МСК"
+13,Азизбек,Кассиан,Работа #13,https://t.me/StableWaifuComments/17774692,img/works/work_013.jpg,3,5,3,3,50,True,3 место,"грустный Арт. И правда печально, что ты по сути потерял дом, хоть ты и никогда в нем не жил, и вся твоя жизнь ограничена летающий городом, над чужим миром.","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 16:47 МСК"
+14,Азизбек,Иона Карлосс,Работа #14,https://t.me/StableWaifuComments/17774740,img/works/work_014.jpg,2,5,2,0,0,False,,"Потеря дома, и самого себя, оставляет на каждом, свой непоправимый след","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 16:54 МСК"
+15,Азизбек,Эриду,Работа #15,https://t.me/StableWaifuComments/17774831,img/works/work_015.jpg,4,5,4,2,100,True,2 место,Мне очень понравилась сама меша.,"👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:05 МСК"
+16,Азизбек,Лагострёмия,Работа #16,https://t.me/StableWaifuComments/17774896,img/works/work_016.jpg,5,5,5,1,300,True,1 место,"Очень страшно, когда на тебе лежит страшная ответственность. Ты не просто следишь за состоянием города-космолёта, ты поддерживаешь его жизнь, и если что-то пойдёт не так, за это надо отвечать. Это выматывает","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:11 МСК"
+17,Азизбек,Таласса,Работа #17,https://t.me/StableWaifuComments/17774941,img/works/work_017.jpg,2,5,2,0,0,False,,"Ну, прикольно, магичка-рыба","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:07 МСК"
+18,Азизбек,Церера,Работа #18,https://t.me/StableWaifuComments/17774980,img/works/work_018.jpg,2,5,2,0,0,False,,"Эдакое городское, прикольно","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:18 МСК"
+19,Азизбек,"Эриду, Церера",Работа #19,https://t.me/StableWaifuComments/17775030,img/works/work_019.jpg,3,5,3,3,50,True,3 место,"Оба весьма сильные Богини, меняются формами, и оба получать от Ан","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:23 МСК"
+20,Азизбек,Эриду,Работа #20,https://t.me/StableWaifuComments/17775087,img/works/work_020.jpg,2,5,2,0,0,False,,"Бородка у парня испортило композицию, но а так, прикольно","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:29 МСК"
+21,Азизбек,Астерия,Работа #21,https://t.me/StableWaifuComments/17775221,img/works/work_021.jpg,2,5,2,0,0,False,,"Надо было написать, что порно должнл было быть красивым. Я немного офигела. увидев это","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:41 МСК"
+22,@DBcrimson,Иона Карлосс,Работа #22,https://t.me/StableWaifuComments/17775269,img/works/work_022.jpg,3,5,3,3,50,True,3 место,"Иногда нажо выстрелить, что бы спасти других. Для врача, это очень тяжелое решение, но важное","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:43 МСК"
+23,Азизбек,Мао Цзи,Работа #23,https://t.me/StableWaifuComments/17775405,img/works/work_023.jpg,2,5,2,0,0,False,,"Какой такой, христианский вайб вышел, но работа простая","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 17:57 МСК"
+24,@DBcrimson,Дандан Цзянь,Работа #24,https://t.me/StableWaifuComments/17775518,img/works/work_024.jpg,3,5,3,3,50,True,3 место,"И опять выстрел врача, но уже от главного. Она уже на примере других, знает, насколько важно быть решительной","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 18:13 МСК"
+25,@venera_chan,Церера,Работа #25,https://t.me/StableWaifuComments/17776529,img/works/work_025.jpg,5,5,5,1,300,True,1 место,"От этой работы аж дух захватило, насколько это нежно и сочно. Я в любви","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 20:02 МСК"
+26,Азизбек,Лагострёмия,Работа #26,https://t.me/StableWaifuComments/17777049,img/works/work_026.jpg,3,5,3,3,50,True,3 место,"Сложно как то откоментировать, работу, но выглядит красиво","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 20:24 МСК"
+27,@macsheacaich,Лагострёмия,Работа #27,https://t.me/StableWaifuComments/17778508,img/works/work_027.jpg,3,5,3,3,50,True,3 место,"Иногда хочется взять, и все бросить, но нет, если все бросить, все полетит в тартарары, и это надо исправлять, по пути ругая весь мир","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 22:23 МСК"
+28,@macsheacaich,Рэй,Работа #28,https://t.me/StableWaifuComments/17790155,img/works/work_028.jpg,3,5,3,3,50,True,3 место,"Меша, мне увы, не понравилась, но сама композиция, мое почтение","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 21:00 МСК"
+29,@desu_chaan,Талласа,Работа #29,https://t.me/StableWaifuComments/17787254,img/works/work_029.jpg,4,5,4,2,100,True,2 место,"В какой-то мере, это нежная и грустная работа. Она отлично передала суть персонажа","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 11:06 МСК"
+30,@crystalloli,Висси,Работа #30,https://t.me/StableWaifuComments/17784943,img/works/work_030.jpg,5,5,5,1,300,True,1 место,"Очень яркая работа, прям шикарно для такого жизнерадостного андроида.","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 13:24 МСК"
+31,@Pixe1m4n,Астерия,Работа #31,https://t.me/StableWaifuComments/17784652,img/works/work_031.jpg,3,5,3,3,50,True,3 место,"Не знаю кто, но я готова","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 12:56 МСК"
+32,Азизбек,Эриду,Работа #32,https://t.me/StableWaifuComments/17784459,img/works/work_032.jpg,3,5,3,3,50,True,3 место,Довольно прикольная фреска,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 12:38 МСК"
+33,@Podpolniy_Krisich,Таласса,Работа #33,https://t.me/StableWaifuComments/17784003,img/works/work_033.jpg,4,5,4,2,100,True,2 место,"Довольно нежный и милый секс, мне вкатило","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 10:23 МСК"
+34,@macsheacaich,Эриду,Работа #34,https://t.me/StableWaifuComments/17784415,img/works/work_034.jpg,2,5,2,0,0,False,,"Прикольно, но не вкатило. Но Прикольно","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 12:32 МСК"
+35,Азизбек,Иона Карлосс,Работа #35,https://t.me/StableWaifuComments/17784352,img/works/work_035.jpg,2,5,2,0,0,False,,"Хм, ну нормально в принципе","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 09:38 МСК"
+36,@ShriMpik1,Иона Карлосс,Работа #36,https://t.me/StableWaifuComments/17784023,img/works/work_036.jpg,3,5,3,3,50,True,3 место,"Меша и правда хорошая, но хвост рука прям перекосоебило","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 11:41 МСК"
+37,@Podpolniy_Krisich,Таласса,Работа #37,https://t.me/StableWaifuComments/17783749,img/works/work_037.jpg,4,5,4,2,100,True,2 место,"Хыххы, думаю, рыбка не будет против, что над ней так буду доминировать. Весы, весьма специфические.","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 11:09 МСК"
+38,@macsheacaich,Церера,Работа #38,https://t.me/StableWaifuComments/17783772,img/works/work_038.jpg,5,5,5,1,300,True,1 место,"Страшно терять свой дом, где ты жил с самого его основания, потерять большую часть жителей, которых ты попросту не успел спасти. Но надо жить дальше с этой болью. Просто ради других, тех, кто остался","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 11:09 МСК"
+39,@venera_chan,Церера,Работа #39,https://t.me/StableWaifuComments/17783690,img/works/work_039.jpg,4,5,4,2,100,True,2 место,"Тут все прикольное, и поза, и композиция, и фон, все прям хорошо легло","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 11:09 МСК"
+40,Азизбек,Эриду,Работа #40,https://t.me/StableWaifuComments/17783170,img/works/work_040.jpg,2,5,2,0,0,False,,Безумие и правда страшная вещь,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 10:24 МСК"
+41,Азизбек,Эриду,Работа #41,https://t.me/StableWaifuComments/17783039,img/works/work_041.jpg,2,5,2,0,0,False,,"Зная Эриду, она бы не смутилась, а что нибудь выдала такое, от чего хоть стой, хоть падай","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 09:52 МСК"
+42,@macsheacaich,Кассиан,Работа #42,https://t.me/StableWaifuComments/17783038,img/works/work_042.jpg,5,5,5,1,300,True,1 место,"Восстановление природы из прошлого, хоть и в виде модели, и правда весьма тяжёлая, но завораживающая задача.","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 10:14 МСК"
+43,Азизбек,Астерия,Работа #43,https://t.me/StableWaifuComments/17782842,img/works/work_043.jpg,3,5,3,3,50,True,3 место,хлоп по попе,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 09:45 МСК"
+44,Азизбек,Астерия,Работа #44,https://t.me/StableWaifuComments/17782827,img/works/work_044.jpg,3,5,3,3,50,True,3 место,Хлоп по попеХ2,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 09:43 МСК"
+45,Азизбек,Эриду,Работа #45,https://t.me/StableWaifuComments/17782576,img/works/work_045.jpg,2,5,2,0,0,False,,"Мне не шибко понравилась ни меша, ни композиция. Да и увеличивать грудь персонажа было лишним","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 08:55 МСК"
+46,@crystalloli,Мао,Работа #46,https://t.me/StableWaifuComments/17782549,img/works/work_046.jpg,3,5,3,3,50,True,3 место,"К рабочему дню, он явно готов.","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 09:16 МСК"
+47,Азизбек,Церера,Работа #47,https://t.me/StableWaifuComments/17782230,img/works/work_047.jpg,5,5,5,1,300,True,1 место,"В эту работу, я тоже сразу влюбилась. Мне она очень понравилась, и то, как Изобилие привлекает к себе взор","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 08:50 МСК"
+48,Азизбек,Ан,Работа #48,https://t.me/StableWaifuComments/17782180,img/works/work_048.jpg,2,5,2,0,0,False,,"Ну, такая одежда немного не про нее, хотя и выглядит прикольно. Вообще, она этакая момми","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 08:47 МСК"
+49,Азизбек,Лагострёмия,Работа #49,https://t.me/StableWaifuComments/17782133,img/works/work_049.jpg,3,5,3,3,50,True,3 место,"Интересно даже, кто тот счастливчик, который смог вытерпеть характер Лаг?","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 08:36 МСК"
+50,Азизбек,Таласса,Работа #50,https://t.me/StableWaifuComments/17781702,img/works/work_050.jpg,5,5,5,1,300,True,1 место,Приятно просто войти в воду и поплавать в ней и расслабиться,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:58 МСК"
+51,Азизбек,Таласса,Работа #51,https://t.me/StableWaifuComments/17781506,img/works/work_051.jpg,2,5,2,0,0,False,,Изучение подводного мира всегда закатывает дух,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:57 МСК"
+52,@macsheacaich,Леон,Работа #52,https://t.me/StableWaifuComments/17781489,img/works/work_052.jpg,5,5,5,1,300,True,1 место,"Изучение неба, всегда захватывает дух людей, что в прошлом, что в нынешнем, что в будущем","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:56 МСК"
+53,Азизбек,Эриду,Работа #53,https://t.me/StableWaifuComments/17781325,img/works/work_053.jpg,2,5,2,0,0,False,,Эриду очень любит пугать других,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:27 МСК"
+54,Азизбек,Дандан Цзянь,Работа #54,https://t.me/StableWaifuComments/17781225,img/works/work_054.jpg,2,5,2,0,0,False,,"Ну, не думаю, что этот медик так следит за телом, хах. Вернее не качает его","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:25 МСК"
+55,Азизбек,Эриду,Работа #55,https://t.me/StableWaifuComments/17781189,img/works/work_055.jpg,3,5,3,3,50,True,3 место,Ща кто-то лишится пальца,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:18 МСК"
+56,Азизбек,Эриду,Работа #56,https://t.me/StableWaifuComments/17781129,img/works/work_056.jpg,2,5,2,0,0,False,,слюнки тут уже лишние. Мне не особо зашло,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:07 МСК"
+57,Азизбек,"Ан, Церера",Работа #57,https://t.me/StableWaifuComments/17781086,img/works/work_057.jpg,2,5,2,0,0,False,,"Ну, прикольно, но не вкатило, да, опять.","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 06:03 МСК"
+58,Азизбек,Ан,Работа #58,https://t.me/StableWaifuComments/17781065,img/works/work_058.jpg,2,5,2,0,0,False,,"Ну, тоже такое себе. Ан не шибко идёт атмосфера христианства и вампиризма","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 05:59 МСК"
+59,Азизбек,Сириус,Работа #59,https://t.me/StableWaifuComments/17781055,img/works/work_059.jpg,3,5,3,3,50,True,3 место,"Надо внимательно следить не только за небом, но и домом","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 05:50 МСК"
+60,Азизбек,Висси,Работа #60,https://t.me/StableWaifuComments/17781035,img/works/work_060.jpg,2,5,2,0,0,False,,"Хм, не думаю, что роботу в принципе надо есть человеческую пищу","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 05:41 МСК"
+61,Азизбек,Талласа,Работа #61,https://t.me/StableWaifuComments/17781033,img/works/work_061.jpg,3,5,3,3,50,True,3 место,Приятно потратить время на плавание,"👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 05:25 МСК"
+62,Азизбек,"Эриду, Ан",Работа #62,https://t.me/StableWaifuComments/17781022,img/works/work_062.jpg,2,5,2,0,0,False,,"Ан так то выше, хоть и довольно тощая. Да и косы она не любит. В принципе, прикольно, не зашло","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 05:24 МСК"
+63,Азизбек,Ан,Работа #63,https://t.me/StableWaifuComments/17781019,img/works/work_063.jpg,2,5,2,0,0,False,,"Немного ткань все таки лишняя, или надо было сделать по другому","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 04:48 МСК"
+64,@yukidaruma8,Эриду,Работа #64,https://t.me/StableWaifuComments/17791211,img/works/work_064.jpg,4,5,4,2,100,True,2 место,"Эриду мужчина, явно интересуется состояние ""зрителя""","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 22:21 МСК"
+65,@forLansely,Астерия,Работа #65,https://t.me/StableWaifuComments/17792146,img/works/work_065.jpg,5,5,5,1,300,True,1 место,"вах-вах, Шикарная атмосфера вышла, да и само ханьфу красивое","👍 Арт принадлежит отправителю.
+Время генерации: 26.05.2026, 22:43 МСК"
+66,@Bonja007,Лагострёмия,Работа #66,https://t.me/StableWaifuComments/17804170,img/works/work_066.jpg,3,5,3,3,50,True,3 место,"Когда ты случайно уронил важные бумаги и ты просто лёг, что бы не вспасть в истерику и просто полежать, дабы потом это всё убрать","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 21:04 МСК"
+67,@Bonja007,Висси,Работа #67,https://t.me/StableWaifuComments/17804087?single,img/works/work_067.jpg,4,5,4,2,100,True,2 место,"ой-ой, как тут все красиво и детализировано, мне понравилось","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 04:22 МСК"
+68,@Bonja007,Рэй,Работа #68,https://t.me/StableWaifuComments/17804087?single,img/works/work_068.jpg,4,5,4,2,100,True,2 место,"Северное сияние за окном, весьма красивое, да и сам партнёр уютный","👍 Арт принадлежит отправителю.
+Время генерации: 25.05.2026, 04:22 МСК"
+69,@venera_chan,Талласа (+ОС),Работа #69,https://t.me/StableWaifuComments/17803509,img/works/work_069.jpg,3,5,3,3,50,True,3 место,"хах, на самом деле прикольное и нежное","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 20:12 МСК"
+70,@Erika_Demons_moon,Ан,Работа #70,https://t.me/StableWaifuComments/17799291,img/works/work_070.jpg,5,5,5,1,300,True,1 место,Очень красивая композиция. мне нравится. Явно на хороший лад настроен разговор,"👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 10:09 МСК"
+71,@ShriMpik1,Висси,Работа #71,https://t.me/StableWaifuComments/17794516,img/works/work_071.jpg,2,5,2,0,0,False,,Не хватает как по мне позы и динамики.,"👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 08:28 МСК"
+72,@ShriMpik1,Висси,Работа #72,https://t.me/StableWaifuComments/17794504,img/works/work_072.jpg,3,5,3,3,50,True,3 место,"Механическая, немного хоррорная атмосфера, розовое опят таки, динамика","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 08:26 МСК"
+73,@ShriMpik1,Таласса,Работа #73,https://t.me/StableWaifuComments/17794120,img/works/work_073.jpg,3,5,3,3,50,True,3 место,"довольно мило вышло, рыбка с котиками. Она даже слегка удивлена, что к ней подходят","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 08:09 МСК"
+74,@ianmaysky,Иона Карлосс,Работа #74,https://t.me/StableWaifuComments/17793682,img/works/work_074.jpg,4,5,4,2,100,True,2 место,"И правда, у каждого врача своя могила, но очень важно, учится на этих ошибках или понимать, что всех, спасти невозможно, как бы тебе этого не хотелось.","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 07:02 МСК"
+75,@forLansely,Астерия,Работа #75,https://t.me/StableWaifuComments/17815223,img/works/work_075.jpg,3,5,3,3,50,True,3 место,Кого-то щась заобнимают,"👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 21:03 МСК"
+76,@ShriMpik1,Астерия,Работа #76,https://t.me/StableWaifuComments/17808703,img/works/work_076.jpg,2,5,2,0,0,False,,"Прикольное, лотос в руке хорош","👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 11:46 МСК"
+77,@Erika_Demons_moon,Лагострёмия,Работа #77,https://t.me/StableWaifuComments/17807362,img/works/work_077.jpg,3,5,3,3,50,True,3 место,"Просто отдых, а ты вошёл туда, куда не надо. у тебя пять секунд уйти, иначе тебя забросают этими подушками","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 21:13 МСК"
+78,@forLansely,Астерия,Работа #78,https://t.me/StableWaifuComments/17816404,img/works/work_078.jpg,3,5,3,3,50,True,3 место,"Хорошая, нежная работа. Как она приглашает ""зрителя"" прям сок","👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 22:28 МСК"
+79,@forLansely,Церера,Работа #79,https://t.me/StableWaifuComments/17817291,img/works/work_079.jpg,4,5,4,2,100,True,2 место,"ой, А ей кимоно прям хорошо подошло. Аж по другому стала восприниматься","👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 23:41 МСК"
+80,@sseltraeh,Таласса,Работа #80,https://t.me/StableWaifuComments/17828408,img/works/work_080.jpg,3,5,3,3,50,True,3 место,"Нормально, красиво, сочно","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 22:58 МСК"
+81,Азизбек,Эриду,Работа #81,https://t.me/StableWaifuComments/17827872,img/works/work_081.jpg,5,5,5,1,300,True,1 место,"За такую ебейшую отсылку, прям высокое место. да и сама композиция мне нравится","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 22:26 МСК"
+82,@sseltraeh,Ан,Работа #82,https://t.me/StableWaifuComments/17827679,img/works/work_082.jpg,3,5,3,3,50,True,3 место,"Меша не понравилась, но сама композиция, мое почтение","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 21:42 МСК"
+83,@the_elv,Иона Карлосс,Работа #83,https://t.me/StableWaifuComments/17827035,img/works/work_083.jpg,4,5,4,2,100,True,2 место,"О, красиво вышло, композиция мне очень понравилась","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 21:27 МСК"
+84,Азизбек,Эриду,Работа #84,https://t.me/StableWaifuComments/17826671,img/works/work_084.jpg,3,5,3,3,50,True,3 место,"Играть с Эриду на ставки, ты обрекаешь себя","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 20:43 МСК"
+85,@the_elv,Астерия,Работа #85,https://t.me/StableWaifuComments/17826605,img/works/work_085.jpg,4,5,4,2,100,True,2 место,"Уф, явно решила немного отлынуть от работы. Даже грудь оголила, дабы её немного помацать","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 20:46 МСК"
+86,@the_elv,Лагострёмия,Работа #86,https://t.me/StableWaifuComments/17826453,img/works/work_086.jpg,4,5,4,2,100,True,2 место,"Красивое, розовое, хотя видимо, зашли не вовремя, судя по отупелому взгляду Лаг","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 20:30 МСК"
+87,@the_elv,Ан,Работа #87,https://t.me/StableWaifuComments/17826273,img/works/work_087.jpg,5,5,5,1,300,True,1 место,"Сука, я в любви эти фонарики, дерево, сама красная атмосфера для Ан лёгкая ну просто идеально. все очень красиво и сочно","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 20:18 МСК"
+88,@the_elv,Рэй,Работа #88,https://t.me/StableWaifuComments/17826123,img/works/work_088.jpg,5,5,5,1,300,True,1 место,"даже роботам, интересно изучать звёздное небо. Оно и правда захватывает дух.","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 20:04 МСК"
+89,@the_elv,Висси,Работа #89,https://t.me/StableWaifuComments/17825788,img/works/work_089.jpg,5,5,5,1,300,True,1 место,"снова зелёная атмосфера, но не менее Шикарная и эстетичная","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 19:39 МСК"
+90,@the_elv,Таласса,Работа #90,https://t.me/StableWaifuComments/17825537,img/works/work_090.jpg,5,5,5,1,300,True,1 место,"Изучение неизведанного, всегда интересовало рыбку, вне своей профессии","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 19:11 МСК"
+91,@sseltraeh,Лагострёмия,Работа #91,https://t.me/StableWaifuComments/17825420,img/works/work_091.jpg,4,5,4,2,100,True,2 место,"Если мужики сидять так, будто им яйца давят, то почему девушки не могут так сидеть и проветрить свою киску?","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 18:55 МСК"
+92,@YormiFB,Таласса,Работа #92,https://t.me/StableWaifuComments/17825375,img/works/work_092.jpg,4,5,4,2,100,True,2 место,"программирование и в правду похоже на очень сложную магию, но оно в своей сути невероятно","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 18:51 МСК"
+93,@sseltraeh,Мао Цзи,Работа #93,https://t.me/StableWaifuComments/17825182,img/works/work_093.jpg,4,5,4,2,100,True,2 место,"Придётся этому гению думать, как выбраться их этих пут","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 18:27 МСК"
+94,@forLansely,Астерия,Работа #94,https://t.me/StableWaifuComments/17824216,img/works/work_094.jpg,5,5,5,1,300,True,1 место,Утро должно начинается с чашки кофе,"👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 16:57 МСК"
+95,@forLansely,Астерия,Работа #95,https://t.me/StableWaifuComments/17824197,img/works/work_095.jpg,4,5,4,2,100,True,2 место,"прикольная пижама, да","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 16:53 МСК"
+96,@forLansely,Астерия,Работа #96,https://t.me/StableWaifuComments/17823866,img/works/work_096.jpg,3,5,3,3,50,True,3 место,"и снова красота, мне нравится","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 15:14 МСК"
+97,@sseltraeh,Рэй,Работа #97,https://t.me/StableWaifuComments/17823677,img/works/work_097.jpg,2,5,2,0,0,False,,"Ну вроде прикольное, но не вкатило. Не понятно, что этим сказано","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 15:57 МСК"
+98,Азизбек,Ан,Работа #98,https://t.me/StableWaifuComments/17823155,img/works/work_098.jpg,3,5,3,3,50,True,3 место,"Ракурс тут шикарный, мне понравилось","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 10:14 МСК"
+99,@ianmaysky,Таласса,Работа #99,https://t.me/StableWaifuComments/17822406,img/works/work_099.jpg,3,5,3,3,50,True,3 место,"Меша, честно, подкачала, но ля, сама композиция и постановка кадра хорошая","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 12:41 МСК"
+100,@alenxxz,Лагострёмия,Работа #100,https://t.me/StableWaifuComments/17822151,img/works/work_100.jpg,5,5,5,1,300,True,1 место,Нежная и милая работа. Ассоциация с приятным сном даже,"👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 12:12 МСК"
+101,@alenxxz,Рэй,Работа #101,https://t.me/StableWaifuComments/17821839,img/works/work_101.jpg,5,5,5,1,300,True,1 место,"Красивая работа, прям хочется рассматривать её","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 11:32 МСК"
+102,@Erika_Demons_moon,Висси,Работа #102,https://t.me/StableWaifuComments/17821737,img/works/work_102.jpg,3,5,3,3,50,True,3 место,Малышка робот на отдыхе. иногда важно побыть наедине со своими мыслями,"👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 11:35 МСК"
+103,@sseltraeh,Сириус,Работа #103,https://t.me/StableWaifuComments/17820899,img/works/work_103.jpg,5,5,5,1,300,True,1 место,"Эта работа мне сразу понравилась. Первый Пилот тут вышел очень хорошо, мне нравится, как фокус на его лице, и то, что он о чем-то раздумывает после какого-то треша","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 10:29 МСК"
+104,@sseltraeh,Дандан Цзянь,Работа #104,https://t.me/StableWaifuComments/17820838,img/works/work_104.jpg,3,5,3,3,50,True,3 место,"Солнечная, красивая работа","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 10:18 МСК"
+105,Азизбек,Лагострёмия,Работа #105,https://t.me/StableWaifuComments/17820748,img/works/work_105.jpg,3,5,3,3,50,True,3 место,"О, тут вышло прям хорошо. Я люблю работы с пшеничным полем, жля меня это олицетворение спокойствия и конца. Но ля, грудь немного эту картину испортило. Но все же, было жаль из-за такого сбрасывать работу со счетов.","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 09:50 МСК"
+106,Азизбек,"Ан, Церера",Работа #106,https://t.me/StableWaifuComments/17820399,img/works/work_106.jpg,2,5,2,0,0,False,,"хаха, немного неожиданно, но я не люблю фембоев","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 09:09 МСК"
+107,Азизбек,Висси,Работа #107,https://t.me/StableWaifuComments/17819281,img/works/work_107.jpg,5,5,5,1,300,True,1 место,"Моё почтение, тут все шикарно, и кадр, и композиция, и меша. Мне понравилось","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 08:14 МСК"
+108,Азизбек,Висси,Работа #108,https://t.me/StableWaifuComments/17819263,img/works/work_108.jpg,2,5,2,0,0,False,,"Красивая работа, но она мне не вкатила.","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 08:11 МСК"
+109,@crystalloli,Висси,Работа #109,https://t.me/StableWaifuComments/17819206,img/works/work_109.jpg,3,5,3,3,50,True,3 место,Загрузка обновлений произошла успешно,"👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 08:03 МСК"
+110,@Erika_Demons_moon,Рэй,Работа #110,https://t.me/StableWaifuComments/17818964,img/works/work_110.jpg,5,5,5,1,300,True,1 место,"красивая, сочная работа. Она действительно, вышла хорошей","👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 19:07 МСК"
+111,@forLansely,Астерия,Работа #111,https://t.me/StableWaifuComments/17828689,img/works/work_111.jpg,4,5,4,2,100,True,2 место,"Воу, эта малышка и правда очень хороша собой","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 23:27 МСК"
+112,Азизбек,Ан,Работа #112,https://t.me/StableWaifuComments/17828630,img/works/work_112.jpg,3,5,3,3,50,True,3 место,"Увы, как бы не было тяжело, придётся носить эту ответственность на своих плечах. Быть Богом, это очень круто, но с такой силой, приходит и ответственность за жизни подданных.","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 23:19 МСК"
+113,@Elloree,Леон,Работа #113,https://t.me/StableWaifuComments/17838542,img/works/work_113.jpg,5,5,5,1,300,True,1 место,"Ооо, ну тут прям хорошо. Да и строчки и песни тоже подошли к работе.","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 18:59 МСК"
+114,@forLansely,Астерия,Работа #114,https://t.me/StableWaifuComments/17836969,img/works/work_114.jpg,4,5,4,2,100,True,2 место,"Курение вредит вашему здоровью. Но мне понравилось, немного даже эстетично вышло","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 19:38 МСК"
+115,Азизбек,Эриду,Работа #115,https://t.me/StableWaifuComments/17836892,img/works/work_115.jpg,3,5,3,3,50,True,3 место,В принципе неплохо вышло,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:55 МСК"
+116,Азизбек,Лагострёмия,Работа #116,https://t.me/StableWaifuComments/17836841,img/works/work_116.jpg,5,5,5,1,300,True,1 место,"Лагострёмия и правда не видит себя в роли правителя, ведь она будет весьма авторитарным тираном и она это отлично понимает и держится от власти подальше.","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 20:31 МСК"
+117,Азизбек,Ан,Работа #117,https://t.me/StableWaifuComments/17836138,img/works/work_117.jpg,4,5,4,2,100,True,2 место,"Вспоминаю даже строки песни: ""Дремлет, умирающий король"". Хотя эта песня вообще ни к месту, но у меня прям ярко пробило.","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 19:12 МСК"
+118,@forLansely,Астерия,Работа #118,https://t.me/StableWaifuComments/17836130,img/works/work_118.jpg,3,5,3,3,50,True,3 место,"Йоу, ну тут вышло неплохо","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 19:06 МСК"
+119,@forLansely,Астерия,Работа #119,https://t.me/StableWaifuComments/17836077,img/works/work_119.jpg,4,5,4,2,100,True,2 место,"А вот тут эстетика женского тела, мне нравится такая красота","👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 18:52 МСК"
+120,Азизбек,Астерия,Работа #120,https://t.me/StableWaifuComments/17835903,img/works/work_120.jpg,3,5,3,3,50,True,3 место,Неплохая сцена секса в принципе,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:29 МСК"
+121,Азизбек,Эриду,Работа #121,https://t.me/StableWaifuComments/17835488,img/works/work_121.jpg,2,5,2,0,0,False,,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:47 МСК"
+122,Азизбек,Леон,Работа #122,https://t.me/StableWaifuComments/17835437,img/works/work_122.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:37 МСК"
+123,Азизбек,Лагострёмия,Работа #123,https://t.me/StableWaifuComments/17835400,img/works/work_123.jpg,2,5,2,0,0,False,,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:33 МСК"
+124,Азизбек,"Лагострёмия, Леон",Работа #124,https://t.me/StableWaifuComments/17835331,img/works/work_124.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:23 МСК"
+125,Азизбек,Ан,Работа #125,https://t.me/StableWaifuComments/17835308,img/works/work_125.jpg,2,5,2,0,0,False,,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:17 МСК"
+126,Азизбек,Леон,Работа #126,https://t.me/StableWaifuComments/17835270,img/works/work_126.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 17:13 МСК"
+127,Азизбек,"Лагострёмия, Леон",Работа #127,https://t.me/StableWaifuComments/17835259,img/works/work_127.jpg,5,5,5,1,300,True,1 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 16:54 МСК"
+128,AnVpAr,,Работа #128,https://t.me/StableWaifuComments/17835206,img/works/work_128.jpg,3,5,3,3,50,True,3 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 16:54 МСК"
+129,Азизбек,Леон,Работа #129,https://t.me/StableWaifuComments/17835152,img/works/work_129.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 16:48 МСК"
+130,Азизбек,Ан,Работа #130,https://t.me/StableWaifuComments/17835097,img/works/work_130.jpg,2,5,2,0,0,False,,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 16:42 МСК"
+131,Азизбек,Церера,Работа #131,https://t.me/StableWaifuComments/17834695,img/works/work_131.jpg,3,5,3,3,50,True,3 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 15:58 МСК"
+132,Азизбек,Эриду,Работа #132,https://t.me/StableWaifuComments/17834550,img/works/work_132.jpg,3,5,3,3,50,True,3 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 15:40 МСК"
+133,Азизбек,Эриду,Работа #133,https://t.me/StableWaifuComments/17834441,img/works/work_133.jpg,3,5,3,3,50,True,3 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 15:25 МСК"
+134,@sseltraeh,Рэй,Работа #134,https://t.me/StableWaifuComments/17834382,img/works/work_134.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 15:20 МСК"
+135,@alenxxz,Дандан Цзянь,Работа #135,https://t.me/StableWaifuComments/17834145,img/works/work_135.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 15:04 МСК"
+136,@Erika_Demons_moon,Леон,Работа #136,https://t.me/StableWaifuComments/17833907,img/works/work_136.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 04:44 МСК"
+137,@Nunasw,Эриду,Работа #137,https://t.me/StableWaifuComments/17832732,img/works/work_137.jpg,3,5,3,3,50,True,3 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 12:47 МСК"
+138,@Nunasw,Церера,Работа #138,https://t.me/StableWaifuComments/17832098,img/works/work_138.jpg,5,5,5,1,300,True,1 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 11:55 МСК"
+139,@Nunasw,Кассиан,Работа #139,https://t.me/StableWaifuComments/17831609,img/works/work_139.jpg,5,5,5,1,300,True,1 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 30.05.2026, 10:49 МСК"
+140,@Erika_Demons_moon,Церера,Работа #140,https://t.me/StableWaifuComments/17851265,img/works/work_140.jpg,4,5,4,2,100,True,2 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 23:26 МСК"
+141,@DablinElkiPalki,Леон,Работа #141,https://t.me/StableWaifuComments/17851033,img/works/work_141.jpg,5,5,5,1,300,True,1 место,,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 23:00 МСК"
+142,@Erika_Demons_moon,Эриду,Работа #142,https://t.me/StableWaifuComments/17850796,img/works/work_142.jpg,2,5,2,0,0,False,,"Уф, тут конечно просто, что-то есть в этой работе","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 21:53 МСК"
+143,@Erika_Demons_moon,Иона Карлосс,Работа #143,https://t.me/StableWaifuComments/17850715,img/works/work_143.jpg,2,5,2,0,0,False,,"Немного простая работа, но весьма милая","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 20:02 МСК"
+144,@DablinElkiPalki,Лагострёмия,Работа #144,https://t.me/StableWaifuComments/17850441,img/works/work_144.jpg,5,5,5,1,300,True,1 место,Мне очень понравилась эта работа. Прям ассоциация к картокой персонажа,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 22:32 МСК"
+145,@Erika_Demons_moon,Эриду,Работа #145,https://t.me/StableWaifuComments/17850313,img/works/work_145.jpg,2,5,2,0,0,False,,"Просто, но красиво и ярко.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:59 МСК"
+146,@DablinElkiPalki,Сириус,Работа #146,https://t.me/StableWaifuComments/17851373,img/works/work_146.jpg,5,5,5,1,300,True,1 место,"Ооо, ля, я падаю от любви. Мне очень. понравилась такая красота. Прям можео рассматривать вечность","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 23:51 МСК"
+147,@Erika_Demons_moon,Таласса,Работа #147,https://t.me/StableWaifuComments/17850264,img/works/work_147.jpg,4,5,4,2,100,True,2 место,"Воу, ну тут мое почтение, выглядит хорошо и красиво","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:45 МСК"
+148,@ayanamiurey,Кассиан,Работа #148,https://t.me/StableWaifuComments/17849653,img/works/work_148.jpg,3,5,3,3,50,True,3 место,"Красота природы, за которой приятно наблюдать и изучать","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 21:34 МСК"
+149,Азизбек,Висси,Работа #149,https://t.me/StableWaifuComments/17849605,img/works/work_149.jpg,3,5,3,3,50,True,3 место,"Город бы сделать более в китайской ститистике, было бы шикарно, а так, можно представить, что это новый город, на земле спустя столетия, где модно свободно гулять по миру. В принципе все классно","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 21:30 МСК"
+150,@Rina_ds,Эриду,Работа #150,https://t.me/StableWaifuComments/17849579,img/works/work_150.jpg,3,5,3,3,50,True,3 место,"Красивая работа, летающие замки.Кристаллы, которые взялись невесть откуда.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 17:48 МСК"
+151,@kazeivaa,Леон,Работа #151,https://t.me/StableWaifuComments/17851508,img/works/work_151.jpg,4,5,4,2,100,True,2 место,"Ненужное благословение, явно считается проклятием. Грустно, когда тебя начинают избегать, хотя ты ничего не сделал... Просто твой взгляд... он смотрит прямо в душу, а ты ничего не можешь с этим сделать.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 23:50 МСК"
+152,@Rina_ds,Церера,Работа #152,https://t.me/StableWaifuComments/17849561,img/works/work_152.jpg,5,5,5,1,300,True,1 место,"Господи, я в восхищении от этой работы. Готова падать на колени перед ней. Прям все хорошо вышло","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 20:26 МСК"
+153,@Rina_ds,Леон,Работа #153,https://t.me/StableWaifuComments/17849546,img/works/work_153.jpg,3,5,3,3,50,True,3 место,"Прикольная работа, да и меша вкусная, но сама композиция не вкатила.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 21:23 МСК"
+154,Азизбек,Эриду,Работа #154,https://t.me/StableWaifuComments/17849131,img/works/work_154.jpg,2,5,2,0,0,False,,"Эриду кошка, а не коровка.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 21:04 МСК"
+155,@ayanamiurey,Кассиан,Работа #155,https://t.me/StableWaifuComments/17848948,img/works/work_155.jpg,5,5,5,1,300,True,1 место,"Приятная, яркая работа с растениями и Касом.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 20:49 МСК"
+156,@forLansely,Лагострёмия,Работа #156,https://t.me/StableWaifuComments/17848726,img/works/work_156.jpg,4,5,4,2,100,True,2 место,"Ля, я люблю Лаг. Она тут выглядит очень шикарно. Особенно то, как она смотрит.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 20:04 МСК"
+157,Азизбек,Астерия,Работа #157,https://t.me/StableWaifuComments/17848539,img/works/work_157.jpg,2,5,2,0,0,False,,Нормальная работа еа пляже. В принципе неплохо,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 20:25 МСК"
+158,@alenxxz,Мао Цзи,Работа #158,https://t.me/StableWaifuComments/17848362,img/works/work_158.jpg,4,5,4,2,100,True,2 место,"Довольно интересный арт, немного сюрреалистичный, но от этого он кажется захватывающим","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:49 МСК"
+159,@yukidaruma8,Леон,Работа #159,https://t.me/StableWaifuComments/17848324,img/works/work_159.jpg,3,5,3,3,50,True,3 место,"Тикать и кормить Леона, никто не запретит, кроме самого Леона","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:04 МСК"
+160,@aistenokd,Рэй,Работа #160,https://t.me/StableWaifuComments/17851690,img/works/work_160.jpg,5,5,5,1,300,True,1 место,"Кстати, в ведь действительно, что в этом корабле-замке вот такой город, и из-за своего образа, наш робот выглядит слегка иноземно. Но как по мне работа красивая, мне понравилось всё","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 23:33 МСК"
+161,@Erika_Demons_moon,Дандан Цзянь,Работа #161,https://t.me/StableWaifuComments/17848112,img/works/work_161.jpg,2,5,2,0,0,False,,"Простая, но лаконичная работа","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:28 МСК"
+162,@Erika_Demons_moon,Мао Цзи,Работа #162,https://t.me/StableWaifuComments/17848054,img/works/work_162.jpg,4,5,4,2,100,True,2 место,"Уф, доминирующий Мао прям шикарный образ","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:23 МСК"
+163,@Elloree,Сириус,Работа #163,https://t.me/StableWaifuComments/17848044,img/works/work_163.jpg,5,5,5,1,300,True,1 место,"Весьма шикарная работа, с хорошей детализацией. Эту работу тоже хочется рассматривать вечность","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 19:16 МСК"
+164,@DablinElkiPalki,Мао Цзи,Работа #164,https://t.me/StableWaifuComments/17851758,img/works/work_164.jpg,4,5,4,2,100,True,2 место,Довольно нежно и грустно выглядит. Словно потеря кого-то важного,"👍 Арт принадлежит отправителю.
+Время генерации: 01.06.2026, 00:19 МСК"
+165,,Лагострёмия,Работа #165,https://t.me/StableWaifuComments/17847989,img/works/work_165.jpg,4,5,4,2,100,True,2 место,"Тут можно действительно представить, что мать испольщала свою магию памяти, дабы спасти дочь, что бы та не совершила глупость","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 18:41 МСК"
+166,@Erika_Demons_moon,Сириус,Работа #166,https://t.me/StableWaifuComments/17847963,img/works/work_166.jpg,5,5,5,1,300,True,1 место,"Меланхоличная работа, но весьма уютная. Море, серое небо, вся эта композиция хорошо легла","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 12:11 МСК"
+167,@vivka_wuu,,Работа #167,https://t.me/StableWaifuComments/17847379,img/works/work_167.jpg,4,5,4,2,100,True,2 место,"Весьма вкусная работа. Жаль конечно, что не получилось сделать починку, но как минимум, работоспособность тоже важно проверять","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 17:43 МСК"
+168,@the_elv,Сириус,Работа #168,https://t.me/StableWaifuComments/17846952,img/works/work_168.jpg,5,5,5,1,300,True,1 место,"Шикарная работа, динамика, все прям вкусно, я очень довольна","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 17:39 МСК"
+169,@alenxxz,Леон,Работа #169,https://t.me/StableWaifuComments/17846785,img/works/work_169.jpg,5,5,5,1,300,True,1 место,"Ух. ну как не быть в восхищении,а? Прям представляю, как волчёнок часто выходит за пределы летающего города, дабы немного отдохнуть от людей и снять эти надоедлевые очки","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 17:26 МСК"
+170,@Tabayume,Леон,Работа #170,https://t.me/StableWaifuComments/17846482,img/works/work_170.jpg,5,5,5,1,300,True,1 место,"Не шибко приятно промокнуть, но боже, как он тут горячий выглядит","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 17:00 МСК"
+171,@Tabayume,Мао Цзи,Работа #171,https://t.me/StableWaifuComments/17846475,img/works/work_171.jpg,4,5,4,2,100,True,2 место,"Весьма яркая динамика работы, но красивая. Мне особенно нравится куча чашек на столе. Потом получит втык от Госпожи за это.","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 16:51 МСК"
+172,Азизбек,Эриду,Работа #172,https://t.me/StableWaifuComments/17846465,img/works/work_172.jpg,2,5,2,0,0,False,,"Ну, вроде прикольно, но что-то не то","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 13:21 МСК"
+173,Азизбек,Леон,Работа #173,https://t.me/StableWaifuComments/17846426,img/works/work_173.jpg,5,5,5,1,300,True,1 место,"а ведь мог быть бунтарский период у волчёнка, особенно учитывая, что он сирота","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 11:05 МСК"
+174,Азизбек,Эриду,Работа #174,https://t.me/StableWaifuComments/17846388,img/works/work_174.jpg,3,5,3,3,50,True,3 место,"нежное, с игрушками, в принципе прикольно, хотя меша не вкатила","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 10:40 МСК"
+175,@ayanamiurey,Таласса,Работа #175,https://t.me/StableWaifuComments/17846212,img/works/work_175.jpg,3,5,3,3,50,True,3 место,Весьма чувственная работа,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 16:23 МСК"
+176,@ayanamiurey,Таласса,Работа #176,https://t.me/StableWaifuComments/17845764,img/works/work_176.jpg,5,5,5,1,300,True,1 место,а вот в эту работу сразу влюбилась. Очень хорошая анало,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 15:14 МСК"
+177,Peachu ~,Леон,Работа #177,https://t.me/StableWaifuComments/17845587,img/works/work_177.jpg,4,5,4,2,100,True,2 место,"Ой, как мило, хочется ща щёчки потискать","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 15:26 МСК"
+178,@journalistdeer,Леон,Работа #178,https://t.me/StableWaifuComments/17845437,img/works/work_178.jpg,3,5,3,3,50,True,3 место,"Но надо же лезть туда, куда не просят","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 15:04 МСК"
+179,@ianmaysky,Сириус,Работа #179,https://t.me/StableWaifuComments/17845384,img/works/work_179.jpg,5,5,5,1,300,True,1 место,"вайб агитационого плаката, мне очень зашло","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 15:04 МСК"
+180,@Bonja007,Рэй,Работа #180,https://t.me/StableWaifuComments/17845306,img/works/work_180.jpg,3,5,3,3,50,True,3 место,А сняться ли андроидам электроовцы?,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 15:00 МСК"
+181,@journalistdeer,"Леон, Лагострёмия",Работа #181,https://t.me/StableWaifuComments/17845256,img/works/work_181.jpg,4,5,4,2,100,True,2 место,"Приятная прогулка ученика и учителя, довольно хорошо","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:57 МСК"
+182,@Bonja007,Мао Цзи,Работа #182,https://t.me/StableWaifuComments/17845119,img/works/work_182.jpg,4,5,4,2,100,True,2 место,"Ого, даже мрачно и грустно это, что мог или даже было такое в жизни Мао","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:48 МСК"
+183,@journalistdeer,Сириус,Работа #183,https://t.me/StableWaifuComments/17845099,img/works/work_183.jpg,5,5,5,1,300,True,1 место,"Оххохохох, ля, это выглядит прям очень горячо. Мне нравится атмосфера арта и сама композиция","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:44 МСК"
+184,@Bonja007,Сириус,Работа #184,https://t.me/StableWaifuComments/17844954,img/works/work_184.jpg,2,5,2,0,0,False,,"Прикольное. Палец конечно, не откусить, но будет больно","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:33 МСК"
+185,@journalistdeer,Мао Цзи,Работа #185,https://t.me/StableWaifuComments/17844966,img/works/work_185.jpg,3,5,3,3,50,True,3 место,"Было бы наверное лучше, если бы Мао стоял сбоку или крылья были по разные стороны, но а там, работа приятная","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:35 МСК"
+186,@Bonja007,Леон,Работа #186,https://t.me/StableWaifuComments/17844901,img/works/work_186.jpg,3,5,3,3,50,True,3 место,"Вхххыхых, ну и ну, явно ради кого-то готов оголиться хоть на улице","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 14:27 МСК"
+187,@kazeivaa,Кассиан,Работа #187,https://t.me/StableWaifuComments/17844771,img/works/work_187.jpg,4,5,4,2,100,True,2 место,весьма нежная и красивая работа. Эта бабочка прям мяковка,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 13:09 МСК"
+188,@kazeivaa,Кассиан,Работа #188,https://t.me/StableWaifuComments/17844673,img/works/work_188.jpg,2,5,2,0,0,False,,"тоже красиво, но блин, пузико только для любимой!","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 12:02 МСК"
+189,@kazeivaa,Кассиан,Работа #189,https://t.me/StableWaifuComments/17844609,img/works/work_189.jpg,3,5,3,3,50,True,3 место,Тут тоже довольно красиво.,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 13:27 МСК"
+190,@Bonja007,Кассиан,Работа #190,https://t.me/StableWaifuComments/17844554,img/works/work_190.jpg,5,5,5,1,300,True,1 место,"О мой бог,я и не ожидала, что Кас вот насколько горячий парень","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 13:47 МСК"
+191,@desu_chaan,Дандан Цзянь,Работа #191,https://t.me/StableWaifuComments/17843950,img/works/work_191.jpg,4,5,4,2,100,True,2 место,"весьма красива, нежная работа с цветочным полем. Очень нежно вышло","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 12:35 МСК"
+192,@desu_chaan,Ан,Работа #192,https://t.me/StableWaifuComments/17843920,img/works/work_192.jpg,2,5,2,0,0,False,,"Просто, но прикольно","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 19:12 МСК"
+193,@desu_chaan,Лагострёмия,Работа #193,https://t.me/StableWaifuComments/17843900,img/works/work_193.jpg,5,5,5,1,300,True,1 место,"Как я и говорила, я очень люблю работы с пшеничным полем. очень красиво и романтично","👍 Арт принадлежит отправителю.
+Время генерации: 29.05.2026, 10:07 МСК"
+194,@desu_chaan,Церера,Работа #194,https://t.me/StableWaifuComments/17843881,img/works/work_194.jpg,5,5,5,1,300,True,1 место,"Изобилие тоже любит почитать, где нибудь там, проездом","👍 Арт принадлежит отправителю.
+Время генерации: 28.05.2026, 13:41 МСК"
+195,@desu_chaan,Астерия,Работа #195,https://t.me/StableWaifuComments/17843822,img/works/work_195.jpg,2,5,2,0,0,False,,"Простая, но динамичная работа","👍 Арт принадлежит отправителю.
+Время генерации: 27.05.2026, 11:04 МСК"
+196,@Erika_Demons_moon,Астерия,Работа #196,https://t.me/StableWaifuComments/17842646,img/works/work_196.jpg,3,5,3,3,50,True,3 место,"оо, выглядит весьма красиво. Мне нравится, как все смотрится","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 00:21 МСК"
+197,Азизбек,"Церера, Ан",Работа #197,https://t.me/StableWaifuComments/17842641,img/works/work_197.jpg,5,5,5,1,300,True,1 место,"Выглядит красиво, прям очень хорошо, я довольна","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 10:30 МСК"
+198,@Erika_Demons_moon,Кассиан,Работа #198,https://t.me/StableWaifuComments/17842633,img/works/work_198.jpg,4,5,4,2,100,True,2 место,"Прекрасная работа с Касом, более нечего сказать","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 00:17 МСК"
+199,Азизбек,Церера,Работа #199,https://t.me/StableWaifuComments/17842010,img/works/work_199.jpg,4,5,4,2,100,True,2 место,"хм, а вкдт красиво выглядит, мне понравилось","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 08:38 МСК"
+200,Азизбек,Церера,Работа #200,https://t.me/StableWaifuComments/17841915,img/works/work_200.jpg,2,5,2,0,0,False,,"Н-да, вот тебе и социализация","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 08:24 МСК"
+201,Азизбек,Церера,Работа #201,https://t.me/StableWaifuComments/17841882,img/works/work_201.jpg,3,5,3,3,50,True,3 место,"Хм, ну прикольно выглядит. призывает демона, который не будет от нее пугаться","👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 08:17 МСК"
+202,Азизбек,Дандан Цзянь,Работа #202,https://t.me/StableWaifuComments/17841834,img/works/work_202.jpg,3,5,3,3,50,True,3 место,Купание в крови продлевает жизнь?,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 08:08 МСК"
+203,@sseltraeh,Мао Цзи,Работа #203,https://t.me/StableWaifuComments/17841108,img/works/work_203.jpg,5,5,5,1,300,True,1 место,уютная атмосфера на самом деле. Очень приятно смотреть на эту работу,"👍 Арт принадлежит отправителю.
+Время генерации: 31.05.2026, 02:08 МСК"

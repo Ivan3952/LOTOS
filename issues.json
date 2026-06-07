@@ -1,10 +1,8 @@
 [
   {
     "id": 189,
-    "type": "fixed_author",
-    "authorRaw": "https://t.me/StableWaifuComments/17844609",
-    "link": "https://t.me/StableWaifuComments/17844609",
-    "fixedUsername": "@kazeivaa",
-    "note": "Исправлено вручную по сообщению пользователя."
+    "type": "manual_author_fix",
+    "postLink": "https://t.me/StableWaifuComments/17844609",
+    "fixedUsername": "@kazeivaa"
   }
 ]

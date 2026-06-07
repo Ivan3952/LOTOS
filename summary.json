@@ -1,8 +1,7 @@
 {
-  "source_pdf": "Untitled spreadsheet - Лист1-1.pdf",
+  "source": "Untitled spreadsheet.xlsx",
   "total_works": 203,
-  "pdf_images": 203,
-  "used_images_source": "previous extracted image set, same 203-order",
+  "extracted_images": 203,
   "score_system": "5-point",
   "mapping": {
     "5": {
@@ -36,12 +35,5 @@
     "0": 43
   },
   "total_tokens": 22550,
-  "issues_count": 1,
-  "manual_fixes": [
-    {
-      "postLink": "https://t.me/StableWaifuComments/17844609",
-      "username": "@kazeivaa",
-      "field": "username"
-    }
-  ]
+  "issues_count": 1
 }

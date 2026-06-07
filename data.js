@@ -20,7 +20,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Приятная работа, стилистика, да и сама атмосфера. Она ощущается такой куколкой. Очень мило",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 00:54 МСК"
   },
   {
     id: 2,
@@ -36,7 +37,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Явно после длительного полёта. Вон, как зыркает",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 01:55 МСК"
   },
   {
     id: 3,
@@ -52,7 +54,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Выпить после тяжёлого дня, очень приятно. Но не хватает наглой улыбки как по мне",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 02:14 МСК"
   },
   {
     id: 4,
@@ -68,7 +71,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Подружки решили впэмечте посидеть и пообщаться. Эриду тут даже ничего не чудит.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 02:01 МСК"
   },
   {
     id: 5,
@@ -84,7 +88,8 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Очень красивая работа, я в неё влюбилась почти сразу. Так нежно и красиво вышло, эта вода, танцующая поза, ночь. Все прям шикарно!",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 06:40 МСК"
   },
   {
     id: 6,
@@ -100,7 +105,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Я ждала, что кто-то сделает такую двойтвенность природы Эриду, но не думала, что это будет так быстро. Вышло красиво, сочно.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 07:48 МСК"
   },
   {
     id: 7,
@@ -116,7 +122,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Уютная работа. Рысёнок выдимо слишком ушёл в себя, что начал кусать свой хвост",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 08:15 МСК"
   },
   {
     id: 8,
@@ -132,7 +139,8 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "и снова шикарная работа. Сама малышка за своей работой, но слегка отвлеклась на звездочку",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 10:37 МСК"
   },
   {
     id: 9,
@@ -148,7 +156,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Очень много красного, но ей подходит такое. Еще и шприц в руках держит",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 11:15 МСК"
   },
   {
     id: 10,
@@ -164,7 +173,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Наглая Лаг на машине. Еще и смотрит, как на говно. Прикольно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 11:24 МСК"
   },
   {
     id: 11,
@@ -180,7 +190,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Тут не шибко понравилась меша, но сама работа вышла вайбовой и атмосферной.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 12:17 МСК"
   },
   {
     id: 12,
@@ -196,7 +207,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Я не очень люблю пирсинг на сосках, но сама работа выглядит хорошо и сочно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 12:55 МСК"
   },
   {
     id: 13,
@@ -212,7 +224,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "грустный Арт. И правда печально, что ты по сути потерял дом, хоть ты и никогда в нем не жил, и вся твоя жизнь ограничена летающий городом, над чужим миром.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 16:47 МСК"
   },
   {
     id: 14,
@@ -228,7 +241,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Потеря дома, и самого себя, оставляет на каждом, свой непоправимый след",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 16:54 МСК"
   },
   {
     id: 15,
@@ -244,7 +258,8 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Мне очень понравилась сама меша.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:05 МСК"
   },
   {
     id: 16,
@@ -260,7 +275,8 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Очень страшно, когда на тебе лежит страшная ответственность. Ты не просто следишь за состоянием города-космолёта, ты поддерживаешь его жизнь, и если что-то пойдёт не так, за это надо отвечать. Это выматывает",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:11 МСК"
   },
   {
     id: 17,
@@ -276,7 +292,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, прикольно, магичка-рыба",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:07 МСК"
   },
   {
     id: 18,
@@ -292,7 +309,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Эдакое городское, прикольно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:18 МСК"
   },
   {
     id: 19,
@@ -308,7 +326,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Оба весьма сильные Богини, меняются формами, и оба получать от Ан",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:23 МСК"
   },
   {
     id: 20,
@@ -324,7 +343,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Бородка у парня испортило композицию, но а так, прикольно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:29 МСК"
   },
   {
     id: 21,
@@ -340,7 +360,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Надо было написать, что порно должнл было быть красивым. Я немного офигела. увидев это",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:41 МСК"
   },
   {
     id: 22,
@@ -356,7 +377,8 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Иногда нажо выстрелить, что бы спасти других. Для врача, это очень тяжелое решение, но важное",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:43 МСК"
   },
   {
     id: 23,
@@ -372,7 +394,8 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Какой такой, христианский вайб вышел, но работа простая",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 17:57 МСК"
   },
   {
     id: 24,
@@ -388,12 +411,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "И опять выстрел врача, но уже от главного. Она уже на примере других, знает, насколько важно быть решительной",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 18:13 МСК"
   },
   {
     id: 25,
     username: "@venera_chan",
-    characters: "@forLansely 3 Приятная работа, стилистика, да и сама атмосфера. Она ощущается такой куколкой. Очень мило",
+    characters: "Церера",
     title: "Работа #25",
     image: "img/works/work_025.jpg",
     postLink: "https://t.me/StableWaifuComments/17776529",
@@ -404,12 +428,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "От этой работы аж дух захватило, насколько это нежно и сочно. Я в любви",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 20:02 МСК"
   },
   {
     id: 26,
     username: "Азизбек",
-    characters: "@Seraphimss 3 Явно после длительного полёта. Вон, как зыркает",
+    characters: "Лагострёмия",
     title: "Работа #26",
     image: "img/works/work_026.jpg",
     postLink: "https://t.me/StableWaifuComments/17777049",
@@ -420,12 +445,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Сложно как то откоментировать, работу, но выглядит красиво",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 20:24 МСК"
   },
   {
     id: 27,
     username: "@macsheacaich",
-    characters: "@Seraphimss 4 Выпить после тяжёлого дня, очень приятно. Но не хватает наглой улыбки как по мне",
+    characters: "Лагострёмия",
     title: "Работа #27",
     image: "img/works/work_027.jpg",
     postLink: "https://t.me/StableWaifuComments/17778508",
@@ -436,12 +462,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Иногда хочется взять, и все бросить, но нет, если все бросить, все полетит в тартарары, и это надо исправлять, по пути ругая весь мир",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 22:23 МСК"
   },
   {
     id: 28,
     username: "@macsheacaich",
-    characters: "@Seraphimss 4 Подружки решили впэмечте посидеть и пообщаться. Эриду тут даже ничего не чудит.",
+    characters: "Рэй",
     title: "Работа #28",
     image: "img/works/work_028.jpg",
     postLink: "https://t.me/StableWaifuComments/17790155",
@@ -452,12 +479,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Меша, мне увы, не понравилась, но сама композиция, мое почтение",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 21:00 МСК"
   },
   {
     id: 29,
     username: "@desu_chaan",
-    characters: "@ChrezDev 5 Очень красивая работа, я в неё влюбилась почти сразу. Так нежно и красиво вышло, эта вода, танцующая поза, ночь. Все прям шикарно!",
+    characters: "Талласа",
     title: "Работа #29",
     image: "img/works/work_029.jpg",
     postLink: "https://t.me/StableWaifuComments/17787254",
@@ -468,12 +496,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "В какой-то мере, это нежная и грустная работа. Она отлично передала суть персонажа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 11:06 МСК"
   },
   {
     id: 30,
     username: "@crystalloli",
-    characters: "@crystalloli 4 Я ждала, что кто-то сделает такую двойтвенность природы Эриду, но не думала, что это будет так быстро. Вышло красиво, сочно.",
+    characters: "Висси",
     title: "Работа #30",
     image: "img/works/work_030.jpg",
     postLink: "https://t.me/StableWaifuComments/17784943",
@@ -484,12 +513,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Очень яркая работа, прям шикарно для такого жизнерадостного андроида.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 13:24 МСК"
   },
   {
     id: 31,
     username: "@Pixe1m4n",
-    characters: "@crystalloli 4 Уютная работа. Рысёнок выдимо слишком ушёл в себя, что начал кусать свой хвост",
+    characters: "Астерия",
     title: "Работа #31",
     image: "img/works/work_031.jpg",
     postLink: "https://t.me/StableWaifuComments/17784652",
@@ -500,12 +530,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Не знаю кто, но я готова",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 12:56 МСК"
   },
   {
     id: 32,
     username: "Азизбек",
-    characters: "@venera_chan 5 и снова шикарная работа. Сама малышка за своей работой, но слегка отвлеклась на звездочку",
+    characters: "Эриду",
     title: "Работа #32",
     image: "img/works/work_032.jpg",
     postLink: "https://t.me/StableWaifuComments/17784459",
@@ -516,12 +547,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Довольно прикольная фреска",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 12:38 МСК"
   },
   {
     id: 33,
     username: "@Podpolniy_Krisich",
-    characters: "@the_elv 4 Очень много красного, но ей подходит такое. Еще и шприц в руках держит",
+    characters: "Таласса",
     title: "Работа #33",
     image: "img/works/work_033.jpg",
     postLink: "https://t.me/StableWaifuComments/17784003",
@@ -532,12 +564,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Довольно нежный и милый секс, мне вкатило",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 10:23 МСК"
   },
   {
     id: 34,
     username: "@macsheacaich",
-    characters: "@venera_chan 4 Наглая Лаг на машине. Еще и смотрит, как на говно. Прикольно",
+    characters: "Эриду",
     title: "Работа #34",
     image: "img/works/work_034.jpg",
     postLink: "https://t.me/StableWaifuComments/17784415",
@@ -548,12 +581,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Прикольно, но не вкатило. Но Прикольно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 12:32 МСК"
   },
   {
     id: 35,
     username: "Азизбек",
-    characters: "@venera_chan 2 Тут не шибко понравилась меша, но сама работа вышла вайбовой и атмосферной.",
+    characters: "Иона Карлосс",
     title: "Работа #35",
     image: "img/works/work_035.jpg",
     postLink: "https://t.me/StableWaifuComments/17784352",
@@ -564,12 +598,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Хм, ну нормально в принципе",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 09:38 МСК"
   },
   {
     id: 36,
     username: "@ShriMpik1",
-    characters: "@venera_chan 3 Я не очень люблю пирсинг на сосках, но сама работа выглядит хорошо и сочно",
+    characters: "Иона Карлосс",
     title: "Работа #36",
     image: "img/works/work_036.jpg",
     postLink: "https://t.me/StableWaifuComments/17784023",
@@ -580,12 +615,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Меша и правда хорошая, но хвост рука прям перекосоебило",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 11:41 МСК"
   },
   {
     id: 37,
     username: "@Podpolniy_Krisich",
-    characters: "Азизбек 3 грустный Арт. И правда печально, что ты по сути потерял дом, хоть ты и никогда в нем не жил, и вся твоя жизнь ограничена летающий",
+    characters: "Таласса",
     title: "Работа #37",
     image: "img/works/work_037.jpg",
     postLink: "https://t.me/StableWaifuComments/17783749",
@@ -596,12 +632,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Хыххы, думаю, рыбка не будет против, что над ней так буду доминировать. Весы, весьма специфические.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 11:09 МСК"
   },
   {
     id: 38,
     username: "@macsheacaich",
-    characters: "Азизбек 2 Потеря дома, и самого себя, оставляет на каждом, свой непоправимый след",
+    characters: "Церера",
     title: "Работа #38",
     image: "img/works/work_038.jpg",
     postLink: "https://t.me/StableWaifuComments/17783772",
@@ -612,12 +649,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Страшно терять свой дом, где ты жил с самого его основания, потерять большую часть жителей, которых ты попросту не успел спасти. Но надо жить дальше с этой болью. Просто ради других, тех, кто остался",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 11:09 МСК"
   },
   {
     id: 39,
     username: "@venera_chan",
-    characters: "Азизбек 4 Мне очень понравилась сама меша.",
+    characters: "Церера",
     title: "Работа #39",
     image: "img/works/work_039.jpg",
     postLink: "https://t.me/StableWaifuComments/17783690",
@@ -628,12 +666,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Тут все прикольное, и поза, и композиция, и фон, все прям хорошо легло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 11:09 МСК"
   },
   {
     id: 40,
     username: "Азизбек",
-    characters: "Азизбек 5 Очень страшно, когда на тебе лежит страшная ответственность. Ты не просто следишь за состоянием города-космолёта, ты поддерживаешь его",
+    characters: "Эриду",
     title: "Работа #40",
     image: "img/works/work_040.jpg",
     postLink: "https://t.me/StableWaifuComments/17783170",
@@ -644,12 +683,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Безумие и правда страшная вещь",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 10:24 МСК"
   },
   {
     id: 41,
     username: "Азизбек",
-    characters: "Азизбек 2 Ну, прикольно, магичка-рыба",
+    characters: "Эриду",
     title: "Работа #41",
     image: "img/works/work_041.jpg",
     postLink: "https://t.me/StableWaifuComments/17783039",
@@ -660,12 +700,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Зная Эриду, она бы не смутилась, а что нибудь выдала такое, от чего хоть стой, хоть падай",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 09:52 МСК"
   },
   {
     id: 42,
     username: "@macsheacaich",
-    characters: "Азизбек 2 Эдакое городское, прикольно",
+    characters: "Кассиан",
     title: "Работа #42",
     image: "img/works/work_042.jpg",
     postLink: "https://t.me/StableWaifuComments/17783038",
@@ -676,12 +717,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Восстановление природы из прошлого, хоть и в виде модели, и правда весьма тяжёлая, но завораживающая задача.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 10:14 МСК"
   },
   {
     id: 43,
     username: "Азизбек",
-    characters: "Азизбек 3 Оба весьма сильные Богини, меняются формами, и оба получать от Ан",
+    characters: "Астерия",
     title: "Работа #43",
     image: "img/works/work_043.jpg",
     postLink: "https://t.me/StableWaifuComments/17782842",
@@ -692,12 +734,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "хлоп по попе",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 09:45 МСК"
   },
   {
     id: 44,
     username: "Азизбек",
-    characters: "Азизбек 2 Бородка у парня испортило композицию, но а так, прикольно",
+    characters: "Астерия",
     title: "Работа #44",
     image: "img/works/work_044.jpg",
     postLink: "https://t.me/StableWaifuComments/17782827",
@@ -708,12 +751,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Хлоп по попеХ2",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 09:43 МСК"
   },
   {
     id: 45,
     username: "Азизбек",
-    characters: "Азизбек 2 Надо было написать, что порно должнл было быть красивым. Я немного офигела. увидев это",
+    characters: "Эриду",
     title: "Работа #45",
     image: "img/works/work_045.jpg",
     postLink: "https://t.me/StableWaifuComments/17782576",
@@ -724,12 +768,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Мне не шибко понравилась ни меша, ни композиция. Да и увеличивать грудь персонажа было лишним",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 08:55 МСК"
   },
   {
     id: 46,
     username: "@crystalloli",
-    characters: "@DBcrimson 3 Иногда нажо выстрелить, что бы спасти других. Для врача, это очень тяжелое решение, но важное",
+    characters: "Мао",
     title: "Работа #46",
     image: "img/works/work_046.jpg",
     postLink: "https://t.me/StableWaifuComments/17782549",
@@ -740,12 +785,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "К рабочему дню, он явно готов.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 09:16 МСК"
   },
   {
     id: 47,
     username: "Азизбек",
-    characters: "Азизбек 2 Какой такой, христианский вайб вышел, но работа простая",
+    characters: "Церера",
     title: "Работа #47",
     image: "img/works/work_047.jpg",
     postLink: "https://t.me/StableWaifuComments/17782230",
@@ -756,12 +802,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "В эту работу, я тоже сразу влюбилась. Мне она очень понравилась, и то, как Изобилие привлекает к себе взор",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 08:50 МСК"
   },
   {
     id: 48,
     username: "Азизбек",
-    characters: "@DBcrimson 3 И опять выстрел врача, но уже от главного. Она уже на примере других, знает, насколько важно быть решительной",
+    characters: "Ан",
     title: "Работа #48",
     image: "img/works/work_048.jpg",
     postLink: "https://t.me/StableWaifuComments/17782180",
@@ -772,12 +819,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, такая одежда немного не про нее, хотя и выглядит прикольно. Вообще, она этакая момми",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 08:47 МСК"
   },
   {
     id: 49,
     username: "Азизбек",
-    characters: "5 От этой работы аж дух захватило, насколько это нежно и сочно. Я в любви",
+    characters: "Лагострёмия",
     title: "Работа #49",
     image: "img/works/work_049.jpg",
     postLink: "https://t.me/StableWaifuComments/17782133",
@@ -788,12 +836,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Интересно даже, кто тот счастливчик, который смог вытерпеть характер Лаг?",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 08:36 МСК"
   },
   {
     id: 50,
     username: "Азизбек",
-    characters: "3 Сложно как то откоментировать, работу, но выглядит красиво",
+    characters: "Таласса",
     title: "Работа #50",
     image: "img/works/work_050.jpg",
     postLink: "https://t.me/StableWaifuComments/17781702",
@@ -804,12 +853,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Приятно просто войти в воду и поплавать в ней и расслабиться",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:58 МСК"
   },
   {
     id: 51,
     username: "Азизбек",
-    characters: "3 Иногда хочется взять, и все бросить, но нет, если все бросить, все полетит в тартарары, и это надо исправлять, по пути ругая весь мир",
+    characters: "Таласса",
     title: "Работа #51",
     image: "img/works/work_051.jpg",
     postLink: "https://t.me/StableWaifuComments/17781506",
@@ -820,12 +870,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Изучение подводного мира всегда закатывает дух",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:57 МСК"
   },
   {
     id: 52,
     username: "@macsheacaich",
-    characters: "3 Меша, мне увы, не понравилась, но сама композиция, мое почтение",
+    characters: "Леон",
     title: "Работа #52",
     image: "img/works/work_052.jpg",
     postLink: "https://t.me/StableWaifuComments/17781489",
@@ -836,12 +887,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Изучение неба, всегда захватывает дух людей, что в прошлом, что в нынешнем, что в будущем",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:56 МСК"
   },
   {
     id: 53,
     username: "Азизбек",
-    characters: "4 В какой-то мере, это нежная и грустная работа. Она отлично передала суть персонажа",
+    characters: "Эриду",
     title: "Работа #53",
     image: "img/works/work_053.jpg",
     postLink: "https://t.me/StableWaifuComments/17781325",
@@ -852,12 +904,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Эриду очень любит пугать других",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:27 МСК"
   },
   {
     id: 54,
     username: "Азизбек",
-    characters: "5 Очень яркая работа, прям шикарно для такого жизнерадостного андроида.",
+    characters: "Дандан Цзянь",
     title: "Работа #54",
     image: "img/works/work_054.jpg",
     postLink: "https://t.me/StableWaifuComments/17781225",
@@ -868,12 +921,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, не думаю, что этот медик так следит за телом, хах. Вернее не качает его",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:25 МСК"
   },
   {
     id: 55,
     username: "Азизбек",
-    characters: "3 Не знаю кто, но я готова",
+    characters: "Эриду",
     title: "Работа #55",
     image: "img/works/work_055.jpg",
     postLink: "https://t.me/StableWaifuComments/17781189",
@@ -884,12 +938,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Ща кто-то лишится пальца",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:18 МСК"
   },
   {
     id: 56,
     username: "Азизбек",
-    characters: "3 Довольно прикольная фреска",
+    characters: "Эриду",
     title: "Работа #56",
     image: "img/works/work_056.jpg",
     postLink: "https://t.me/StableWaifuComments/17781129",
@@ -900,12 +955,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "слюнки тут уже лишние. Мне не особо зашло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:07 МСК"
   },
   {
     id: 57,
     username: "Азизбек",
-    characters: "4 Довольно нежный и милый секс, мне вкатило",
+    characters: "Ан, Церера",
     title: "Работа #57",
     image: "img/works/work_057.jpg",
     postLink: "https://t.me/StableWaifuComments/17781086",
@@ -916,12 +972,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, прикольно, но не вкатило, да, опять.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 06:03 МСК"
   },
   {
     id: 58,
     username: "Азизбек",
-    characters: "2 Прикольно, но не вкатило. Но Прикольно",
+    characters: "Ан",
     title: "Работа #58",
     image: "img/works/work_058.jpg",
     postLink: "https://t.me/StableWaifuComments/17781065",
@@ -932,12 +989,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, тоже такое себе. Ан не шибко идёт атмосфера христианства и вампиризма",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 05:59 МСК"
   },
   {
     id: 59,
     username: "Азизбек",
-    characters: "2 Хм, ну нормально в принципе",
+    characters: "Сириус",
     title: "Работа #59",
     image: "img/works/work_059.jpg",
     postLink: "https://t.me/StableWaifuComments/17781055",
@@ -948,12 +1006,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Надо внимательно следить не только за небом, но и домом",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 05:50 МСК"
   },
   {
     id: 60,
     username: "Азизбек",
-    characters: "3 Меша и правда хорошая, но хвост рука прям перекосоебило",
+    characters: "Висси",
     title: "Работа #60",
     image: "img/works/work_060.jpg",
     postLink: "https://t.me/StableWaifuComments/17781035",
@@ -964,12 +1023,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Хм, не думаю, что роботу в принципе надо есть человеческую пищу",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 05:41 МСК"
   },
   {
     id: 61,
     username: "Азизбек",
-    characters: "4 Хыххы, думаю, рыбка не будет против, что над ней так буду доминировать. Весы, весьма специфические.",
+    characters: "Талласа",
     title: "Работа #61",
     image: "img/works/work_061.jpg",
     postLink: "https://t.me/StableWaifuComments/17781033",
@@ -980,12 +1040,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Приятно потратить время на плавание",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 05:25 МСК"
   },
   {
     id: 62,
     username: "Азизбек",
-    characters: "5 Страшно терять свой дом, где ты жил с самого его основания, потерять большую часть жителей, которых ты попросту не успел спасти. Но надо жить дальше с этой болью. Просто ради других, тех, кто остался",
+    characters: "Эриду, Ан",
     title: "Работа #62",
     image: "img/works/work_062.jpg",
     postLink: "https://t.me/StableWaifuComments/17781022",
@@ -996,12 +1057,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ан так то выше, хоть и довольно тощая. Да и косы она не любит. В принципе, прикольно, не зашло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 05:24 МСК"
   },
   {
     id: 63,
     username: "Азизбек",
-    characters: "4 Тут все прикольное, и поза, и композиция, и фон, все прям хорошо легло",
+    characters: "Ан",
     title: "Работа #63",
     image: "img/works/work_063.jpg",
     postLink: "https://t.me/StableWaifuComments/17781019",
@@ -1012,12 +1074,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Немного ткань все таки лишняя, или надо было сделать по другому",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 04:48 МСК"
   },
   {
     id: 64,
     username: "@yukidaruma8",
-    characters: "2 Безумие и правда страшная вещь",
+    characters: "Эриду",
     title: "Работа #64",
     image: "img/works/work_064.jpg",
     postLink: "https://t.me/StableWaifuComments/17791211",
@@ -1028,12 +1091,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Эриду мужчина, явно интересуется состояние \"зрителя\"",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 22:21 МСК"
   },
   {
     id: 65,
     username: "@forLansely",
-    characters: "2 Зная Эриду, она бы не смутилась, а что нибудь выдала такое, от чего хоть стой, хоть падай",
+    characters: "Астерия",
     title: "Работа #65",
     image: "img/works/work_065.jpg",
     postLink: "https://t.me/StableWaifuComments/17792146",
@@ -1044,12 +1108,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "вах-вах, Шикарная атмосфера вышла, да и само ханьфу красивое",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 26.05.2026, 22:43 МСК"
   },
   {
     id: 66,
     username: "@Bonja007",
-    characters: "5 Восстановление природы из прошлого, хоть и в виде модели, и правда весьма тяжёлая, но завораживающая задача.",
+    characters: "Лагострёмия",
     title: "Работа #66",
     image: "img/works/work_066.jpg",
     postLink: "https://t.me/StableWaifuComments/17804170",
@@ -1060,12 +1125,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Когда ты случайно уронил важные бумаги и ты просто лёг, что бы не вспасть в истерику и просто полежать, дабы потом это всё убрать",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 21:04 МСК"
   },
   {
     id: 67,
     username: "@Bonja007",
-    characters: "3 хлоп по попе",
+    characters: "Висси",
     title: "Работа #67",
     image: "img/works/work_067.jpg",
     postLink: "https://t.me/StableWaifuComments/17804087?single",
@@ -1076,12 +1142,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "ой-ой, как тут все красиво и детализировано, мне понравилось",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 04:22 МСК"
   },
   {
     id: 68,
     username: "@Bonja007",
-    characters: "3 Хлоп по попеХ2",
+    characters: "Рэй",
     title: "Работа #68",
     image: "img/works/work_068.jpg",
     postLink: "https://t.me/StableWaifuComments/17804087?single",
@@ -1092,12 +1159,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Северное сияние за окном, весьма красивое, да и сам партнёр уютный",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 25.05.2026, 04:22 МСК"
   },
   {
     id: 69,
     username: "@venera_chan",
-    characters: "2 Мне не шибко понравилась ни меша, ни композиция. Да и увеличивать грудь персонажа было лишним",
+    characters: "Талласа (+ОС)",
     title: "Работа #69",
     image: "img/works/work_069.jpg",
     postLink: "https://t.me/StableWaifuComments/17803509",
@@ -1108,12 +1176,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "хах, на самом деле прикольное и нежное",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 20:12 МСК"
   },
   {
     id: 70,
     username: "@Erika_Demons_moon",
-    characters: "3 К рабочему дню, он явно готов.",
+    characters: "Ан",
     title: "Работа #70",
     image: "img/works/work_070.jpg",
     postLink: "https://t.me/StableWaifuComments/17799291",
@@ -1124,12 +1193,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Очень красивая композиция. мне нравится. Явно на хороший лад настроен разговор",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 10:09 МСК"
   },
   {
     id: 71,
     username: "@ShriMpik1",
-    characters: "5 В эту работу, я тоже сразу влюбилась. Мне она очень понравилась, и то, как Изобилие привлекает к себе взор",
+    characters: "Висси",
     title: "Работа #71",
     image: "img/works/work_071.jpg",
     postLink: "https://t.me/StableWaifuComments/17794516",
@@ -1140,12 +1210,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Не хватает как по мне позы и динамики.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 08:28 МСК"
   },
   {
     id: 72,
     username: "@ShriMpik1",
-    characters: "2 Ну, такая одежда немного не про нее, хотя и выглядит прикольно. Вообще, она этакая момми",
+    characters: "Висси",
     title: "Работа #72",
     image: "img/works/work_072.jpg",
     postLink: "https://t.me/StableWaifuComments/17794504",
@@ -1156,12 +1227,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Механическая, немного хоррорная атмосфера, розовое опят таки, динамика",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 08:26 МСК"
   },
   {
     id: 73,
     username: "@ShriMpik1",
-    characters: "3 Интересно даже, кто тот счастливчик, который смог вытерпеть характер Лаг?",
+    characters: "Таласса",
     title: "Работа #73",
     image: "img/works/work_073.jpg",
     postLink: "https://t.me/StableWaifuComments/17794120",
@@ -1172,12 +1244,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "довольно мило вышло, рыбка с котиками. Она даже слегка удивлена, что к ней подходят",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 08:09 МСК"
   },
   {
     id: 74,
     username: "@ianmaysky",
-    characters: "5 Приятно просто войти в воду и поплавать в ней и расслабиться",
+    characters: "Иона Карлосс",
     title: "Работа #74",
     image: "img/works/work_074.jpg",
     postLink: "https://t.me/StableWaifuComments/17793682",
@@ -1188,12 +1261,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "И правда, у каждого врача своя могила, но очень важно, учится на этих ошибках или понимать, что всех, спасти невозможно, как бы тебе этого не хотелось.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 07:02 МСК"
   },
   {
     id: 75,
     username: "@forLansely",
-    characters: "2 Изучение подводного мира всегда закатывает дух",
+    characters: "Астерия",
     title: "Работа #75",
     image: "img/works/work_075.jpg",
     postLink: "https://t.me/StableWaifuComments/17815223",
@@ -1204,12 +1278,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Кого-то щась заобнимают",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 21:03 МСК"
   },
   {
     id: 76,
     username: "@ShriMpik1",
-    characters: "5 Изучение неба, всегда захватывает дух людей, что в прошлом, что в нынешнем, что в будущем",
+    characters: "Астерия",
     title: "Работа #76",
     image: "img/works/work_076.jpg",
     postLink: "https://t.me/StableWaifuComments/17808703",
@@ -1220,12 +1295,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Прикольное, лотос в руке хорош",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 11:46 МСК"
   },
   {
     id: 77,
     username: "@Erika_Demons_moon",
-    characters: "2 Эриду очень любит пугать других",
+    characters: "Лагострёмия",
     title: "Работа #77",
     image: "img/works/work_077.jpg",
     postLink: "https://t.me/StableWaifuComments/17807362",
@@ -1236,12 +1312,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Просто отдых, а ты вошёл туда, куда не надо. у тебя пять секунд уйти, иначе тебя забросают этими подушками",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 21:13 МСК"
   },
   {
     id: 78,
     username: "@forLansely",
-    characters: "2 Ну, не думаю, что этот медик так следит за телом, хах. Вернее не качает его",
+    characters: "Астерия",
     title: "Работа #78",
     image: "img/works/work_078.jpg",
     postLink: "https://t.me/StableWaifuComments/17816404",
@@ -1252,12 +1329,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Хорошая, нежная работа. Как она приглашает \"зрителя\" прям сок",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 22:28 МСК"
   },
   {
     id: 79,
     username: "@forLansely",
-    characters: "3 Ща кто-то лишится пальца",
+    characters: "Церера",
     title: "Работа #79",
     image: "img/works/work_079.jpg",
     postLink: "https://t.me/StableWaifuComments/17817291",
@@ -1268,12 +1346,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "ой, А ей кимоно прям хорошо подошло. Аж по другому стала восприниматься",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 23:41 МСК"
   },
   {
     id: 80,
     username: "@sseltraeh",
-    characters: "2 слюнки тут уже лишние. Мне не особо зашло",
+    characters: "Таласса",
     title: "Работа #80",
     image: "img/works/work_080.jpg",
     postLink: "https://t.me/StableWaifuComments/17828408",
@@ -1284,12 +1363,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Нормально, красиво, сочно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 22:58 МСК"
   },
   {
     id: 81,
     username: "Азизбек",
-    characters: "2 Ну, прикольно, но не вкатило, да, опять.",
+    characters: "Эриду",
     title: "Работа #81",
     image: "img/works/work_081.jpg",
     postLink: "https://t.me/StableWaifuComments/17827872",
@@ -1300,12 +1380,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "За такую ебейшую отсылку, прям высокое место. да и сама композиция мне нравится",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 22:26 МСК"
   },
   {
     id: 82,
     username: "@sseltraeh",
-    characters: "2 Ну, тоже такое себе. Ан не шибко идёт атмосфера христианства и вампиризма",
+    characters: "Ан",
     title: "Работа #82",
     image: "img/works/work_082.jpg",
     postLink: "https://t.me/StableWaifuComments/17827679",
@@ -1316,12 +1397,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Меша не понравилась, но сама композиция, мое почтение",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 21:42 МСК"
   },
   {
     id: 83,
     username: "@the_elv",
-    characters: "3 Надо внимательно следить не только за небом, но и домом",
+    characters: "Иона Карлосс",
     title: "Работа #83",
     image: "img/works/work_083.jpg",
     postLink: "https://t.me/StableWaifuComments/17827035",
@@ -1332,12 +1414,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "О, красиво вышло, композиция мне очень понравилась",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 21:27 МСК"
   },
   {
     id: 84,
     username: "Азизбек",
-    characters: "2 Хм, не думаю, что роботу в принципе надо есть человеческую пищу",
+    characters: "Эриду",
     title: "Работа #84",
     image: "img/works/work_084.jpg",
     postLink: "https://t.me/StableWaifuComments/17826671",
@@ -1348,12 +1431,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Играть с Эриду на ставки, ты обрекаешь себя",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 20:43 МСК"
   },
   {
     id: 85,
     username: "@the_elv",
-    characters: "3 Приятно потратить время на плавание",
+    characters: "Астерия",
     title: "Работа #85",
     image: "img/works/work_085.jpg",
     postLink: "https://t.me/StableWaifuComments/17826605",
@@ -1364,12 +1448,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Уф, явно решила немного отлынуть от работы. Даже грудь оголила, дабы её немного помацать",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 20:46 МСК"
   },
   {
     id: 86,
     username: "@the_elv",
-    characters: "2 Ан так то выше, хоть и довольно тощая. Да и косы она не любит. В принципе, прикольно, не зашло",
+    characters: "Лагострёмия",
     title: "Работа #86",
     image: "img/works/work_086.jpg",
     postLink: "https://t.me/StableWaifuComments/17826453",
@@ -1380,12 +1465,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Красивое, розовое, хотя видимо, зашли не вовремя, судя по отупелому взгляду Лаг",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 20:30 МСК"
   },
   {
     id: 87,
     username: "@the_elv",
-    characters: "2 Немного ткань все таки лишняя, или надо было сделать по другому",
+    characters: "Ан",
     title: "Работа #87",
     image: "img/works/work_087.jpg",
     postLink: "https://t.me/StableWaifuComments/17826273",
@@ -1396,12 +1482,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Сука, я в любви эти фонарики, дерево, сама красная атмосфера для Ан лёгкая ну просто идеально. все очень красиво и сочно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 20:18 МСК"
   },
   {
     id: 88,
     username: "@the_elv",
-    characters: "4 Эриду мужчина, явно интересуется состояние \"зрителя\"",
+    characters: "Рэй",
     title: "Работа #88",
     image: "img/works/work_088.jpg",
     postLink: "https://t.me/StableWaifuComments/17826123",
@@ -1412,12 +1499,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "даже роботам, интересно изучать звёздное небо. Оно и правда захватывает дух.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 20:04 МСК"
   },
   {
     id: 89,
     username: "@the_elv",
-    characters: "5 вах-вах, Шикарная атмосфера вышла, да и само ханьфу красивое",
+    characters: "Висси",
     title: "Работа #89",
     image: "img/works/work_089.jpg",
     postLink: "https://t.me/StableWaifuComments/17825788",
@@ -1428,12 +1516,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "снова зелёная атмосфера, но не менее Шикарная и эстетичная",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 19:39 МСК"
   },
   {
     id: 90,
     username: "@the_elv",
-    characters: "3 Когда ты случайно уронил важные бумаги и ты просто лёг, что бы не вспасть в истерику и просто полежать, дабы потом это всё убрать",
+    characters: "Таласса",
     title: "Работа #90",
     image: "img/works/work_090.jpg",
     postLink: "https://t.me/StableWaifuComments/17825537",
@@ -1444,12 +1533,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Изучение неизведанного, всегда интересовало рыбку, вне своей профессии",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 19:11 МСК"
   },
   {
     id: 91,
     username: "@sseltraeh",
-    characters: "4 ой-ой, как тут все красиво и детализировано, мне понравилось",
+    characters: "Лагострёмия",
     title: "Работа #91",
     image: "img/works/work_091.jpg",
     postLink: "https://t.me/StableWaifuComments/17825420",
@@ -1460,12 +1550,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Если мужики сидять так, будто им яйца давят, то почему девушки не могут так сидеть и проветрить свою киску?",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 18:55 МСК"
   },
   {
     id: 92,
     username: "@YormiFB",
-    characters: "4 Северное сияние за окном, весьма красивое, да и сам партнёр уютный",
+    characters: "Таласса",
     title: "Работа #92",
     image: "img/works/work_092.jpg",
     postLink: "https://t.me/StableWaifuComments/17825375",
@@ -1476,12 +1567,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "программирование и в правду похоже на очень сложную магию, но оно в своей сути невероятно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 18:51 МСК"
   },
   {
     id: 93,
     username: "@sseltraeh",
-    characters: "3 хах, на самом деле прикольное и нежное",
+    characters: "Мао Цзи",
     title: "Работа #93",
     image: "img/works/work_093.jpg",
     postLink: "https://t.me/StableWaifuComments/17825182",
@@ -1492,12 +1584,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Придётся этому гению думать, как выбраться их этих пут",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 18:27 МСК"
   },
   {
     id: 94,
     username: "@forLansely",
-    characters: "5 Очень красивая композиция. мне нравится. Явно на хороший лад настроен разговор",
+    characters: "Астерия",
     title: "Работа #94",
     image: "img/works/work_094.jpg",
     postLink: "https://t.me/StableWaifuComments/17824216",
@@ -1508,12 +1601,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Утро должно начинается с чашки кофе",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 16:57 МСК"
   },
   {
     id: 95,
     username: "@forLansely",
-    characters: "2 Не хватает как по мне позы и динамики.",
+    characters: "Астерия",
     title: "Работа #95",
     image: "img/works/work_095.jpg",
     postLink: "https://t.me/StableWaifuComments/17824197",
@@ -1524,12 +1618,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "прикольная пижама, да",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 16:53 МСК"
   },
   {
     id: 96,
     username: "@forLansely",
-    characters: "3 Механическая, немного хоррорная атмосфера, розовое опят таки, динамика",
+    characters: "Астерия",
     title: "Работа #96",
     image: "img/works/work_096.jpg",
     postLink: "https://t.me/StableWaifuComments/17823866",
@@ -1540,12 +1635,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "и снова красота, мне нравится",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 15:14 МСК"
   },
   {
     id: 97,
     username: "@sseltraeh",
-    characters: "https://t.me/StableWaifuComments/17794120 👍 Арт принадлежит отправителю.",
+    characters: "Рэй",
     title: "Работа #97",
     image: "img/works/work_097.jpg",
     postLink: "https://t.me/StableWaifuComments/17823677",
@@ -1556,12 +1652,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну вроде прикольное, но не вкатило. Не понятно, что этим сказано",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 15:57 МСК"
   },
   {
     id: 98,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17793682 👍 Арт принадлежит отправителю.",
+    characters: "Ан",
     title: "Работа #98",
     image: "img/works/work_098.jpg",
     postLink: "https://t.me/StableWaifuComments/17823155",
@@ -1572,12 +1669,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Ракурс тут шикарный, мне понравилось",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 10:14 МСК"
   },
   {
     id: 99,
     username: "@ianmaysky",
-    characters: "https://t.me/StableWaifuComments/17815223 👍 Арт принадлежит отправителю.",
+    characters: "Таласса",
     title: "Работа #99",
     image: "img/works/work_099.jpg",
     postLink: "https://t.me/StableWaifuComments/17822406",
@@ -1588,12 +1686,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Меша, честно, подкачала, но ля, сама композиция и постановка кадра хорошая",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 12:41 МСК"
   },
   {
     id: 100,
     username: "@alenxxz",
-    characters: "https://t.me/StableWaifuComments/17808703 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия",
     title: "Работа #100",
     image: "img/works/work_100.jpg",
     postLink: "https://t.me/StableWaifuComments/17822151",
@@ -1604,12 +1703,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Нежная и милая работа. Ассоциация с приятным сном даже",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 12:12 МСК"
   },
   {
     id: 101,
     username: "@alenxxz",
-    characters: "https://t.me/StableWaifuComments/17807362 👍 Арт принадлежит отправителю.",
+    characters: "Рэй",
     title: "Работа #101",
     image: "img/works/work_101.jpg",
     postLink: "https://t.me/StableWaifuComments/17821839",
@@ -1620,12 +1720,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Красивая работа, прям хочется рассматривать её",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 11:32 МСК"
   },
   {
     id: 102,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17816404 👍 Арт принадлежит отправителю.",
+    characters: "Висси",
     title: "Работа #102",
     image: "img/works/work_102.jpg",
     postLink: "https://t.me/StableWaifuComments/17821737",
@@ -1636,12 +1737,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Малышка робот на отдыхе. иногда важно побыть наедине со своими мыслями",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 11:35 МСК"
   },
   {
     id: 103,
     username: "@sseltraeh",
-    characters: "https://t.me/StableWaifuComments/17817291 👍 Арт принадлежит отправителю.",
+    characters: "Сириус",
     title: "Работа #103",
     image: "img/works/work_103.jpg",
     postLink: "https://t.me/StableWaifuComments/17820899",
@@ -1652,12 +1754,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Эта работа мне сразу понравилась. Первый Пилот тут вышел очень хорошо, мне нравится, как фокус на его лице, и то, что он о чем-то раздумывает после какого-то треша",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 10:29 МСК"
   },
   {
     id: 104,
     username: "@sseltraeh",
-    characters: "https://t.me/StableWaifuComments/17828408 👍 Арт принадлежит отправителю.",
+    characters: "Дандан Цзянь",
     title: "Работа #104",
     image: "img/works/work_104.jpg",
     postLink: "https://t.me/StableWaifuComments/17820838",
@@ -1668,12 +1771,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Солнечная, красивая работа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 10:18 МСК"
   },
   {
     id: 105,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17827872 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия",
     title: "Работа #105",
     image: "img/works/work_105.jpg",
     postLink: "https://t.me/StableWaifuComments/17820748",
@@ -1684,12 +1788,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "О, тут вышло прям хорошо. Я люблю работы с пшеничным полем, жля меня это олицетворение спокойствия и конца. Но ля, грудь немного эту картину испортило. Но все же, было жаль из-за такого сбрасывать работу со счетов.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 09:50 МСК"
   },
   {
     id: 106,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17827679 👍 Арт принадлежит отправителю.",
+    characters: "Ан, Церера",
     title: "Работа #106",
     image: "img/works/work_106.jpg",
     postLink: "https://t.me/StableWaifuComments/17820399",
@@ -1700,12 +1805,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "хаха, немного неожиданно, но я не люблю фембоев",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 09:09 МСК"
   },
   {
     id: 107,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17827035 👍 Арт принадлежит отправителю.",
+    characters: "Висси",
     title: "Работа #107",
     image: "img/works/work_107.jpg",
     postLink: "https://t.me/StableWaifuComments/17819281",
@@ -1716,12 +1822,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Моё почтение, тут все шикарно, и кадр, и композиция, и меша. Мне понравилось",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 08:14 МСК"
   },
   {
     id: 108,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17826671 👍 Арт принадлежит отправителю.",
+    characters: "Висси",
     title: "Работа #108",
     image: "img/works/work_108.jpg",
     postLink: "https://t.me/StableWaifuComments/17819263",
@@ -1732,12 +1839,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Красивая работа, но она мне не вкатила.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 08:11 МСК"
   },
   {
     id: 109,
     username: "@crystalloli",
-    characters: "https://t.me/StableWaifuComments/17826605 👍 Арт принадлежит отправителю.",
+    characters: "Висси",
     title: "Работа #109",
     image: "img/works/work_109.jpg",
     postLink: "https://t.me/StableWaifuComments/17819206",
@@ -1748,12 +1856,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Загрузка обновлений произошла успешно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 08:03 МСК"
   },
   {
     id: 110,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17826453 👍 Арт принадлежит отправителю.",
+    characters: "Рэй",
     title: "Работа #110",
     image: "img/works/work_110.jpg",
     postLink: "https://t.me/StableWaifuComments/17818964",
@@ -1764,12 +1873,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "красивая, сочная работа. Она действительно, вышла хорошей",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 19:07 МСК"
   },
   {
     id: 111,
     username: "@forLansely",
-    characters: "https://t.me/StableWaifuComments/17826273 👍 Арт принадлежит отправителю.",
+    characters: "Астерия",
     title: "Работа #111",
     image: "img/works/work_111.jpg",
     postLink: "https://t.me/StableWaifuComments/17828689",
@@ -1780,12 +1890,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Воу, эта малышка и правда очень хороша собой",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 23:27 МСК"
   },
   {
     id: 112,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17826123 👍 Арт принадлежит отправителю.",
+    characters: "Ан",
     title: "Работа #112",
     image: "img/works/work_112.jpg",
     postLink: "https://t.me/StableWaifuComments/17828630",
@@ -1796,12 +1907,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Увы, как бы не было тяжело, придётся носить эту ответственность на своих плечах. Быть Богом, это очень круто, но с такой силой, приходит и ответственность за жизни подданных.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 23:19 МСК"
   },
   {
     id: 113,
     username: "@Elloree",
-    characters: "https://t.me/StableWaifuComments/17825788 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #113",
     image: "img/works/work_113.jpg",
     postLink: "https://t.me/StableWaifuComments/17838542",
@@ -1812,12 +1924,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Ооо, ну тут прям хорошо. Да и строчки и песни тоже подошли к работе.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 18:59 МСК"
   },
   {
     id: 114,
     username: "@forLansely",
-    characters: "https://t.me/StableWaifuComments/17825537 👍 Арт принадлежит отправителю.",
+    characters: "Астерия",
     title: "Работа #114",
     image: "img/works/work_114.jpg",
     postLink: "https://t.me/StableWaifuComments/17836969",
@@ -1828,12 +1941,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Курение вредит вашему здоровью. Но мне понравилось, немного даже эстетично вышло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 19:38 МСК"
   },
   {
     id: 115,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17825420 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #115",
     image: "img/works/work_115.jpg",
     postLink: "https://t.me/StableWaifuComments/17836892",
@@ -1844,12 +1958,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "В принципе неплохо вышло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:55 МСК"
   },
   {
     id: 116,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17825375 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия",
     title: "Работа #116",
     image: "img/works/work_116.jpg",
     postLink: "https://t.me/StableWaifuComments/17836841",
@@ -1860,12 +1975,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Лагострёмия и правда не видит себя в роли правителя, ведь она будет весьма авторитарным тираном и она это отлично понимает и держится от власти подальше.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 20:31 МСК"
   },
   {
     id: 117,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17825182 👍 Арт принадлежит отправителю.",
+    characters: "Ан",
     title: "Работа #117",
     image: "img/works/work_117.jpg",
     postLink: "https://t.me/StableWaifuComments/17836138",
@@ -1876,12 +1992,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Вспоминаю даже строки песни: \"Дремлет, умирающий король\". Хотя эта песня вообще ни к месту, но у меня прям ярко пробило.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 19:12 МСК"
   },
   {
     id: 118,
     username: "@forLansely",
-    characters: "https://t.me/StableWaifuComments/17824216 👍 Арт принадлежит отправителю.",
+    characters: "Астерия",
     title: "Работа #118",
     image: "img/works/work_118.jpg",
     postLink: "https://t.me/StableWaifuComments/17836130",
@@ -1892,12 +2009,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Йоу, ну тут вышло неплохо",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 19:06 МСК"
   },
   {
     id: 119,
     username: "@forLansely",
-    characters: "https://t.me/StableWaifuComments/17824197 👍 Арт принадлежит отправителю.",
+    characters: "Астерия",
     title: "Работа #119",
     image: "img/works/work_119.jpg",
     postLink: "https://t.me/StableWaifuComments/17836077",
@@ -1908,12 +2026,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "А вот тут эстетика женского тела, мне нравится такая красота",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 18:52 МСК"
   },
   {
     id: 120,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17823866 👍 Арт принадлежит отправителю.",
+    characters: "Астерия",
     title: "Работа #120",
     image: "img/works/work_120.jpg",
     postLink: "https://t.me/StableWaifuComments/17835903",
@@ -1924,12 +2043,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Неплохая сцена секса в принципе",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:29 МСК"
   },
   {
     id: 121,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17823677 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #121",
     image: "img/works/work_121.jpg",
     postLink: "https://t.me/StableWaifuComments/17835488",
@@ -1940,12 +2060,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:47 МСК"
   },
   {
     id: 122,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17823155 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #122",
     image: "img/works/work_122.jpg",
     postLink: "https://t.me/StableWaifuComments/17835437",
@@ -1956,12 +2077,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:37 МСК"
   },
   {
     id: 123,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17822406 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия",
     title: "Работа #123",
     image: "img/works/work_123.jpg",
     postLink: "https://t.me/StableWaifuComments/17835400",
@@ -1972,12 +2094,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:33 МСК"
   },
   {
     id: 124,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17822151 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия, Леон",
     title: "Работа #124",
     image: "img/works/work_124.jpg",
     postLink: "https://t.me/StableWaifuComments/17835331",
@@ -1988,12 +2111,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:23 МСК"
   },
   {
     id: 125,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17821839 👍 Арт принадлежит отправителю.",
+    characters: "Ан",
     title: "Работа #125",
     image: "img/works/work_125.jpg",
     postLink: "https://t.me/StableWaifuComments/17835308",
@@ -2004,12 +2128,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:17 МСК"
   },
   {
     id: 126,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17821737 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #126",
     image: "img/works/work_126.jpg",
     postLink: "https://t.me/StableWaifuComments/17835270",
@@ -2020,12 +2145,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 17:13 МСК"
   },
   {
     id: 127,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17820899 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия, Леон",
     title: "Работа #127",
     image: "img/works/work_127.jpg",
     postLink: "https://t.me/StableWaifuComments/17835259",
@@ -2036,12 +2162,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 16:54 МСК"
   },
   {
     id: 128,
     username: "AnVpAr",
-    characters: "https://t.me/StableWaifuComments/17820838 👍 Арт принадлежит отправителю.",
+    characters: "",
     title: "Работа #128",
     image: "img/works/work_128.jpg",
     postLink: "https://t.me/StableWaifuComments/17835206",
@@ -2052,12 +2179,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 16:54 МСК"
   },
   {
     id: 129,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17820748 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #129",
     image: "img/works/work_129.jpg",
     postLink: "https://t.me/StableWaifuComments/17835152",
@@ -2068,12 +2196,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 16:48 МСК"
   },
   {
     id: 130,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17820399 👍 Арт принадлежит отправителю.",
+    characters: "Ан",
     title: "Работа #130",
     image: "img/works/work_130.jpg",
     postLink: "https://t.me/StableWaifuComments/17835097",
@@ -2084,12 +2213,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 16:42 МСК"
   },
   {
     id: 131,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17819281 👍 Арт принадлежит отправителю.",
+    characters: "Церера",
     title: "Работа #131",
     image: "img/works/work_131.jpg",
     postLink: "https://t.me/StableWaifuComments/17834695",
@@ -2100,12 +2230,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 15:58 МСК"
   },
   {
     id: 132,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17819263 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #132",
     image: "img/works/work_132.jpg",
     postLink: "https://t.me/StableWaifuComments/17834550",
@@ -2116,12 +2247,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 15:40 МСК"
   },
   {
     id: 133,
     username: "Азизбек",
-    characters: "https://t.me/StableWaifuComments/17819206 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #133",
     image: "img/works/work_133.jpg",
     postLink: "https://t.me/StableWaifuComments/17834441",
@@ -2132,12 +2264,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 15:25 МСК"
   },
   {
     id: 134,
     username: "@sseltraeh",
-    characters: "https://t.me/StableWaifuComments/17818964 👍 Арт принадлежит отправителю.",
+    characters: "Рэй",
     title: "Работа #134",
     image: "img/works/work_134.jpg",
     postLink: "https://t.me/StableWaifuComments/17834382",
@@ -2148,12 +2281,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 15:20 МСК"
   },
   {
     id: 135,
     username: "@alenxxz",
-    characters: "https://t.me/StableWaifuComments/17828689 👍 Арт принадлежит отправителю.",
+    characters: "Дандан Цзянь",
     title: "Работа #135",
     image: "img/works/work_135.jpg",
     postLink: "https://t.me/StableWaifuComments/17834145",
@@ -2164,12 +2298,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 15:04 МСК"
   },
   {
     id: 136,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17828630 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #136",
     image: "img/works/work_136.jpg",
     postLink: "https://t.me/StableWaifuComments/17833907",
@@ -2180,12 +2315,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 04:44 МСК"
   },
   {
     id: 137,
     username: "@Nunasw",
-    characters: "https://t.me/StableWaifuComments/17838542 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #137",
     image: "img/works/work_137.jpg",
     postLink: "https://t.me/StableWaifuComments/17832732",
@@ -2196,12 +2332,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 12:47 МСК"
   },
   {
     id: 138,
     username: "@Nunasw",
-    characters: "https://t.me/StableWaifuComments/17836969 👍 Арт принадлежит отправителю.",
+    characters: "Церера",
     title: "Работа #138",
     image: "img/works/work_138.jpg",
     postLink: "https://t.me/StableWaifuComments/17832098",
@@ -2212,12 +2349,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 11:55 МСК"
   },
   {
     id: 139,
     username: "@Nunasw",
-    characters: "https://t.me/StableWaifuComments/17836892 👍 Арт принадлежит отправителю.",
+    characters: "Кассиан",
     title: "Работа #139",
     image: "img/works/work_139.jpg",
     postLink: "https://t.me/StableWaifuComments/17831609",
@@ -2228,12 +2366,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 30.05.2026, 10:49 МСК"
   },
   {
     id: 140,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17836841 👍 Арт принадлежит отправителю.",
+    characters: "Церера",
     title: "Работа #140",
     image: "img/works/work_140.jpg",
     postLink: "https://t.me/StableWaifuComments/17851265",
@@ -2244,12 +2383,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 23:26 МСК"
   },
   {
     id: 141,
     username: "@DablinElkiPalki",
-    characters: "https://t.me/StableWaifuComments/17836138 👍 Арт принадлежит отправителю.",
+    characters: "Леон",
     title: "Работа #141",
     image: "img/works/work_141.jpg",
     postLink: "https://t.me/StableWaifuComments/17851033",
@@ -2260,12 +2400,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 23:00 МСК"
   },
   {
     id: 142,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17836130 👍 Арт принадлежит отправителю.",
+    characters: "Эриду",
     title: "Работа #142",
     image: "img/works/work_142.jpg",
     postLink: "https://t.me/StableWaifuComments/17850796",
@@ -2276,12 +2417,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Уф, тут конечно просто, что-то есть в этой работе",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 21:53 МСК"
   },
   {
     id: 143,
     username: "@Erika_Demons_moon",
-    characters: "https://t.me/StableWaifuComments/17836077 👍 Арт принадлежит отправителю.",
+    characters: "Иона Карлосс",
     title: "Работа #143",
     image: "img/works/work_143.jpg",
     postLink: "https://t.me/StableWaifuComments/17850715",
@@ -2292,12 +2434,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Немного простая работа, но весьма милая",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 20:02 МСК"
   },
   {
     id: 144,
     username: "@DablinElkiPalki",
-    characters: "https://t.me/StableWaifuComments/17835903 👍 Арт принадлежит отправителю.",
+    characters: "Лагострёмия",
     title: "Работа #144",
     image: "img/works/work_144.jpg",
     postLink: "https://t.me/StableWaifuComments/17850441",
@@ -2308,12 +2451,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Мне очень понравилась эта работа. Прям ассоциация к картокой персонажа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 22:32 МСК"
   },
   {
     id: 145,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Эриду",
     title: "Работа #145",
     image: "img/works/work_145.jpg",
     postLink: "https://t.me/StableWaifuComments/17850313",
@@ -2324,12 +2468,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Просто, но красиво и ярко.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:59 МСК"
   },
   {
     id: 146,
     username: "@DablinElkiPalki",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #146",
     image: "img/works/work_146.jpg",
     postLink: "https://t.me/StableWaifuComments/17851373",
@@ -2340,12 +2485,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Ооо, ля, я падаю от любви. Мне очень. понравилась такая красота. Прям можео рассматривать вечность",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 23:51 МСК"
   },
   {
     id: 147,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Таласса",
     title: "Работа #147",
     image: "img/works/work_147.jpg",
     postLink: "https://t.me/StableWaifuComments/17850264",
@@ -2356,12 +2502,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Воу, ну тут мое почтение, выглядит хорошо и красиво",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:45 МСК"
   },
   {
     id: 148,
     username: "@ayanamiurey",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #148",
     image: "img/works/work_148.jpg",
     postLink: "https://t.me/StableWaifuComments/17849653",
@@ -2372,12 +2519,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Красота природы, за которой приятно наблюдать и изучать",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 21:34 МСК"
   },
   {
     id: 149,
     username: "Азизбек",
-    characters: "",
+    characters: "Висси",
     title: "Работа #149",
     image: "img/works/work_149.jpg",
     postLink: "https://t.me/StableWaifuComments/17849605",
@@ -2388,12 +2536,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Город бы сделать более в китайской ститистике, было бы шикарно, а так, можно представить, что это новый город, на земле спустя столетия, где модно свободно гулять по миру. В принципе все классно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 21:30 МСК"
   },
   {
     id: 150,
     username: "@Rina_ds",
-    characters: "",
+    characters: "Эриду",
     title: "Работа #150",
     image: "img/works/work_150.jpg",
     postLink: "https://t.me/StableWaifuComments/17849579",
@@ -2404,12 +2553,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Красивая работа, летающие замки.Кристаллы, которые взялись невесть откуда.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 17:48 МСК"
   },
   {
     id: 151,
     username: "@kazeivaa",
-    characters: "",
+    characters: "Леон",
     title: "Работа #151",
     image: "img/works/work_151.jpg",
     postLink: "https://t.me/StableWaifuComments/17851508",
@@ -2420,12 +2570,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Ненужное благословение, явно считается проклятием. Грустно, когда тебя начинают избегать, хотя ты ничего не сделал... Просто твой взгляд... он смотрит прямо в душу, а ты ничего не можешь с этим сделать.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 23:50 МСК"
   },
   {
     id: 152,
     username: "@Rina_ds",
-    characters: "",
+    characters: "Церера",
     title: "Работа #152",
     image: "img/works/work_152.jpg",
     postLink: "https://t.me/StableWaifuComments/17849561",
@@ -2436,12 +2587,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Господи, я в восхищении от этой работы. Готова падать на колени перед ней. Прям все хорошо вышло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 20:26 МСК"
   },
   {
     id: 153,
     username: "@Rina_ds",
-    characters: "",
+    characters: "Леон",
     title: "Работа #153",
     image: "img/works/work_153.jpg",
     postLink: "https://t.me/StableWaifuComments/17849546",
@@ -2452,12 +2604,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Прикольная работа, да и меша вкусная, но сама композиция не вкатила.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 21:23 МСК"
   },
   {
     id: 154,
     username: "Азизбек",
-    characters: "",
+    characters: "Эриду",
     title: "Работа #154",
     image: "img/works/work_154.jpg",
     postLink: "https://t.me/StableWaifuComments/17849131",
@@ -2468,12 +2621,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Эриду кошка, а не коровка.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 21:04 МСК"
   },
   {
     id: 155,
     username: "@ayanamiurey",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #155",
     image: "img/works/work_155.jpg",
     postLink: "https://t.me/StableWaifuComments/17848948",
@@ -2484,12 +2638,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Приятная, яркая работа с растениями и Касом.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 20:49 МСК"
   },
   {
     id: 156,
     username: "@forLansely",
-    characters: "",
+    characters: "Лагострёмия",
     title: "Работа #156",
     image: "img/works/work_156.jpg",
     postLink: "https://t.me/StableWaifuComments/17848726",
@@ -2500,12 +2655,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Ля, я люблю Лаг. Она тут выглядит очень шикарно. Особенно то, как она смотрит.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 20:04 МСК"
   },
   {
     id: 157,
     username: "Азизбек",
-    characters: "",
+    characters: "Астерия",
     title: "Работа #157",
     image: "img/works/work_157.jpg",
     postLink: "https://t.me/StableWaifuComments/17848539",
@@ -2516,12 +2672,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Нормальная работа еа пляже. В принципе неплохо",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 20:25 МСК"
   },
   {
     id: 158,
     username: "@alenxxz",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #158",
     image: "img/works/work_158.jpg",
     postLink: "https://t.me/StableWaifuComments/17848362",
@@ -2532,12 +2689,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Довольно интересный арт, немного сюрреалистичный, но от этого он кажется захватывающим",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:49 МСК"
   },
   {
     id: 159,
     username: "@yukidaruma8",
-    characters: "",
+    characters: "Леон",
     title: "Работа #159",
     image: "img/works/work_159.jpg",
     postLink: "https://t.me/StableWaifuComments/17848324",
@@ -2548,12 +2706,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Тикать и кормить Леона, никто не запретит, кроме самого Леона",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:04 МСК"
   },
   {
     id: 160,
     username: "@aistenokd",
-    characters: "",
+    characters: "Рэй",
     title: "Работа #160",
     image: "img/works/work_160.jpg",
     postLink: "https://t.me/StableWaifuComments/17851690",
@@ -2564,12 +2723,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Кстати, в ведь действительно, что в этом корабле-замке вот такой город, и из-за своего образа, наш робот выглядит слегка иноземно. Но как по мне работа красивая, мне понравилось всё",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 23:33 МСК"
   },
   {
     id: 161,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Дандан Цзянь",
     title: "Работа #161",
     image: "img/works/work_161.jpg",
     postLink: "https://t.me/StableWaifuComments/17848112",
@@ -2580,12 +2740,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Простая, но лаконичная работа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:28 МСК"
   },
   {
     id: 162,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #162",
     image: "img/works/work_162.jpg",
     postLink: "https://t.me/StableWaifuComments/17848054",
@@ -2596,12 +2757,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Уф, доминирующий Мао прям шикарный образ",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:23 МСК"
   },
   {
     id: 163,
     username: "@Elloree",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #163",
     image: "img/works/work_163.jpg",
     postLink: "https://t.me/StableWaifuComments/17848044",
@@ -2612,12 +2774,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Весьма шикарная работа, с хорошей детализацией. Эту работу тоже хочется рассматривать вечность",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 19:16 МСК"
   },
   {
     id: 164,
     username: "@DablinElkiPalki",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #164",
     image: "img/works/work_164.jpg",
     postLink: "https://t.me/StableWaifuComments/17851758",
@@ -2628,12 +2791,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Довольно нежно и грустно выглядит. Словно потеря кого-то важного",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 01.06.2026, 00:19 МСК"
   },
   {
     id: 165,
     username: "",
-    characters: "",
+    characters: "Лагострёмия",
     title: "Работа #165",
     image: "img/works/work_165.jpg",
     postLink: "https://t.me/StableWaifuComments/17847989",
@@ -2644,12 +2808,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Тут можно действительно представить, что мать испольщала свою магию памяти, дабы спасти дочь, что бы та не совершила глупость",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 18:41 МСК"
   },
   {
     id: 166,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #166",
     image: "img/works/work_166.jpg",
     postLink: "https://t.me/StableWaifuComments/17847963",
@@ -2660,7 +2825,8 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Меланхоличная работа, но весьма уютная. Море, серое небо, вся эта композиция хорошо легла",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 12:11 МСК"
   },
   {
     id: 167,
@@ -2676,12 +2842,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Весьма вкусная работа. Жаль конечно, что не получилось сделать починку, но как минимум, работоспособность тоже важно проверять",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 17:43 МСК"
   },
   {
     id: 168,
     username: "@the_elv",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #168",
     image: "img/works/work_168.jpg",
     postLink: "https://t.me/StableWaifuComments/17846952",
@@ -2692,12 +2859,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Шикарная работа, динамика, все прям вкусно, я очень довольна",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 17:39 МСК"
   },
   {
     id: 169,
     username: "@alenxxz",
-    characters: "",
+    characters: "Леон",
     title: "Работа #169",
     image: "img/works/work_169.jpg",
     postLink: "https://t.me/StableWaifuComments/17846785",
@@ -2708,12 +2876,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Ух. ну как не быть в восхищении,а? Прям представляю, как волчёнок часто выходит за пределы летающего города, дабы немного отдохнуть от людей и снять эти надоедлевые очки",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 17:26 МСК"
   },
   {
     id: 170,
     username: "@Tabayume",
-    characters: "",
+    characters: "Леон",
     title: "Работа #170",
     image: "img/works/work_170.jpg",
     postLink: "https://t.me/StableWaifuComments/17846482",
@@ -2724,12 +2893,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Не шибко приятно промокнуть, но боже, как он тут горячий выглядит",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 17:00 МСК"
   },
   {
     id: 171,
     username: "@Tabayume",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #171",
     image: "img/works/work_171.jpg",
     postLink: "https://t.me/StableWaifuComments/17846475",
@@ -2740,12 +2910,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Весьма яркая динамика работы, но красивая. Мне особенно нравится куча чашек на столе. Потом получит втык от Госпожи за это.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 16:51 МСК"
   },
   {
     id: 172,
     username: "Азизбек",
-    characters: "",
+    characters: "Эриду",
     title: "Работа #172",
     image: "img/works/work_172.jpg",
     postLink: "https://t.me/StableWaifuComments/17846465",
@@ -2756,12 +2927,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Ну, вроде прикольно, но что-то не то",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 13:21 МСК"
   },
   {
     id: 173,
     username: "Азизбек",
-    characters: "",
+    characters: "Леон",
     title: "Работа #173",
     image: "img/works/work_173.jpg",
     postLink: "https://t.me/StableWaifuComments/17846426",
@@ -2772,12 +2944,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "а ведь мог быть бунтарский период у волчёнка, особенно учитывая, что он сирота",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 11:05 МСК"
   },
   {
     id: 174,
     username: "Азизбек",
-    characters: "",
+    characters: "Эриду",
     title: "Работа #174",
     image: "img/works/work_174.jpg",
     postLink: "https://t.me/StableWaifuComments/17846388",
@@ -2788,12 +2961,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "нежное, с игрушками, в принципе прикольно, хотя меша не вкатила",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 10:40 МСК"
   },
   {
     id: 175,
     username: "@ayanamiurey",
-    characters: "",
+    characters: "Таласса",
     title: "Работа #175",
     image: "img/works/work_175.jpg",
     postLink: "https://t.me/StableWaifuComments/17846212",
@@ -2804,12 +2978,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Весьма чувственная работа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 16:23 МСК"
   },
   {
     id: 176,
     username: "@ayanamiurey",
-    characters: "",
+    characters: "Таласса",
     title: "Работа #176",
     image: "img/works/work_176.jpg",
     postLink: "https://t.me/StableWaifuComments/17845764",
@@ -2820,12 +2995,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "а вот в эту работу сразу влюбилась. Очень хорошая анало",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 15:14 МСК"
   },
   {
     id: 177,
     username: "Peachu ~",
-    characters: "",
+    characters: "Леон",
     title: "Работа #177",
     image: "img/works/work_177.jpg",
     postLink: "https://t.me/StableWaifuComments/17845587",
@@ -2836,12 +3012,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Ой, как мило, хочется ща щёчки потискать",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 15:26 МСК"
   },
   {
     id: 178,
     username: "@journalistdeer",
-    characters: "",
+    characters: "Леон",
     title: "Работа #178",
     image: "img/works/work_178.jpg",
     postLink: "https://t.me/StableWaifuComments/17845437",
@@ -2852,12 +3029,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Но надо же лезть туда, куда не просят",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 15:04 МСК"
   },
   {
     id: 179,
     username: "@ianmaysky",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #179",
     image: "img/works/work_179.jpg",
     postLink: "https://t.me/StableWaifuComments/17845384",
@@ -2868,12 +3046,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "вайб агитационого плаката, мне очень зашло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 15:04 МСК"
   },
   {
     id: 180,
     username: "@Bonja007",
-    characters: "",
+    characters: "Рэй",
     title: "Работа #180",
     image: "img/works/work_180.jpg",
     postLink: "https://t.me/StableWaifuComments/17845306",
@@ -2884,12 +3063,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "А сняться ли андроидам электроовцы?",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 15:00 МСК"
   },
   {
     id: 181,
     username: "@journalistdeer",
-    characters: "",
+    characters: "Леон, Лагострёмия",
     title: "Работа #181",
     image: "img/works/work_181.jpg",
     postLink: "https://t.me/StableWaifuComments/17845256",
@@ -2900,12 +3080,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Приятная прогулка ученика и учителя, довольно хорошо",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:57 МСК"
   },
   {
     id: 182,
     username: "@Bonja007",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #182",
     image: "img/works/work_182.jpg",
     postLink: "https://t.me/StableWaifuComments/17845119",
@@ -2916,12 +3097,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "Ого, даже мрачно и грустно это, что мог или даже было такое в жизни Мао",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:48 МСК"
   },
   {
     id: 183,
     username: "@journalistdeer",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #183",
     image: "img/works/work_183.jpg",
     postLink: "https://t.me/StableWaifuComments/17845099",
@@ -2932,12 +3114,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "Оххохохох, ля, это выглядит прям очень горячо. Мне нравится атмосфера арта и сама композиция",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:44 МСК"
   },
   {
     id: 184,
     username: "@Bonja007",
-    characters: "",
+    characters: "Сириус",
     title: "Работа #184",
     image: "img/works/work_184.jpg",
     postLink: "https://t.me/StableWaifuComments/17844954",
@@ -2948,12 +3131,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Прикольное. Палец конечно, не откусить, но будет больно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:33 МСК"
   },
   {
     id: 185,
     username: "@journalistdeer",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #185",
     image: "img/works/work_185.jpg",
     postLink: "https://t.me/StableWaifuComments/17844966",
@@ -2964,12 +3148,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Было бы наверное лучше, если бы Мао стоял сбоку или крылья были по разные стороны, но а там, работа приятная",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:35 МСК"
   },
   {
     id: 186,
     username: "@Bonja007",
-    characters: "",
+    characters: "Леон",
     title: "Работа #186",
     image: "img/works/work_186.jpg",
     postLink: "https://t.me/StableWaifuComments/17844901",
@@ -2980,12 +3165,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Вхххыхых, ну и ну, явно ради кого-то готов оголиться хоть на улице",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 14:27 МСК"
   },
   {
     id: 187,
     username: "@kazeivaa",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #187",
     image: "img/works/work_187.jpg",
     postLink: "https://t.me/StableWaifuComments/17844771",
@@ -2996,12 +3182,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "весьма нежная и красивая работа. Эта бабочка прям мяковка",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 13:09 МСК"
   },
   {
     id: 188,
     username: "@kazeivaa",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #188",
     image: "img/works/work_188.jpg",
     postLink: "https://t.me/StableWaifuComments/17844673",
@@ -3012,12 +3199,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "тоже красиво, но блин, пузико только для любимой!",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 12:02 МСК"
   },
   {
     id: 189,
     username: "@kazeivaa",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #189",
     image: "img/works/work_189.jpg",
     postLink: "https://t.me/StableWaifuComments/17844609",
@@ -3028,12 +3216,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: ""
+    comment: "Тут тоже довольно красиво.",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 13:27 МСК"
   },
   {
     id: 190,
     username: "@Bonja007",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #190",
     image: "img/works/work_190.jpg",
     postLink: "https://t.me/StableWaifuComments/17844554",
@@ -3044,12 +3233,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: ""
+    comment: "О мой бог,я и не ожидала, что Кас вот насколько горячий парень",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 13:47 МСК"
   },
   {
     id: 191,
     username: "@desu_chaan",
-    characters: "",
+    characters: "Дандан Цзянь",
     title: "Работа #191",
     image: "img/works/work_191.jpg",
     postLink: "https://t.me/StableWaifuComments/17843950",
@@ -3060,12 +3250,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: ""
+    comment: "весьма красива, нежная работа с цветочным полем. Очень нежно вышло",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 12:35 МСК"
   },
   {
     id: 192,
     username: "@desu_chaan",
-    characters: "",
+    characters: "Ан",
     title: "Работа #192",
     image: "img/works/work_192.jpg",
     postLink: "https://t.me/StableWaifuComments/17843920",
@@ -3076,12 +3267,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: ""
+    comment: "Просто, но прикольно",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 19:12 МСК"
   },
   {
     id: 193,
     username: "@desu_chaan",
-    characters: "",
+    characters: "Лагострёмия",
     title: "Работа #193",
     image: "img/works/work_193.jpg",
     postLink: "https://t.me/StableWaifuComments/17843900",
@@ -3092,12 +3284,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: "Как я и говорила, я очень люблю работы с пшеничным полем. очень красиво и романтично"
+    comment: "Как я и говорила, я очень люблю работы с пшеничным полем. очень красиво и романтично",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 29.05.2026, 10:07 МСК"
   },
   {
     id: 194,
     username: "@desu_chaan",
-    characters: "",
+    characters: "Церера",
     title: "Работа #194",
     image: "img/works/work_194.jpg",
     postLink: "https://t.me/StableWaifuComments/17843881",
@@ -3108,12 +3301,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: "Изобилие тоже любит почитать, где нибудь там, проездом"
+    comment: "Изобилие тоже любит почитать, где нибудь там, проездом",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 28.05.2026, 13:41 МСК"
   },
   {
     id: 195,
     username: "@desu_chaan",
-    characters: "",
+    characters: "Астерия",
     title: "Работа #195",
     image: "img/works/work_195.jpg",
     postLink: "https://t.me/StableWaifuComments/17843822",
@@ -3124,12 +3318,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: "Простая, но динамичная"
+    comment: "Простая, но динамичная работа",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 27.05.2026, 11:04 МСК"
   },
   {
     id: 196,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Астерия",
     title: "Работа #196",
     image: "img/works/work_196.jpg",
     postLink: "https://t.me/StableWaifuComments/17842646",
@@ -3140,12 +3335,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: "оо, выглядит весьма красиво. Мне нравится, как все смотрится"
+    comment: "оо, выглядит весьма красиво. Мне нравится, как все смотрится",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 00:21 МСК"
   },
   {
     id: 197,
     username: "Азизбек",
-    characters: "",
+    characters: "Церера, Ан",
     title: "Работа #197",
     image: "img/works/work_197.jpg",
     postLink: "https://t.me/StableWaifuComments/17842641",
@@ -3156,12 +3352,13 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: "Выглядит красиво, прям очень хорошо, я довольна"
+    comment: "Выглядит красиво, прям очень хорошо, я довольна",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 10:30 МСК"
   },
   {
     id: 198,
     username: "@Erika_Demons_moon",
-    characters: "",
+    characters: "Кассиан",
     title: "Работа #198",
     image: "img/works/work_198.jpg",
     postLink: "https://t.me/StableWaifuComments/17842633",
@@ -3172,12 +3369,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: "Прекрасная с Касом, более нечего сказать"
+    comment: "Прекрасная работа с Касом, более нечего сказать",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 00:17 МСК"
   },
   {
     id: 199,
     username: "Азизбек",
-    characters: "",
+    characters: "Церера",
     title: "Работа #199",
     image: "img/works/work_199.jpg",
     postLink: "https://t.me/StableWaifuComments/17842010",
@@ -3188,12 +3386,13 @@ const WORKS = [
     reward: 100,
     isWinner: true,
     awardTitle: "2 место",
-    comment: "хм, а вкдт красиво выглядит, мне понравилось"
+    comment: "хм, а вкдт красиво выглядит, мне понравилось",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 08:38 МСК"
   },
   {
     id: 200,
     username: "Азизбек",
-    characters: "",
+    characters: "Церера",
     title: "Работа #200",
     image: "img/works/work_200.jpg",
     postLink: "https://t.me/StableWaifuComments/17841915",
@@ -3204,12 +3403,13 @@ const WORKS = [
     reward: 0,
     isWinner: false,
     awardTitle: "",
-    comment: "Н-да, вот тебе и социализация"
+    comment: "Н-да, вот тебе и социализация",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 08:24 МСК"
   },
   {
     id: 201,
     username: "Азизбек",
-    characters: "",
+    characters: "Церера",
     title: "Работа #201",
     image: "img/works/work_201.jpg",
     postLink: "https://t.me/StableWaifuComments/17841882",
@@ -3220,12 +3420,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: "Хм, ну прикольно выглядит. призывает демона, который не будет от нее пугаться"
+    comment: "Хм, ну прикольно выглядит. призывает демона, который не будет от нее пугаться",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 08:17 МСК"
   },
   {
     id: 202,
     username: "Азизбек",
-    characters: "",
+    characters: "Дандан Цзянь",
     title: "Работа #202",
     image: "img/works/work_202.jpg",
     postLink: "https://t.me/StableWaifuComments/17841834",
@@ -3236,12 +3437,13 @@ const WORKS = [
     reward: 50,
     isWinner: true,
     awardTitle: "3 место",
-    comment: "Купание в крови продлевает жизнь?"
+    comment: "Купание в крови продлевает жизнь?",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 08:08 МСК"
   },
   {
     id: 203,
     username: "@sseltraeh",
-    characters: "",
+    characters: "Мао Цзи",
     title: "Работа #203",
     image: "img/works/work_203.jpg",
     postLink: "https://t.me/StableWaifuComments/17841108",
@@ -3252,6 +3454,7 @@ const WORKS = [
     reward: 300,
     isWinner: true,
     awardTitle: "1 место",
-    comment: "уютная атмосфера на самом деле. Очень приятно смотреть на эту работу"
+    comment: "уютная атмосфера на самом деле. Очень приятно смотреть на эту работу",
+    verify: "👍 Арт принадлежит отправителю.\nВремя генерации: 31.05.2026, 02:08 МСК"
   }
 ];
