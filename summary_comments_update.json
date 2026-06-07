@@ -1,0 +1,20 @@
+{
+  "base_archive": "lotos_v15_author_vivka_fix.zip",
+  "partial_update_file": "Untitled spreadsheet.xlsx",
+  "total_works": 203,
+  "partial_update_records": 24,
+  "matched_updates": 24,
+  "unmatched_updates": 0,
+  "changed_comments": 20,
+  "comments_nonempty_total": 202,
+  "comments_empty_total": 1,
+  "counts_by_score": {
+    "5": 48,
+    "4": 51,
+    "3": 61,
+    "2": 43,
+    "0": 0
+  },
+  "total_tokens": 22550,
+  "participants_count": 32
+}

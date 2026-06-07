@@ -35,5 +35,14 @@
     "0": 43
   },
   "total_tokens": 22550,
-  "issues_count": 1
+  "issues_count": 1,
+  "manual_fixes": [
+    {
+      "postLink": "https://t.me/StableWaifuComments/17847989",
+      "fixedUsername": "@vivka_wuu",
+      "fixedIds": [
+        165
+      ]
+    }
+  ]
 }

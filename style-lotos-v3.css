@@ -1051,3 +1051,24 @@ img {
     font-size: 32px;
   }
 }
+
+
+/* === v14 music fix === */
+
+.music-btn {
+  display: inline-grid !important;
+  place-items: center !important;
+}
+
+.music-btn.is-muted {
+  opacity: .92;
+}
+
+.music-btn.is-playing {
+  box-shadow: 0 0 26px rgba(214,161,62,.28);
+}
+
+.music-btn[aria-label="Музыка не найдена"] {
+  color: #ffb3b3 !important;
+  border-color: rgba(255,120,120,.55) !important;
+}

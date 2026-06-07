@@ -4,5 +4,13 @@
     "type": "manual_author_fix",
     "postLink": "https://t.me/StableWaifuComments/17844609",
     "fixedUsername": "@kazeivaa"
+  },
+  {
+    "type": "manual_author_fix",
+    "postLink": "https://t.me/StableWaifuComments/17847989",
+    "fixedUsername": "@vivka_wuu",
+    "fixedIds": [
+      165
+    ]
   }
 ]
