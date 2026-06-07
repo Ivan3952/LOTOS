@@ -40,6 +40,11 @@ function formatScore(value) {
   return String(Number.isInteger(n) ? n : n.toFixed(1).replace(".", ","));
 }
 
+function scoreLabel(work) {
+  var max = Number(work && work.scoreMax ? work.scoreMax : 5);
+  return formatScore(work && work.score) + "/" + max;
+}
+
 function getScore(work) {
   return Number(work.score || 0);
 }
@@ -174,8 +179,11 @@ function renderResultsMenu() {
         '<a class="line-menu-item" href="' + urlFor("comments") + '" data-route="comments">' +
           '<span>05</span><b>Комментарии</b><em>' + getWorksWithComments().length + ' записей</em>' +
         '</a>' +
+        '<a class="line-menu-item" href="' + urlFor("participants") + '" data-route="participants">' +
+          '<span>06</span><b>Участники</b><em>сумма токенов</em>' +
+        '</a>' +
         '<a class="line-menu-item" href="#" id="random-work-card">' +
-          '<span>06</span><b>Случайная работа</b><em>открыть арт</em>' +
+          '<span>07</span><b>Случайная работа</b><em>открыть арт</em>' +
         '</a>' +
       '</div>' +
     '</section>'
@@ -263,7 +271,7 @@ function renderRatingRow(work, index) {
   return '<div class="rating-row" data-rating-work="' + escapeHtml(work.id) + '">' +
     '<span class="rating-rank">' + rank + '</span>' +
     '<div class="rating-author">' + authorLink + '<small>' + escapeHtml(work.awardTitle || work.title || "Работа участника") + '</small></div>' +
-    '<div class="rating-score">' + formatScore(work.score) + '/10</div>' +
+    '<div class="rating-score">' + scoreLabel(work) + '</div>' +
     '<div class="rating-reward">' + formatTokens(work.reward) + '</div>' +
     '<button class="rating-open" type="button" data-rating-open="' + escapeHtml(work.id) + '">Открыть →</button>' +
   '</div>';
@@ -296,7 +304,7 @@ function renderAuthor() {
       '<div class="section-title"><a class="back" href="' + urlFor("results") + '" data-route="results">← Назад</a><h2>' + escapeHtml(displayName) + '</h2></div>' +
       '<div class="author-summary">' +
         '<div><span>Работ</span><b>' + works.length + '</b></div>' +
-        '<div><span>Лучшая оценка</span><b>' + formatScore(bestScore) + '/10</b></div>' +
+        '<div><span>Лучшая оценка</span><b>' + formatScore(bestScore) + '/5</b></div>' +
         '<div><span>Награды</span><b>' + formatTokens(totalReward) + '</b></div>' +
         '<button class="copy-author" id="copy-author-link" type="button">Скопировать ссылку</button>' +
       '</div>' +
@@ -501,7 +509,7 @@ function renderCommentItem(work) {
   return '<article class="comment-item" data-comment-work="' + escapeHtml(work.id) + '">' +
     '<div class="comment-head">' +
       '<a class="comment-author" href="?page=author&name=' + getAuthorSlug(work.username) + '" data-route="author&name=' + getAuthorSlug(work.username) + '">' + escapeHtml(work.username) + '</a>' +
-      '<span>' + formatScore(work.score) + '/10</span>' +
+      '<span>' + scoreLabel(work) + '</span>' +
     '</div>' +
     '<blockquote>«' + escapeHtml(work.comment || "") + '»</blockquote>' +
     '<div class="comment-actions"><button class="comment-open" type="button" data-comment-open="' + escapeHtml(work.id) + '">Открыть работу →</button><button class="comment-copy" type="button" data-comment-copy="' + escapeHtml(work.id) + '">Скопировать комментарий</button></div>' +
@@ -519,7 +527,7 @@ function attachCommentOpenHandlers() {
     button.onclick = function() {
       var work = findWork(button.getAttribute("data-comment-copy"));
       if (!work) return;
-      var text = work.username + " — " + formatScore(work.score) + "/10\n\n«" + (work.comment || "") + "»";
+      var text = work.username + " — " + scoreLabel(work) + "\n\n«" + (work.comment || "") + "»";
       copyText(text, button);
     };
   });
@@ -581,11 +589,95 @@ function renderWorkCard(work) {
     '<div class="scroll-body">' +
       '<div class="work-top"><div><h3><a class="author-inline" href="?page=author&name=' + getAuthorSlug(work.username) + '" data-route="author&name=' + getAuthorSlug(work.username) + '">' + escapeHtml(work.username) + '</a></h3><p>' + escapeHtml(work.title || "Работа участника") + '</p></div>' +
       '<div class="work-actions">' + link + '<button class="share-btn" type="button" data-share-id="' + escapeHtml(work.id) + '">Ссылка</button></div></div>' +
-      '<div class="result-badges"><span>Оценка <b>' + formatScore(work.score) + '/10</b></span><span>Награда <b>' + formatTokens(work.reward) + '</b></span></div>' +
+      '<div class="result-badges"><span>Оценка <b>' + scoreLabel(work) + '</b></span><span>Награда <b>' + formatTokens(work.reward) + '</b></span></div>' +
       comment +
     '</div>' +
   '</article>';
 }
+
+
+function getParticipantStats() {
+  var map = {};
+
+  WORKS.forEach(function(work) {
+    var key = String(work.username || "Без автора").trim() || "Без автора";
+
+    if (!map[key]) {
+      map[key] = {
+        username: key,
+        works: 0,
+        reward: 0,
+        bestScore: 0,
+        firstPlaces: 0,
+        secondPlaces: 0,
+        thirdPlaces: 0,
+        zeroPlaces: 0
+      };
+    }
+
+    map[key].works += 1;
+    map[key].reward += getReward(work);
+    map[key].bestScore = Math.max(map[key].bestScore, getScore(work));
+
+    if (Number(work.place) === 1) map[key].firstPlaces += 1;
+    else if (Number(work.place) === 2) map[key].secondPlaces += 1;
+    else if (Number(work.place) === 3) map[key].thirdPlaces += 1;
+    else map[key].zeroPlaces += 1;
+  });
+
+  return Object.keys(map).map(function(key) {
+    return map[key];
+  }).sort(function(a, b) {
+    if (b.reward !== a.reward) return b.reward - a.reward;
+    if (b.bestScore !== a.bestScore) return b.bestScore - a.bestScore;
+    if (b.works !== a.works) return b.works - a.works;
+    return a.username.localeCompare(b.username);
+  });
+}
+
+function renderParticipants() {
+  var participants = getParticipantStats();
+
+  if (currentSearch.trim()) {
+    var q = currentSearch.trim().toLowerCase();
+    participants = participants.filter(function(item) {
+      return item.username.toLowerCase().includes(q);
+    });
+  }
+
+  var totalTokens = participants.reduce(function(sum, item) {
+    return sum + item.reward;
+  }, 0);
+
+  setAppHtml(
+    '<section class="page participants-page">' +
+      '<div class="section-title"><a class="back" href="' + urlFor("results") + '" data-route="results">← Назад</a><h2>Участники</h2></div>' +
+      '<div class="participants-total"><span>Всего участников</span><b>' + participants.length + '</b><span>Токенов в списке</span><b>' + formatTokens(totalTokens) + '</b></div>' +
+      '<div class="toolbar"><input class="search-input" id="participants-search-input" placeholder="Найти участника..." value="' + escapeHtml(currentSearch) + '"></div>' +
+      '<div class="participants-list">' + participants.map(renderParticipantRow).join("") + '</div>' +
+    '</section>'
+  );
+
+  var input = document.getElementById("participants-search-input");
+  if (input) {
+    input.oninput = function() {
+      currentSearch = input.value;
+      renderParticipants();
+    };
+  }
+}
+
+function renderParticipantRow(item, index) {
+  return '<div class="participant-row">' +
+    '<span class="participant-rank">' + String(index + 1).padStart(2, "0") + '</span>' +
+    '<a class="participant-name" href="?page=author&name=' + getAuthorSlug(item.username) + '" data-route="author&name=' + getAuthorSlug(item.username) + '">' + escapeHtml(item.username) + '</a>' +
+    '<span class="participant-works">' + item.works + ' работ</span>' +
+    '<span class="participant-score">лучшее ' + formatScore(item.bestScore) + '/5</span>' +
+    '<span class="participant-places">1м: ' + item.firstPlaces + ' · 2м: ' + item.secondPlaces + ' · 3м: ' + item.thirdPlaces + '</span>' +
+    '<b class="participant-reward">' + formatTokens(item.reward) + '</b>' +
+  '</div>';
+}
+
 
 function renderByRoute(route) {
   if (route === "results") return renderResultsMenu();
@@ -593,6 +685,7 @@ function renderByRoute(route) {
   if (route === "all") return renderAllWorks();
   if (route === "comments") return renderComments();
   if (route === "rating") return renderRating();
+  if (route === "participants") return renderParticipants();
   if (route.indexOf("author") === 0) return renderAuthor();
   renderHome();
 }
@@ -655,7 +748,7 @@ function openWork(work) {
   if (lightboxCaption) {
     lightboxCaption.innerHTML =
       '<div class="lightbox-title"><b>' + escapeHtml(work.username) + '</b><span> — ' + escapeHtml(work.title || "Работа участника") + '</span></div>' +
-      '<div class="lightbox-meta"><b>' + formatScore(work.score) + '/10</b> · ' + formatTokens(work.reward) + '</div>' +
+      '<div class="lightbox-meta"><b>' + scoreLabel(work) + '</b> · ' + formatTokens(work.reward) + '</div>' +
       (work.comment ? '<blockquote class="lightbox-comment">«' + escapeHtml(work.comment) + '»</blockquote>' : '') +
       '<button class="share-btn" type="button" id="lightbox-share">Скопировать ссылку</button>';
   }
