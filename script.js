@@ -65,6 +65,15 @@ function getWinners() {
   });
 }
 
+
+function getAuthorSlug(username) {
+  return encodeURIComponent(
+    String(username || "")
+      .trim()
+      .replace(/^@/, "")
+  );
+}
+
 function getWorksWithComments() {
   return WORKS.filter(function(work) {
     return String(work.comment || "").trim().length > 0;
@@ -536,7 +545,10 @@ function renderParticipants() {
 function renderParticipantRow(item, index) {
   return '<div class="participant-row">' +
     '<span class="participant-rank">' + String(index + 1).padStart(2, "0") + '</span>' +
-    '<a class="participant-name" href="?page=author&name=' + getAuthorSlug(item.username) + '" data-route="author&name=' + getAuthorSlug(item.username) + '">' + escapeHtml(item.username) + '</a>' +
+    (item.username === "Без автора"
+      ? '<span class="participant-name">' + escapeHtml(item.username) + '</span>'
+      : '<a class="participant-name" href="?page=author&name=' + getAuthorSlug(item.username) + '" data-route="author&name=' + getAuthorSlug(item.username) + '">' + escapeHtml(item.username) + '</a>'
+    ) +
     '<span class="participant-works">' + item.works + ' работ</span>' +
     '<span class="participant-score">лучшее ' + formatScore(item.bestScore) + '/5</span>' +
     '<span class="participant-places">1м: ' + item.firstPlaces + ' · 2м: ' + item.secondPlaces + ' · 3м: ' + item.thirdPlaces + '</span>' +
