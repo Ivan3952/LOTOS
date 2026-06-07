@@ -2677,7 +2677,7 @@ const WORKS = [
   },
   {
     id: 158,
-    username: "@alenxxz",
+    username: "@the_elv",
     characters: "Мао Цзи",
     title: "Работа #158",
     image: "img/works/work_158.jpg",
@@ -2864,7 +2864,7 @@ const WORKS = [
   },
   {
     id: 169,
-    username: "@alenxxz",
+    username: "@the_elv",
     characters: "Леон",
     title: "Работа #169",
     image: "img/works/work_169.jpg",
