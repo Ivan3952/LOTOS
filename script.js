@@ -557,6 +557,65 @@ function renderParticipantRow(item, index) {
 }
 
 
+
+function getAuthorNameFromUrl() {
+  return new URLSearchParams(window.location.search).get("name") || "";
+}
+
+function normalizeAuthor(value) {
+  return String(value || "").trim().replace(/^@/, "").toLowerCase();
+}
+
+function getWorksByAuthor(authorName) {
+  var target = normalizeAuthor(authorName);
+
+  return WORKS.filter(function(work) {
+    return normalizeAuthor(work.username) === target;
+  }).sort(function(a, b) {
+    if (getScore(b) !== getScore(a)) return getScore(b) - getScore(a);
+    if (getReward(b) !== getReward(a)) return getReward(b) - getReward(a);
+    return Number(a.id || 0) - Number(b.id || 0);
+  });
+}
+
+function authorUrl(username) {
+  return window.location.origin + window.location.pathname + "?page=author&name=" + getAuthorSlug(username);
+}
+
+function renderAuthor() {
+  var authorName = getAuthorNameFromUrl();
+  var works = getWorksByAuthor(authorName);
+  var displayName = works.length ? works[0].username : "Автор не найден";
+  var totalReward = getTotalReward(works);
+  var bestScore = works.length ? Math.max.apply(null, works.map(function(work) {
+    return getScore(work);
+  })) : 0;
+
+  setAppHtml(
+    '<section class="page author-page">' +
+      '<div class="section-title"><a class="back" href="' + urlFor("participants") + '" data-route="participants">← Назад</a><h2>' + escapeHtml(displayName) + '</h2></div>' +
+      '<div class="author-summary">' +
+        '<div><span>Работ</span><b>' + works.length + '</b></div>' +
+        '<div><span>Лучшая оценка</span><b>' + formatScore(bestScore) + '/5</b></div>' +
+        '<div><span>Награды</span><b>' + formatTokens(totalReward) + '</b></div>' +
+        (works.length ? '<button class="copy-author" id="copy-author-link" type="button">Скопировать ссылку</button>' : '') +
+      '</div>' +
+      (works.length ? '<div class="scroll-list">' + works.map(renderWorkCard).join("") + '</div>' : '<div class="empty">Работы автора не найдены.</div>') +
+    '</section>'
+  );
+
+  var copyButton = document.getElementById("copy-author-link");
+  if (copyButton && works.length) {
+    copyButton.onclick = function() {
+      copyText(authorUrl(works[0].username), copyButton);
+    };
+  }
+
+  attachImageHandlers();
+  attachShareHandlers();
+}
+
+
 function renderByRoute(route) {
   if (route === "results") return renderResultsMenu();
   if (route === "all") return renderAllWorks();
